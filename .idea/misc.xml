@@ -10,6 +10,10 @@
         <option value="$PROJECT_DIR$/physicaleducation-plus-parent/pom.xml" />
         <option value="$PROJECT_DIR$/physicaleducation-plus-base/pom.xml" />
         <option value="$PROJECT_DIR$/physicaleducation-plus-project/pom.xml" />
+        <option value="$PROJECT_DIR$/physicaleducation-plus-content/pom.xml" />
+        <option value="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/pom.xml" />
+        <option value="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/pom.xml" />
+        <option value="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/pom.xml" />
       </list>
     </option>
   </component>
