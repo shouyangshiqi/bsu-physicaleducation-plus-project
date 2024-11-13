@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.phsicaleducation</groupId>
+        <groupId>com.physicaleducation</groupId>
         <artifactId>physicaleducation-plus-content</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.phsicaleducation</groupId>
+    <groupId>com.physicaleducation</groupId>
     <artifactId>physicaleducation-plus-content-model</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>physicaleducation-plus-content-model</name>
@@ -21,9 +21,24 @@
     </properties>
     <dependencies>
         <dependency>
-            <groupId>com.phsicaleducation</groupId>
-            <artifactId>physicaleducation-plus-base</artifactId>
+            <groupId>com.physicaleducation</groupId>
+            <artifactId>physicaleducation-plus-content</artifactId>
             <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <!--存在mybatisplus注解添加相关注解保证不报错-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-annotation</artifactId>
+            <version>${mybatis-plus-boot-starter.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-core</artifactId>
+            <version>${mybatis-plus-boot-starter.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
 

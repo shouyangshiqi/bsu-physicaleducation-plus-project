@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/physicaleducation-plus-base" />
+    <file type="web" url="file://$PROJECT_DIR$/physicaleducation-plus-base2" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -14,7 +14,14 @@
         <option value="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/pom.xml" />
         <option value="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/pom.xml" />
         <option value="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-generator/pom.xml" />
+        <option value="$PROJECT_DIR$/agyudga/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/agyudga/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

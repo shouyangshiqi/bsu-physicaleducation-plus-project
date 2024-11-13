@@ -11,7 +11,10 @@
       <user-name>root2</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="xc402_content" />
+          <node kind="schema">
+            <name qname="xc402_content" />
+            <name qname="xc166_content" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>
