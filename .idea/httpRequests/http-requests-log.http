@@ -1,3 +1,40 @@
+GET http://localhost:63040/content/course-category/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-14T171711.200.json
+
+###
+
+GET http://localhost:63040/content/course-category/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:63040/content/course-category/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:63040/content/course-category/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:63040/content/course-category/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
 POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
 Content-Type: application/json
 Content-Length: 76
