@@ -7,6 +7,7 @@ import com.physicaleducation.content.mapper.CourseCategoryMapper;
 import com.physicaleducation.content.mapper.CourseMarketMapper;
 import com.physicaleducation.content.model.dto.AddCourseDto;
 import com.physicaleducation.content.model.dto.CourseBaseInfoDto;
+import com.physicaleducation.content.model.dto.EditCourseDto;
 import com.physicaleducation.content.model.dto.QueryCourseParamsDto;
 import com.physicaleducation.content.model.po.CourseBase;
 import com.physicaleducation.content.model.po.CourseCategory;
@@ -73,7 +74,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
     @Transactional
     @Override
     public CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto dto) {
-        //合法性校验
+/*        //合法性校验
         if (StringUtils.isBlank(dto.getName())) {
 //            throw new RuntimeException("课程名称为空");
             PEPlusException.cast("课程名称为空");
@@ -101,7 +102,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
         if (StringUtils.isBlank(dto.getCharge())) {
             throw new RuntimeException("收费规则为空");
-        }
+        }*/
 
         // 新建基础对象
         CourseBase courseBaseNew = new CourseBase();
@@ -137,6 +138,44 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         return  getCourseBaseInfo(courseBaseNew.getId());
     }
 
+    @Override
+    public CourseBaseInfoDto getCourseBaseById(Long coursId) {
+        CourseBaseInfoDto courseBaseInfo = this.getCourseBaseInfo(coursId);
+        return courseBaseInfo;
+    }
+
+    @Transactional
+    @Override
+    public CourseBaseInfoDto updateCourseBase(EditCourseDto dto, Long companyId) {
+        // 数据合法性校验
+            // 根据具体的业务逻辑去校验
+        Long courseId = dto.getId();
+        CourseBase courseBase = courseBaseMapper.selectById(courseId);
+        if(courseBase==null){
+            PEPlusException.cast("课程不存在");
+        }
+
+        //校验本机构只能修改本机构的课程
+        if(!courseBase.getCompanyId().equals(companyId)){
+            PEPlusException.cast("本机构只能修改本机构的课程");
+        }
+        // 封装基本数据
+        BeanUtils.copyProperties(dto, courseBase);
+        courseBase.setChangeDate(LocalDateTime.now());
+        // 更新数据库
+        int i = courseBaseMapper.updateById(courseBase);
+
+        // 封装营销数据
+        CourseMarket courseMarket = courseMarketMapper.selectById(courseId);
+        BeanUtils.copyProperties(dto,courseMarket);
+        saveCourseMarket(courseMarket);
+
+        // 查询课程信息
+        CourseBaseInfoDto courseBaseInfo = this.getCourseBaseInfo(courseId);
+        return courseBaseInfo;
+
+    }
+
     // 保存课程营销信息
     private int saveCourseMarket(CourseMarket courseMarketNew){
         // 合规性校验
@@ -158,7 +197,7 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         }else {
             BeanUtils.copyProperties(courseMarketNew, courseMarket);
             courseMarket.setId(courseMarketNew.getId());
-            return courseMarketMapper.insert(courseMarket);
+            return courseMarketMapper.updateById(courseMarket);
         }
     }
 

@@ -1128,29 +1128,29 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <collation id="287" parent="1" name="utf8mb4_mn_cyrl_0900_as_cs">
       <Charset>utf8mb4</Charset>
     </collation>
-    <schema id="288" parent="1" name="mysql">
+    <schema id="288" parent="1" name="RECOVER_YOUR_DATA">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="289" parent="1" name="information_schema">
       <LastIntrospectionLocalTimestamp>2024-11-11.11:56:37</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="290" parent="1" name="performance_schema">
+    <schema id="290" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="291" parent="1" name="sys">
+    <schema id="291" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="292" parent="1" name="xc402_system">
-      <LastIntrospectionLocalTimestamp>2024-11-22.10:14:54</LastIntrospectionLocalTimestamp>
-      <CollationName>utf8mb4_general_ci</CollationName>
+    <schema id="292" parent="1" name="sys">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="293" parent="1" name="xc402_content">
-      <LastIntrospectionLocalTimestamp>2024-11-22.10:14:53</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-11-23.06:22:02</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
-    <schema id="294" parent="1" name="RECOVER_YOUR_DATA">
-      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    <schema id="294" parent="1" name="xc402_system">
+      <LastIntrospectionLocalTimestamp>2024-11-22.10:14:54</LastIntrospectionLocalTimestamp>
+      <CollationName>utf8mb4_general_ci</CollationName>
     </schema>
     <user id="295" parent="1" name="root"/>
     <user id="296" parent="1" name="root2"/>
@@ -1173,1136 +1173,1136 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="301" parent="292" name="dictionary">
-      <Comment>数据字典</Comment>
+    <table id="301" parent="293" name="course_audit">
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="302" parent="293" name="course_audit">
-      <Engine>InnoDB</Engine>
-      <Options>row_format
-DYNAMIC</Options>
-      <CollationName>utf8mb4_general_ci</CollationName>
-    </table>
-    <table id="303" parent="293" name="course_base">
+    <table id="302" parent="293" name="course_base">
       <Comment>课程基本信息</Comment>
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="304" parent="293" name="course_category">
+    <table id="303" parent="293" name="course_category">
       <Comment>课程分类</Comment>
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="305" parent="293" name="course_market">
+    <table id="304" parent="293" name="course_market">
       <Comment>课程营销信息</Comment>
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="306" parent="293" name="course_publish">
+    <table id="305" parent="293" name="course_publish">
       <Comment>课程发布</Comment>
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="307" parent="293" name="course_publish_pre">
+    <table id="306" parent="293" name="course_publish_pre">
       <Comment>课程发布</Comment>
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="308" parent="293" name="course_teacher">
+    <table id="307" parent="293" name="course_teacher">
       <Comment>课程-教师关系表</Comment>
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="309" parent="293" name="mq_message">
+    <table id="308" parent="293" name="mq_message">
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="310" parent="293" name="mq_message_history">
+    <table id="309" parent="293" name="mq_message_history">
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="311" parent="293" name="teachplan">
+    <table id="310" parent="293" name="teachplan">
       <Comment>课程计划</Comment>
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb3_general_ci</CollationName>
     </table>
-    <table id="312" parent="293" name="teachplan_media">
+    <table id="311" parent="293" name="teachplan_media">
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
-    <table id="313" parent="293" name="teachplan_work">
+    <table id="312" parent="293" name="teachplan_work">
+      <Engine>InnoDB</Engine>
+      <Options>row_format
+DYNAMIC</Options>
+      <CollationName>utf8mb4_general_ci</CollationName>
+    </table>
+    <table id="313" parent="294" name="dictionary">
+      <Comment>数据字典</Comment>
       <Engine>InnoDB</Engine>
       <Options>row_format
 DYNAMIC</Options>
       <CollationName>utf8mb4_general_ci</CollationName>
     </table>
     <column id="314" parent="301" name="id">
-      <AutoIncrement>29</AutoIncrement>
-      <Comment>id标识</Comment>
-      <DasType>bigint|0s</DasType>
-      <NotNull>1</NotNull>
-      <Position>1</Position>
-    </column>
-    <column id="315" parent="301" name="name">
-      <Comment>数据字典名称</Comment>
-      <DasType>varchar(32)|0s</DasType>
-      <Position>2</Position>
-    </column>
-    <column id="316" parent="301" name="code">
-      <Comment>数据字典代码</Comment>
-      <DasType>varchar(32)|0s</DasType>
-      <Position>3</Position>
-    </column>
-    <column id="317" parent="301" name="item_values">
-      <Comment>数据字典项--json格式
-  </Comment>
-      <DasType>text|0s</DasType>
-      <Position>4</Position>
-    </column>
-    <index id="318" parent="301" name="PRIMARY">
-      <ColNames>id</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <index id="319" parent="301" name="tb_code_unique">
-      <ColNames>code</ColNames>
-      <Type>btree</Type>
-      <Unique>1</Unique>
-    </index>
-    <key id="320" parent="301" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <Primary>1</Primary>
-      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
-    </key>
-    <key id="321" parent="301" name="tb_code_unique">
-      <UnderlyingIndexName>tb_code_unique</UnderlyingIndexName>
-    </key>
-    <column id="322" parent="302" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="323" parent="302" name="course_id">
+    <column id="315" parent="301" name="course_id">
       <Comment>课程id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="324" parent="302" name="audit_mind">
+    <column id="316" parent="301" name="audit_mind">
       <Comment>审核意见</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="325" parent="302" name="audit_status">
+    <column id="317" parent="301" name="audit_status">
       <Comment>审核状态</Comment>
       <DasType>varchar(10)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="326" parent="302" name="audit_people">
+    <column id="318" parent="301" name="audit_people">
       <Comment>审核人</Comment>
       <DasType>varchar(50)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="327" parent="302" name="audit_date">
+    <column id="319" parent="301" name="audit_date">
       <Comment>审核时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>6</Position>
     </column>
-    <index id="328" parent="302" name="PRIMARY">
+    <index id="320" parent="301" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="329" parent="302" name="PRIMARY">
+    <key id="321" parent="301" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="330" parent="303" name="id">
+    <column id="322" parent="302" name="id">
       <AutoIncrement>122</AutoIncrement>
       <Comment>主键</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="331" parent="303" name="company_id">
+    <column id="323" parent="302" name="company_id">
       <Comment>机构ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="332" parent="303" name="company_name">
+    <column id="324" parent="302" name="company_name">
       <Comment>机构名称</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="333" parent="303" name="name">
+    <column id="325" parent="302" name="name">
       <Comment>课程名称</Comment>
       <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="334" parent="303" name="users">
+    <column id="326" parent="302" name="users">
       <Comment>适用人群</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="335" parent="303" name="tags">
+    <column id="327" parent="302" name="tags">
       <Comment>课程标签</Comment>
       <DasType>varchar(50)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="336" parent="303" name="mt">
+    <column id="328" parent="302" name="mt">
       <Comment>大分类</Comment>
       <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="337" parent="303" name="st">
+    <column id="329" parent="302" name="st">
       <Comment>小分类</Comment>
       <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="338" parent="303" name="grade">
+    <column id="330" parent="302" name="grade">
       <Comment>课程等级</Comment>
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="339" parent="303" name="teachmode">
+    <column id="331" parent="302" name="teachmode">
       <Comment>教育模式(common普通，record 录播，live直播等）</Comment>
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="340" parent="303" name="description">
+    <column id="332" parent="302" name="description">
       <Comment>课程介绍</Comment>
       <DasType>text|0s</DasType>
       <Position>11</Position>
     </column>
-    <column id="341" parent="303" name="pic">
+    <column id="333" parent="302" name="pic">
       <Comment>课程图片</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>12</Position>
     </column>
-    <column id="342" parent="303" name="create_date">
+    <column id="334" parent="302" name="create_date">
       <Comment>创建时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>13</Position>
     </column>
-    <column id="343" parent="303" name="change_date">
+    <column id="335" parent="302" name="change_date">
       <Comment>修改时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>14</Position>
     </column>
-    <column id="344" parent="303" name="create_people">
+    <column id="336" parent="302" name="create_people">
       <Comment>创建人</Comment>
       <DasType>varchar(50)|0s</DasType>
       <Position>15</Position>
     </column>
-    <column id="345" parent="303" name="change_people">
+    <column id="337" parent="302" name="change_people">
       <Comment>更新人</Comment>
       <DasType>varchar(50)|0s</DasType>
       <Position>16</Position>
     </column>
-    <column id="346" parent="303" name="audit_status">
+    <column id="338" parent="302" name="audit_status">
       <Comment>审核状态</Comment>
       <DasType>varchar(10)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>17</Position>
     </column>
-    <column id="347" parent="303" name="status">
+    <column id="339" parent="302" name="status">
       <Comment>课程发布状态 未发布  已发布 下线</Comment>
       <DasType>varchar(10)|0s</DasType>
       <DefaultExpression>&apos;1&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>18</Position>
     </column>
-    <index id="348" parent="303" name="PRIMARY">
+    <index id="340" parent="302" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="349" parent="303" name="PRIMARY">
+    <key id="341" parent="302" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="350" parent="304" name="id">
+    <column id="342" parent="303" name="id">
       <Comment>主键</Comment>
       <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="351" parent="304" name="name">
+    <column id="343" parent="303" name="name">
       <Comment>分类名称</Comment>
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="352" parent="304" name="label">
+    <column id="344" parent="303" name="label">
       <Comment>分类标签默认和名称一样</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="353" parent="304" name="parentid">
+    <column id="345" parent="303" name="parentid">
       <Comment>父结点id（第一级的父节点是0，自关联字段id）</Comment>
       <DasType>varchar(20)|0s</DasType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="354" parent="304" name="is_show">
+    <column id="346" parent="303" name="is_show">
       <Comment>是否显示</Comment>
       <DasType>tinyint|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="355" parent="304" name="orderby">
+    <column id="347" parent="303" name="orderby">
       <Comment>排序字段</Comment>
       <DasType>int|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="356" parent="304" name="is_leaf">
+    <column id="348" parent="303" name="is_leaf">
       <Comment>是否叶子</Comment>
       <DasType>tinyint|0s</DasType>
       <Position>7</Position>
     </column>
-    <index id="357" parent="304" name="PRIMARY">
+    <index id="349" parent="303" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="358" parent="304" name="PRIMARY">
+    <key id="350" parent="303" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="359" parent="305" name="id">
+    <column id="351" parent="304" name="id">
       <Comment>主键，课程id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="360" parent="305" name="charge">
+    <column id="352" parent="304" name="charge">
       <Comment>收费规则，对应数据字典</Comment>
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="361" parent="305" name="price">
+    <column id="353" parent="304" name="price">
       <Comment>现价</Comment>
       <DasType>float(10,2 digit)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="362" parent="305" name="original_price">
+    <column id="354" parent="304" name="original_price">
       <Comment>原价</Comment>
       <DasType>float(10,2 digit)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="363" parent="305" name="qq">
+    <column id="355" parent="304" name="qq">
       <Comment>咨询qq</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="364" parent="305" name="wechat">
+    <column id="356" parent="304" name="wechat">
       <Comment>微信</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="365" parent="305" name="phone">
+    <column id="357" parent="304" name="phone">
       <Comment>电话</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="366" parent="305" name="valid_days">
+    <column id="358" parent="304" name="valid_days">
       <Comment>有效期天数</Comment>
       <DasType>int|0s</DasType>
       <Position>8</Position>
     </column>
-    <index id="367" parent="305" name="PRIMARY">
+    <index id="359" parent="304" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="368" parent="305" name="PRIMARY">
+    <key id="360" parent="304" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="369" parent="306" name="id">
+    <column id="361" parent="305" name="id">
       <Comment>主键</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="370" parent="306" name="company_id">
+    <column id="362" parent="305" name="company_id">
       <Comment>机构ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="371" parent="306" name="company_name">
+    <column id="363" parent="305" name="company_name">
       <Comment>公司名称</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="372" parent="306" name="name">
+    <column id="364" parent="305" name="name">
       <Comment>课程名称</Comment>
       <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="373" parent="306" name="users">
+    <column id="365" parent="305" name="users">
       <Comment>适用人群</Comment>
       <DasType>varchar(500)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="374" parent="306" name="tags">
+    <column id="366" parent="305" name="tags">
       <Comment>标签</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="375" parent="306" name="username">
+    <column id="367" parent="305" name="username">
       <Comment>创建人</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="376" parent="306" name="mt">
+    <column id="368" parent="305" name="mt">
       <Comment>大分类</Comment>
       <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="377" parent="306" name="mt_name">
+    <column id="369" parent="305" name="mt_name">
       <Comment>大分类名称</Comment>
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="378" parent="306" name="st">
+    <column id="370" parent="305" name="st">
       <Comment>小分类</Comment>
       <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="379" parent="306" name="st_name">
+    <column id="371" parent="305" name="st_name">
       <Comment>小分类名称</Comment>
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="380" parent="306" name="grade">
+    <column id="372" parent="305" name="grade">
       <Comment>课程等级</Comment>
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>12</Position>
     </column>
-    <column id="381" parent="306" name="teachmode">
+    <column id="373" parent="305" name="teachmode">
       <Comment>教育模式</Comment>
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="382" parent="306" name="pic">
+    <column id="374" parent="305" name="pic">
       <Comment>课程图片</Comment>
       <DasType>varchar(500)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>14</Position>
     </column>
-    <column id="383" parent="306" name="description">
+    <column id="375" parent="305" name="description">
       <Comment>课程介绍</Comment>
       <DasType>text|0s</DasType>
       <Position>15</Position>
     </column>
-    <column id="384" parent="306" name="market">
+    <column id="376" parent="305" name="market">
       <Comment>课程营销信息，json格式</Comment>
       <DasType>text|0s</DasType>
       <Position>16</Position>
     </column>
-    <column id="385" parent="306" name="teachplan">
+    <column id="377" parent="305" name="teachplan">
       <Comment>所有课程计划，json格式</Comment>
       <DasType>text|0s</DasType>
       <Position>17</Position>
     </column>
-    <column id="386" parent="306" name="teachers">
+    <column id="378" parent="305" name="teachers">
       <Comment>教师信息，json格式</Comment>
       <DasType>text|0s</DasType>
       <Position>18</Position>
     </column>
-    <column id="387" parent="306" name="create_date">
+    <column id="379" parent="305" name="create_date">
       <Comment>发布时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>19</Position>
     </column>
-    <column id="388" parent="306" name="online_date">
+    <column id="380" parent="305" name="online_date">
       <Comment>上架时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>20</Position>
     </column>
-    <column id="389" parent="306" name="offline_date">
+    <column id="381" parent="305" name="offline_date">
       <Comment>下架时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>21</Position>
     </column>
-    <column id="390" parent="306" name="status">
+    <column id="382" parent="305" name="status">
       <Comment>发布状态</Comment>
       <DasType>varchar(10)|0s</DasType>
       <DefaultExpression>&apos;1&apos;</DefaultExpression>
       <Position>22</Position>
     </column>
-    <column id="391" parent="306" name="remark">
+    <column id="383" parent="305" name="remark">
       <Comment>备注</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>23</Position>
     </column>
-    <column id="392" parent="306" name="charge">
+    <column id="384" parent="305" name="charge">
       <Comment>收费规则，对应数据字典--203</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>24</Position>
     </column>
-    <column id="393" parent="306" name="price">
+    <column id="385" parent="305" name="price">
       <Comment>现价</Comment>
       <DasType>float(10,2 digit)|0s</DasType>
       <Position>25</Position>
     </column>
-    <column id="394" parent="306" name="original_price">
+    <column id="386" parent="305" name="original_price">
       <Comment>原价</Comment>
       <DasType>float(10,2 digit)|0s</DasType>
       <Position>26</Position>
     </column>
-    <column id="395" parent="306" name="valid_days">
+    <column id="387" parent="305" name="valid_days">
       <Comment>课程有效期天数</Comment>
       <DasType>int|0s</DasType>
       <Position>27</Position>
     </column>
-    <index id="396" parent="306" name="PRIMARY">
+    <index id="388" parent="305" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="397" parent="306" name="PRIMARY">
+    <key id="389" parent="305" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="398" parent="307" name="id">
+    <column id="390" parent="306" name="id">
       <Comment>主键</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="399" parent="307" name="company_id">
+    <column id="391" parent="306" name="company_id">
       <Comment>机构ID</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="400" parent="307" name="company_name">
+    <column id="392" parent="306" name="company_name">
       <Comment>公司名称</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="401" parent="307" name="name">
+    <column id="393" parent="306" name="name">
       <Comment>课程名称</Comment>
       <DasType>varchar(100)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="402" parent="307" name="users">
+    <column id="394" parent="306" name="users">
       <Comment>适用人群</Comment>
       <DasType>varchar(500)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="403" parent="307" name="tags">
+    <column id="395" parent="306" name="tags">
       <Comment>标签</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="404" parent="307" name="username">
+    <column id="396" parent="306" name="username">
       <Comment>创建人</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="405" parent="307" name="mt">
+    <column id="397" parent="306" name="mt">
       <Comment>大分类</Comment>
       <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>8</Position>
     </column>
-    <column id="406" parent="307" name="mt_name">
+    <column id="398" parent="306" name="mt_name">
       <Comment>大分类名称</Comment>
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>9</Position>
     </column>
-    <column id="407" parent="307" name="st">
+    <column id="399" parent="306" name="st">
       <Comment>小分类</Comment>
       <DasType>varchar(20)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>10</Position>
     </column>
-    <column id="408" parent="307" name="st_name">
+    <column id="400" parent="306" name="st_name">
       <Comment>小分类名称</Comment>
       <DasType>varchar(255)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="409" parent="307" name="grade">
+    <column id="401" parent="306" name="grade">
       <Comment>课程等级</Comment>
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>12</Position>
     </column>
-    <column id="410" parent="307" name="teachmode">
+    <column id="402" parent="306" name="teachmode">
       <Comment>教育模式</Comment>
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="411" parent="307" name="pic">
+    <column id="403" parent="306" name="pic">
       <Comment>课程图片</Comment>
       <DasType>varchar(500)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>14</Position>
     </column>
-    <column id="412" parent="307" name="description">
+    <column id="404" parent="306" name="description">
       <Comment>课程介绍</Comment>
       <DasType>text|0s</DasType>
       <Position>15</Position>
     </column>
-    <column id="413" parent="307" name="market">
+    <column id="405" parent="306" name="market">
       <Comment>课程营销信息，json格式</Comment>
       <DasType>text|0s</DasType>
       <Position>16</Position>
     </column>
-    <column id="414" parent="307" name="teachplan">
+    <column id="406" parent="306" name="teachplan">
       <Comment>所有课程计划，json格式</Comment>
       <DasType>text|0s</DasType>
       <Position>17</Position>
     </column>
-    <column id="415" parent="307" name="teachers">
+    <column id="407" parent="306" name="teachers">
       <Comment>教师信息，json格式</Comment>
       <DasType>text|0s</DasType>
       <Position>18</Position>
     </column>
-    <column id="416" parent="307" name="create_date">
+    <column id="408" parent="306" name="create_date">
       <Comment>提交时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>19</Position>
     </column>
-    <column id="417" parent="307" name="audit_date">
+    <column id="409" parent="306" name="audit_date">
       <Comment>审核时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>20</Position>
     </column>
-    <column id="418" parent="307" name="status">
+    <column id="410" parent="306" name="status">
       <Comment>状态</Comment>
       <DasType>varchar(10)|0s</DasType>
       <DefaultExpression>&apos;1&apos;</DefaultExpression>
       <Position>21</Position>
     </column>
-    <column id="419" parent="307" name="remark">
+    <column id="411" parent="306" name="remark">
       <Comment>备注</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>22</Position>
     </column>
-    <column id="420" parent="307" name="charge">
+    <column id="412" parent="306" name="charge">
       <Comment>收费规则，对应数据字典--203</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>23</Position>
     </column>
-    <column id="421" parent="307" name="price">
+    <column id="413" parent="306" name="price">
       <Comment>现价</Comment>
       <DasType>float(10,2 digit)|0s</DasType>
       <Position>24</Position>
     </column>
-    <column id="422" parent="307" name="original_price">
+    <column id="414" parent="306" name="original_price">
       <Comment>原价</Comment>
       <DasType>float(10,2 digit)|0s</DasType>
       <Position>25</Position>
     </column>
-    <column id="423" parent="307" name="valid_days">
+    <column id="415" parent="306" name="valid_days">
       <Comment>课程有效期天数</Comment>
       <DasType>int|0s</DasType>
       <Position>26</Position>
     </column>
-    <index id="424" parent="307" name="PRIMARY">
+    <index id="416" parent="306" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="425" parent="307" name="PRIMARY">
+    <key id="417" parent="306" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="426" parent="308" name="id">
+    <column id="418" parent="307" name="id">
       <AutoIncrement>21</AutoIncrement>
       <Comment>主键</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="427" parent="308" name="course_id">
+    <column id="419" parent="307" name="course_id">
       <Comment>课程标识</Comment>
       <DasType>bigint|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="428" parent="308" name="teacher_name">
+    <column id="420" parent="307" name="teacher_name">
       <Comment>教师标识</Comment>
       <DasType>varchar(60)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="429" parent="308" name="position">
+    <column id="421" parent="307" name="position">
       <Comment>教师职位</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="430" parent="308" name="introduction">
+    <column id="422" parent="307" name="introduction">
       <Comment>教师简介</Comment>
       <DasType>varchar(1024)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="431" parent="308" name="photograph">
+    <column id="423" parent="307" name="photograph">
       <Comment>照片</Comment>
       <DasType>varchar(1024)|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="432" parent="308" name="create_date">
+    <column id="424" parent="307" name="create_date">
       <Comment>创建时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>7</Position>
     </column>
-    <index id="433" parent="308" name="PRIMARY">
+    <index id="425" parent="307" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <index id="434" parent="308" name="courseid_teacherId_unique">
+    <index id="426" parent="307" name="courseid_teacherId_unique">
       <ColNames>course_id
 teacher_name</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="435" parent="308" name="PRIMARY">
+    <key id="427" parent="307" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <key id="436" parent="308" name="courseid_teacherId_unique">
+    <key id="428" parent="307" name="courseid_teacherId_unique">
       <UnderlyingIndexName>courseid_teacherId_unique</UnderlyingIndexName>
     </key>
-    <column id="437" parent="309" name="id">
+    <column id="429" parent="308" name="id">
       <AutoIncrement>4</AutoIncrement>
       <Comment>消息id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="438" parent="309" name="message_type">
+    <column id="430" parent="308" name="message_type">
       <Comment>消息类型代码: course_publish ,  media_test</Comment>
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="439" parent="309" name="business_key1">
+    <column id="431" parent="308" name="business_key1">
       <Comment>关联业务信息</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="440" parent="309" name="business_key2">
+    <column id="432" parent="308" name="business_key2">
       <Comment>关联业务信息</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="441" parent="309" name="business_key3">
+    <column id="433" parent="308" name="business_key3">
       <Comment>关联业务信息</Comment>
       <DasType>varchar(512)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="442" parent="309" name="execute_num">
+    <column id="434" parent="308" name="execute_num">
       <Comment>通知次数</Comment>
       <DasType>int unsigned|0s</DasType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>6</Position>
     </column>
-    <column id="443" parent="309" name="state">
+    <column id="435" parent="308" name="state">
       <Comment>处理状态，0:初始，1:成功</Comment>
       <DasType>char(1)|0s</DasType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>7</Position>
     </column>
-    <column id="444" parent="309" name="returnfailure_date">
+    <column id="436" parent="308" name="returnfailure_date">
       <Comment>回复失败时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>8</Position>
     </column>
-    <column id="445" parent="309" name="returnsuccess_date">
+    <column id="437" parent="308" name="returnsuccess_date">
       <Comment>回复成功时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>9</Position>
     </column>
-    <column id="446" parent="309" name="returnfailure_msg">
+    <column id="438" parent="308" name="returnfailure_msg">
       <Comment>回复失败内容</Comment>
       <DasType>varchar(2048)|0s</DasType>
       <Position>10</Position>
     </column>
-    <column id="447" parent="309" name="execute_date">
+    <column id="439" parent="308" name="execute_date">
       <Comment>最近通知时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>11</Position>
     </column>
-    <column id="448" parent="309" name="stage_state1">
+    <column id="440" parent="308" name="stage_state1">
       <Comment>阶段1处理状态, 0:初始，1:成功</Comment>
       <DasType>char(1)|0s</DasType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>12</Position>
     </column>
-    <column id="449" parent="309" name="stage_state2">
+    <column id="441" parent="308" name="stage_state2">
       <Comment>阶段2处理状态, 0:初始，1:成功</Comment>
       <DasType>char(1)|0s</DasType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="450" parent="309" name="stage_state3">
+    <column id="442" parent="308" name="stage_state3">
       <Comment>阶段3处理状态, 0:初始，1:成功</Comment>
       <DasType>char(1)|0s</DasType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>14</Position>
     </column>
-    <column id="451" parent="309" name="stage_state4">
+    <column id="443" parent="308" name="stage_state4">
       <Comment>阶段4处理状态, 0:初始，1:成功</Comment>
       <DasType>char(1)|0s</DasType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>15</Position>
     </column>
-    <index id="452" parent="309" name="PRIMARY">
+    <index id="444" parent="308" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="453" parent="309" name="PRIMARY">
+    <key id="445" parent="308" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="454" parent="310" name="id">
+    <column id="446" parent="309" name="id">
       <Comment>消息id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="455" parent="310" name="message_type">
+    <column id="447" parent="309" name="message_type">
       <Comment>消息类型代码</Comment>
       <DasType>varchar(32)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="456" parent="310" name="business_key1">
+    <column id="448" parent="309" name="business_key1">
       <Comment>关联业务信息</Comment>
       <DasType>varchar(64)|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="457" parent="310" name="business_key2">
+    <column id="449" parent="309" name="business_key2">
       <Comment>关联业务信息</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>
-    <column id="458" parent="310" name="business_key3">
+    <column id="450" parent="309" name="business_key3">
       <Comment>关联业务信息</Comment>
       <DasType>varchar(512)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="459" parent="310" name="execute_num">
+    <column id="451" parent="309" name="execute_num">
       <Comment>通知次数</Comment>
       <DasType>int unsigned|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="460" parent="310" name="state">
+    <column id="452" parent="309" name="state">
       <Comment>处理状态，0:初始，1:成功，2:失败</Comment>
       <DasType>int(10) unsigned zerofill|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="461" parent="310" name="returnfailure_date">
+    <column id="453" parent="309" name="returnfailure_date">
       <Comment>回复失败时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>8</Position>
     </column>
-    <column id="462" parent="310" name="returnsuccess_date">
+    <column id="454" parent="309" name="returnsuccess_date">
       <Comment>回复成功时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>9</Position>
     </column>
-    <column id="463" parent="310" name="returnfailure_msg">
+    <column id="455" parent="309" name="returnfailure_msg">
       <Comment>回复失败内容</Comment>
       <DasType>varchar(255)|0s</DasType>
       <Position>10</Position>
     </column>
-    <column id="464" parent="310" name="execute_date">
+    <column id="456" parent="309" name="execute_date">
       <Comment>最近通知时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>11</Position>
     </column>
-    <column id="465" parent="310" name="stage_state1">
+    <column id="457" parent="309" name="stage_state1">
       <DasType>char(1)|0s</DasType>
       <Position>12</Position>
     </column>
-    <column id="466" parent="310" name="stage_state2">
+    <column id="458" parent="309" name="stage_state2">
       <DasType>char(1)|0s</DasType>
       <Position>13</Position>
     </column>
-    <column id="467" parent="310" name="stage_state3">
+    <column id="459" parent="309" name="stage_state3">
       <DasType>char(1)|0s</DasType>
       <Position>14</Position>
     </column>
-    <column id="468" parent="310" name="stage_state4">
+    <column id="460" parent="309" name="stage_state4">
       <DasType>char(1)|0s</DasType>
       <Position>15</Position>
     </column>
-    <index id="469" parent="310" name="PRIMARY">
+    <index id="461" parent="309" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="470" parent="310" name="PRIMARY">
+    <key id="462" parent="309" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="471" parent="311" name="id">
+    <column id="463" parent="310" name="id">
       <AutoIncrement>290</AutoIncrement>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="472" parent="311" name="pname">
+    <column id="464" parent="310" name="pname">
       <Comment>课程计划名称</Comment>
       <DasType>varchar(64)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="473" parent="311" name="parentid">
+    <column id="465" parent="310" name="parentid">
       <Comment>课程计划父级Id</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="474" parent="311" name="grade">
+    <column id="466" parent="310" name="grade">
       <Comment>层级，分为1、2、3级</Comment>
       <DasType>smallint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="475" parent="311" name="media_type">
+    <column id="467" parent="310" name="media_type">
       <Comment>课程类型:1视频、2文档</Comment>
       <DasType>varchar(10)|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="476" parent="311" name="start_time">
+    <column id="468" parent="310" name="start_time">
       <Comment>开始直播时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="477" parent="311" name="end_time">
+    <column id="469" parent="310" name="end_time">
       <Comment>直播结束时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="478" parent="311" name="description">
+    <column id="470" parent="310" name="description">
       <Comment>章节及课程时介绍</Comment>
       <DasType>varchar(500)|0s</DasType>
       <Position>8</Position>
     </column>
-    <column id="479" parent="311" name="timelength">
+    <column id="471" parent="310" name="timelength">
       <Comment>时长，单位时:分:秒</Comment>
       <DasType>varchar(30)|0s</DasType>
       <Position>9</Position>
     </column>
-    <column id="480" parent="311" name="orderby">
+    <column id="472" parent="310" name="orderby">
       <Comment>排序字段</Comment>
       <DasType>int|0s</DasType>
       <DefaultExpression>0</DefaultExpression>
       <Position>10</Position>
     </column>
-    <column id="481" parent="311" name="course_id">
+    <column id="473" parent="310" name="course_id">
       <Comment>课程标识</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>11</Position>
     </column>
-    <column id="482" parent="311" name="course_pub_id">
+    <column id="474" parent="310" name="course_pub_id">
       <Comment>课程发布标识</Comment>
       <DasType>bigint|0s</DasType>
       <Position>12</Position>
     </column>
-    <column id="483" parent="311" name="status">
+    <column id="475" parent="310" name="status">
       <Comment>状态（1正常  0删除）</Comment>
       <DasType>int|0s</DasType>
       <DefaultExpression>1</DefaultExpression>
       <NotNull>1</NotNull>
       <Position>13</Position>
     </column>
-    <column id="484" parent="311" name="is_preview">
+    <column id="476" parent="310" name="is_preview">
       <Comment>是否支持试学或预览（试看）</Comment>
       <DasType>char(1)|0s</DasType>
       <DefaultExpression>&apos;0&apos;</DefaultExpression>
       <Position>14</Position>
     </column>
-    <column id="485" parent="311" name="create_date">
+    <column id="477" parent="310" name="create_date">
       <Comment>创建时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>15</Position>
     </column>
-    <column id="486" parent="311" name="change_date">
+    <column id="478" parent="310" name="change_date">
       <Comment>修改时间</Comment>
       <DasType>datetime|0s</DasType>
       <Position>16</Position>
     </column>
-    <index id="487" parent="311" name="PRIMARY">
+    <index id="479" parent="310" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="488" parent="311" name="PRIMARY">
+    <key id="480" parent="310" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="489" parent="312" name="id">
+    <column id="481" parent="311" name="id">
       <AutoIncrement>58</AutoIncrement>
       <Comment>主键</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="490" parent="312" name="media_id">
+    <column id="482" parent="311" name="media_id">
       <Comment>媒资文件id</Comment>
       <DasType>varchar(32)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="491" parent="312" name="teachplan_id">
+    <column id="483" parent="311" name="teachplan_id">
       <Comment>课程计划标识</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="492" parent="312" name="course_id">
+    <column id="484" parent="311" name="course_id">
       <Comment>课程标识</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="493" parent="312" name="media_fileName">
+    <column id="485" parent="311" name="media_fileName">
       <Comment>媒资文件原始名称</Comment>
       <DasType>varchar(150)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>5</Position>
     </column>
-    <column id="494" parent="312" name="create_date">
+    <column id="486" parent="311" name="create_date">
       <DasType>datetime|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="495" parent="312" name="create_people">
+    <column id="487" parent="311" name="create_people">
       <Comment>创建人</Comment>
       <DasType>varchar(60)|0s</DasType>
       <Position>7</Position>
     </column>
-    <column id="496" parent="312" name="change_people">
+    <column id="488" parent="311" name="change_people">
       <Comment>修改人</Comment>
       <DasType>varchar(60)|0s</DasType>
       <Position>8</Position>
     </column>
-    <index id="497" parent="312" name="PRIMARY">
+    <index id="489" parent="311" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="498" parent="312" name="PRIMARY">
+    <key id="490" parent="311" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
-    <column id="499" parent="313" name="id">
+    <column id="491" parent="312" name="id">
       <AutoIncrement>45</AutoIncrement>
       <Comment>主键</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="500" parent="313" name="work_id">
+    <column id="492" parent="312" name="work_id">
       <Comment>作业信息标识</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="501" parent="313" name="work_title">
+    <column id="493" parent="312" name="work_title">
       <Comment>作业标题</Comment>
       <DasType>varchar(60)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="502" parent="313" name="teachplan_id">
+    <column id="494" parent="312" name="teachplan_id">
       <Comment>课程计划标识</Comment>
       <DasType>bigint|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <column id="503" parent="313" name="course_id">
+    <column id="495" parent="312" name="course_id">
       <Comment>课程标识</Comment>
       <DasType>bigint|0s</DasType>
       <Position>5</Position>
     </column>
-    <column id="504" parent="313" name="create_date">
+    <column id="496" parent="312" name="create_date">
       <DasType>datetime|0s</DasType>
       <Position>6</Position>
     </column>
-    <column id="505" parent="313" name="course_pub_id">
+    <column id="497" parent="312" name="course_pub_id">
       <DasType>bigint|0s</DasType>
       <Position>7</Position>
     </column>
-    <index id="506" parent="313" name="PRIMARY">
+    <index id="498" parent="312" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="507" parent="313" name="PRIMARY">
+    <key id="499" parent="312" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="500" parent="313" name="id">
+      <AutoIncrement>29</AutoIncrement>
+      <Comment>id标识</Comment>
+      <DasType>bigint|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="501" parent="313" name="name">
+      <Comment>数据字典名称</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="502" parent="313" name="code">
+      <Comment>数据字典代码</Comment>
+      <DasType>varchar(32)|0s</DasType>
+      <Position>3</Position>
+    </column>
+    <column id="503" parent="313" name="item_values">
+      <Comment>数据字典项--json格式
+  </Comment>
+      <DasType>text|0s</DasType>
+      <Position>4</Position>
+    </column>
+    <index id="504" parent="313" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="505" parent="313" name="tb_code_unique">
+      <ColNames>code</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="506" parent="313" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="507" parent="313" name="tb_code_unique">
+      <UnderlyingIndexName>tb_code_unique</UnderlyingIndexName>
     </key>
   </database-model>
 </dataSource>

@@ -1,3 +1,351 @@
+GET http://localhost:63040/content/teachplan/117/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T173204.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T172841.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T172500.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T171623.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T171426.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T171409.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T171350.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T171302.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T171122.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T170741.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/22/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T170340.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/117/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T170059.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/74/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T170037.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/74/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T165542.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/74/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T165308.500.json
+
+###
+
+GET http://localhost:63040/content/teachplan/71/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T165301.200.json
+
+###
+
+GET http://localhost:63040/content/teachplan/117/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T165254.500.json
+
+###
+
+PUT http://localhost:63040/content/course
+Content-Type: application/json
+Content-Length: 626
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 40,
+  "name": "SpringBoot核心",
+  "users": "Spring Boot初学者",
+  "tags": "Spring项目的快速构建",
+  "mt": "1-3",
+  "st": "1-3-2",
+  "grade": "200003",
+  "teachmode": "201001",
+  "description": "课程系统性地深度探讨 Spring Boot 核心特性，引导小伙伴对 Java 规范的重视，启发对技术原理性的思考，掌握排查问题的技能，以及学习阅读源码的方法和技巧，全面提升研发能力，进军架构师队伍。",
+  "pic": "https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg",
+  "charge": "201001",
+  "price": 0.01
+}
+
+<> 2024-11-23T145756.200.json
+
+###
+
+PUT http://localhost:63040/content/course
+Content-Type: application/json
+Content-Length: 626
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 40,
+  "name": "SpringBoot核心",
+  "users": "Spring Boot初学者",
+  "tags": "Spring项目的快速构建",
+  "mt": "1-3",
+  "st": "1-3-2",
+  "grade": "200003",
+  "teachmode": "201001",
+  "description": "课程系统性地深度探讨 Spring Boot 核心特性，引导小伙伴对 Java 规范的重视，启发对技术原理性的思考，掌握排查问题的技能，以及学习阅读源码的方法和技巧，全面提升研发能力，进军架构师队伍。",
+  "pic": "https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg",
+  "charge": "201001",
+  "price": 0.01
+}
+
+<> 2024-11-23T144925.500.json
+
+###
+
+PUT http://localhost:63040/content/course
+Content-Type: application/json
+Content-Length: 626
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 40,
+  "name": "SpringBoot核心",
+  "users": "Spring Boot初学者",
+  "tags": "Spring项目的快速构建",
+  "mt": "1-3",
+  "st": "1-3-2",
+  "grade": "200003",
+  "teachmode": "201001",
+  "description": "课程系统性地深度探讨 Spring Boot 核心特性，引导小伙伴对 Java 规范的重视，启发对技术原理性的思考，掌握排查问题的技能，以及学习阅读源码的方法和技巧，全面提升研发能力，进军架构师队伍。",
+  "pic": "https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg",
+  "charge": "201001",
+  "price": 0.01
+}
+
+<> 2024-11-23T144636.500.json
+
+###
+
+GET http://localhost:63040/content/course/40
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T142508.200.json
+
+###
+
+GET http://localhost:63040/content/course/40
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T142429.500.json
+
+###
+
+GET http://localhost:63040/content/course/40
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T142350.404.json
+
+###
+
+GET http://localhost:63040/content/course/40
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T142207.404.json
+
+###
+
+GET http://localhost:63040/content/course/40
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-23T142143.404.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+Content-Length: 349
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "charge": "201001",
+  "price": 150,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1",
+  "st": "1-16",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": "国脚二级羽毛球运动员教学视频"
+}
+
+<> 2024-11-23T134808.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+Content-Length: 382
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "charge": "201001",
+  "price": 150,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1",
+  "st": "1-16",
+  "name": "北京体育大学羽毛球课程",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": "国脚二级羽毛球运动员教学视频"
+}
+
+<> 2024-11-23T134207.500.json
+
+###
+
 POST http://localhost:63040/content/course
 Content-Type: application/json
 Content-Length: 349

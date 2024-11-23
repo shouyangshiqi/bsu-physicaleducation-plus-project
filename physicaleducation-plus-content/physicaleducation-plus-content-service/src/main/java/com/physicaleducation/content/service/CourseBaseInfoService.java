@@ -2,6 +2,7 @@ package com.physicaleducation.content.service;
 
 import com.physicaleducation.content.model.dto.AddCourseDto;
 import com.physicaleducation.content.model.dto.CourseBaseInfoDto;
+import com.physicaleducation.content.model.dto.EditCourseDto;
 import com.physicaleducation.content.model.dto.QueryCourseParamsDto;
 import com.physicaleducation.content.model.po.CourseBase;
 import com.physicaleducation.content.service.impl.CourseBaseInfoServiceImpl;
@@ -31,4 +32,13 @@ public interface CourseBaseInfoService {
      * @return
      */
     CourseBaseInfoDto createCourseBase(Long companyId, AddCourseDto addCourseDto);
+
+    /**
+     * 根据课程id查询课程信息
+     * @param coursId
+     * @return
+     */
+    CourseBaseInfoDto getCourseBaseById(Long coursId);
+
+    CourseBaseInfoDto updateCourseBase(EditCourseDto editCourseDto, Long companyId);
 }
