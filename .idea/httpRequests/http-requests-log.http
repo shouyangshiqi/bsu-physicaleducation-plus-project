@@ -1,3 +1,123 @@
+POST http://localhost:63040/content/course
+Content-Type: application/json
+Content-Length: 349
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "charge": "201001",
+  "price": 150,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1",
+  "st": "1-16",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": "国脚二级羽毛球运动员教学视频"
+}
+
+<> 2024-11-23T131453.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+Content-Length: 349
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "charge": "201001",
+  "price": 150,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1",
+  "st": "1-16",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": "国脚二级羽毛球运动员教学视频"
+}
+
+<> 2024-11-23T131318.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+Content-Length: 349
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "charge": "201001",
+  "price": 150,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1",
+  "st": "1-16",
+  "name": "",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": "国脚二级羽毛球运动员教学视频"
+}
+
+<> 2024-11-23T124810.500.json
+
+###
+
+POST http://localhost:63040/content/course
+Content-Type: application/json
+Content-Length: 382
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "charge": "201001",
+  "price": 150,
+  "originalPrice":0,
+  "qq": "22333",
+  "wechat": "223344",
+  "phone": "13333333",
+  "validDays": 365,
+  "mt": "1",
+  "st": "1-16",
+  "name": "北京体育大学羽毛球课程",
+  "pic": "",
+  "teachmode": "200002",
+  "users": "初级人员",
+  "tags": "",
+  "grade": "204001",
+  "description": "国脚二级羽毛球运动员教学视频"
+}
+
+<> 2024-11-23T105148.200.json
+
+###
+
 GET http://localhost:63040/content/course-category/tree-nodes
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)

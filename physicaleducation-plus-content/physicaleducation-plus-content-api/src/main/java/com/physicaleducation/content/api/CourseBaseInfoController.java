@@ -1,6 +1,8 @@
 package com.physicaleducation.content.api;
 
 
+import com.physicaleducation.content.model.dto.AddCourseDto;
+import com.physicaleducation.content.model.dto.CourseBaseInfoDto;
 import com.physicaleducation.content.model.dto.QueryCourseParamsDto;
 import com.physicaleducation.content.model.po.CourseBase;
 import com.physicaleducation.content.service.CourseBaseInfoService;
@@ -33,5 +35,17 @@ public class CourseBaseInfoController {
     public PageResult<CourseBase> list(PageParams pageParams, @RequestBody(required = false) QueryCourseParamsDto queryCourseParamsDto){
         PageResult<CourseBase> pageResult = courseBaseInfoService.queryCourseBaseList(pageParams, queryCourseParamsDto);
         return pageResult;
+    }
+
+    @ApiOperation("新增课程基础信息")
+    @PostMapping("/course")
+    public CourseBaseInfoDto createCourseBase(@RequestBody AddCourseDto addCourseDto){
+
+        // 先将id写死
+        Long companyId = 1232141425L;
+
+        // 调用方法执行
+        CourseBaseInfoDto courseBaseInfoDto = courseBaseInfoService.createCourseBase(companyId,addCourseDto);
+        return courseBaseInfoDto;
     }
 }

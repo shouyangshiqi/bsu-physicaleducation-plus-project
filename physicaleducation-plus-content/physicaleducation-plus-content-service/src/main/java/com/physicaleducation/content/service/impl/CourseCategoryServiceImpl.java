@@ -55,11 +55,13 @@ public class CourseCategoryServiceImpl implements CourseCategoryService {
             BeanUtils.copyProperties(courseCategory, courseCategoryTreeDto);
             // 获取子节点的子节点
             List<CourseCategory> courseCategories2 = map.get(courseCategoryTreeDto.getId());
-            for(CourseCategory courseCategory1: courseCategories2){
-                if(courseCategoryTreeDto.getChildrenTreeNodes() == null){
-                    courseCategoryTreeDto.setChildrenTreeNodes(new ArrayList<CourseCategory>());
+            if(courseCategories2 != null) {
+                for (CourseCategory courseCategory1 : courseCategories2) {
+                    if (courseCategoryTreeDto.getChildrenTreeNodes() == null) {
+                        courseCategoryTreeDto.setChildrenTreeNodes(new ArrayList<CourseCategory>());
+                    }
+                    courseCategoryTreeDto.getChildrenTreeNodes().add(courseCategory1);
                 }
-                courseCategoryTreeDto.getChildrenTreeNodes().add(courseCategory1);
             }
             courseCategoryTreeDtos.add(courseCategoryTreeDto);
         }

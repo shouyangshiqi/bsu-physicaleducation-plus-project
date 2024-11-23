@@ -4,24 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="系统服务知识导入">
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseCategoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/src/main/java/com/physicaleducation/content/model/dto/CourseCategoryTreeDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/CourseCategoryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseCategoryServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/CourseCategoryServiceImplTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/xuecheng/system/config/GlobalCorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/resources/log4j2-dev.xml" afterDir="false" />
+    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="课程分类板块开发完成">
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/execption/CommonError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/execption/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/execption/PEPlusException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/execption/RestErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/src/main/java/com/physicaleducation/content/model/dto/AddCourseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/src/main/java/com/physicaleducation/content/model/dto/CourseBaseInfoDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xc166_content.IFkY2g.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xc166_content.IFkY2g.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-test/sc-content-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/sc-content-api.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/mapper/CourseCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/mapper/CourseCategoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/mapper/CourseCategoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/mapper/CourseCategoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseBaseInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/CourseBaseInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/CourseBaseInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseBaseInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseCategoryServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="physicaleducation-plus-base" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -50,6 +57,7 @@
       <list>
         <option value="HTTP Public Environment File" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -98,6 +106,7 @@
     "Downloaded.Files.Path.Enabled": "false",
     "HTTP Request.generated-requests | #1.executor": "Run",
     "HTTP Request.sc-content-api | #1.executor": "Run",
+    "HTTP Request.sc-content-api | 创建课程.executor": "Run",
     "HTTP Request.sc-content-api | 查询课程分类.executor": "Run",
     "JUnit.CourseBaseInfoServiceImplTests.testCourseBaseMapper.executor": "Debug",
     "JUnit.CourseBaseMapperTests.testCourseBaseMapper.executor": "Run",
@@ -130,7 +139,7 @@
     "git-widget-placeholder": "dev",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project/xuecheng-plus-system/xuecheng-plus-system-service/src/main/resources",
+    "last_opened_file_path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -157,11 +166,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-model\src\main\java\com\physicaleducation\content\model\dto" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\xuecheng-plus-system\xuecheng-plus-system-service\src\main\resources" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-model\src\test\resources" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\src\main\java\com\physicaleducation\content\mapper" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-base" />
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-base\src\main\java\com\phsicaleducation\base\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\sql" />
@@ -185,47 +194,24 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.sc-content-api | 查询课程分类">
-    <configuration name="sc-content-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" requestIdentifier="#1" runType="Run single request">
+  <component name="RunManager" selected="HTTP Request.sc-content-api | 创建课程">
+    <configuration name="xcplus_content.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sql/xcplus_content.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="9ca46317-ad26-4ee7-814f-bd7df8e7e5a3" namespace="schema/&quot;xc402_content&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="sc-content-api | 查询课程分类" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" index="2" requestIdentifier="查询课程分类" runType="Run single request">
+    <configuration name="xcplus_system.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sql/xcplus_system.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="9ca46317-ad26-4ee7-814f-bd7df8e7e5a3" namespace="schema/&quot;xc402_system&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="CourseCategoryServiceImplTests.testCourseBaseMapper" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-content-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.physicaleducation.content.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.physicaleducation.content" />
-      <option name="MAIN_CLASS_NAME" value="com.physicaleducation.content.CourseCategoryServiceImplTests" />
-      <option name="METHOD_NAME" value="testCourseBaseMapper" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CourseCategoryServiceImplTests.testSql" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-content-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.physicaleducation.content.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.physicaleducation.content" />
-      <option name="MAIN_CLASS_NAME" value="com.physicaleducation.content.CourseCategoryServiceImplTests" />
-      <option name="METHOD_NAME" value="testSql" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="sc-content-api | 创建课程" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" index="3" requestIdentifier="创建课程" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-content-service" />
+      <module name="physicaleducation-plus-content-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.ContentApplication" />
       <extension name="coverage">
         <pattern>
@@ -251,19 +237,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.sc-content-api | #1" />
-      <item itemvalue="HTTP Request.sc-content-api | 查询课程分类" />
-      <item itemvalue="JUnit.CourseCategoryServiceImplTests.testCourseBaseMapper" />
-      <item itemvalue="JUnit.CourseCategoryServiceImplTests.testSql" />
+      <item itemvalue="Database Script.xcplus_content.sql" />
+      <item itemvalue="Database Script.xcplus_system.sql" />
+      <item itemvalue="HTTP Request.sc-content-api | 创建课程" />
+      <item itemvalue="Spring Boot.ContentApplication" />
       <item itemvalue="Spring Boot.SystemApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.sc-content-api | 查询课程分类" />
+        <item itemvalue="HTTP Request.sc-content-api | 创建课程" />
+        <item itemvalue="Spring Boot.ContentApplication" />
         <item itemvalue="Spring Boot.SystemApplication" />
-        <item itemvalue="JUnit.CourseCategoryServiceImplTests.testCourseBaseMapper" />
-        <item itemvalue="JUnit.CourseCategoryServiceImplTests.testSql" />
-        <item itemvalue="HTTP Request.sc-content-api | #1" />
+        <item itemvalue="Database Script.xcplus_system.sql" />
+        <item itemvalue="Database Script.xcplus_content.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +273,9 @@
       <workItem from="1731399873209" duration="2868000" />
       <workItem from="1731406774723" duration="7117000" />
       <workItem from="1731459990163" duration="17154000" />
-      <workItem from="1731548201829" duration="19985000" />
+      <workItem from="1731548201829" duration="20003000" />
+      <workItem from="1732269673789" duration="3093000" />
+      <workItem from="1732326463807" duration="8827000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构">
       <option name="closed" value="true" />
@@ -337,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731562824264</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="课程分类板块开发完成">
+      <option name="closed" value="true" />
+      <created>1731583926808</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731583926808</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +355,8 @@
     <MESSAGE value="项目结构(内容管理模块）" />
     <MESSAGE value="day1(结束）完成模块的基本搭建" />
     <MESSAGE value="系统服务知识导入" />
-    <option name="LAST_COMMIT_MESSAGE" value="系统服务知识导入" />
+    <MESSAGE value="课程分类板块开发完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="课程分类板块开发完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
