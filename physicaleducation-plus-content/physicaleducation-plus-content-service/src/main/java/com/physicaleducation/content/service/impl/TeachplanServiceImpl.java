@@ -6,9 +6,11 @@ import com.physicaleducation.content.model.dto.SaveTeachplanDto;
 import com.physicaleducation.content.model.dto.TeachplanDto;
 import com.physicaleducation.content.model.po.Teachplan;
 import com.physicaleducation.content.service.TeachplanService;
+import com.physicaleducation.execption.PEPlusException;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -30,6 +32,7 @@ public class TeachplanServiceImpl implements TeachplanService {
         return teachplanDtos;
     }
 
+    @Transactional
     @Override
     public void saveTeachplan(SaveTeachplanDto teachplanDto) {
         Long id = teachplanDto.getId();
@@ -40,13 +43,70 @@ public class TeachplanServiceImpl implements TeachplanService {
             teachplanMapper.updateById(teachplan);
         }else {
             // 新增课程计划
-            int count = teachplanMapper.selectMaxOrderby(teachplanDto.getCourseId(), teachplanDto.getParentid());
+            int count = 0;
+            try {
+                count = teachplanMapper.selectMaxOrderby(teachplanDto.getCourseId(), teachplanDto.getParentid());
+            } catch (Exception e) {
+                count = 0;
+            }
 
             Teachplan teachplan = new Teachplan();
             BeanUtils.copyProperties(teachplanDto, teachplan);
             teachplan.setOrderby(count + 1);
             teachplanMapper.insert(teachplan);
         }
+    }
+
+    @Transactional
+    @Override
+    public void deleteTeachplan(Long teachplanId) {
+        int i = teachplanMapper.deleteById(teachplanId);
+        if(i == 0){
+            PEPlusException.cast("删除失败");
+        }
+    }
+
+    @Transactional
+    @Override
+    public void movedownTeachplan(Long teachplanId) {
+        Teachplan teachplan = teachplanMapper.selectById(teachplanId);
+        int orderBy = teachplan.getOrderby();
+        // 查找出orderby+1的数据
+        LambdaQueryWrapper<Teachplan> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(Teachplan::getOrderby, orderBy+1);
+        queryWrapper.eq(Teachplan::getParentid, teachplan.getParentid());
+        queryWrapper.eq(Teachplan::getCourseId, teachplan.getCourseId());
+        Teachplan teachplanNext = teachplanMapper.selectOne(queryWrapper);
+        if(teachplanNext == null){
+            return;
+        }
+        teachplan.setOrderby(teachplanNext.getOrderby());
+        teachplanNext.setOrderby(orderBy);
+
+        // 更新原先数据
+        teachplanMapper.updateById(teachplan);
+        teachplanMapper.updateById(teachplanNext);
+    }
+
+    @Override
+    public void moveupTeachplan(Long teachplanId) {
+        Teachplan teachplan = teachplanMapper.selectById(teachplanId);
+        int orderBy = teachplan.getOrderby();
+        // 查找出orderby+1的数据
+        LambdaQueryWrapper<Teachplan> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(Teachplan::getOrderby, orderBy-1);
+        queryWrapper.eq(Teachplan::getParentid, teachplan.getParentid());
+        queryWrapper.eq(Teachplan::getCourseId, teachplan.getCourseId());
+        Teachplan teachplanBefore = teachplanMapper.selectOne(queryWrapper);
+        if(teachplanBefore == null){
+            return;
+        }
+        teachplan.setOrderby(teachplanBefore.getOrderby());
+        teachplanBefore.setOrderby(orderBy);
+
+        // 更新原先数据
+        teachplanMapper.updateById(teachplan);
+        teachplanMapper.updateById(teachplanBefore);
     }
 
 /*  求解满足条件的数据条数，然后以数据数量+1作为新增数据的orderby

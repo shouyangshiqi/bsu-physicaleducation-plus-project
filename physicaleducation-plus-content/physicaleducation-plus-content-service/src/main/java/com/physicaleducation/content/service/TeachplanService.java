@@ -25,4 +25,22 @@ public interface TeachplanService {
      * @param teachplanDto
      */
     public void saveTeachplan(SaveTeachplanDto teachplanDto);
+
+    /**
+     * 删除teachplanId
+     * @param teachplanId
+     */
+    void deleteTeachplan(Long teachplanId);
+
+    /**
+     * 向下移动
+     * @param id
+     */
+    void movedownTeachplan(Long id);
+
+    /**
+     * 向上移动
+     * @param id 传入的课程计划id
+     */
+    void moveupTeachplan(Long id);
 }

@@ -1,5 +1,5 @@
 ### 查询课程信息
-POST {{content_host}}/content/course/list?pageNo=1&pageSize=2
+POST {{gateway_host}}/content/course/list?pageNo=1&pageSize=2
 Content-Type: application/json
 
 {
@@ -62,3 +62,31 @@ Content-Type: application/json
 ### 查询某个课程的课程计划
 
 GET {{content_host}}/content/teachplan/117/tree-nodes
+
+### 删除课程计划
+DELETE {{content_host}}/content/teachplan/43
+
+### 添加或修改老师
+POST  {{content_host}}/content/courseTeacher
+Content-Type: application/json
+
+{
+  "courseId": 101,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "教师简介"
+}
+
+### 添加或修改老师
+POST  {{content_host}}/content/courseTeacher
+Content-Type: application/json
+
+{
+  "id": 22,
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "数学王子秦老师",
+  "photograph": null,
+  "createDate": null
+}

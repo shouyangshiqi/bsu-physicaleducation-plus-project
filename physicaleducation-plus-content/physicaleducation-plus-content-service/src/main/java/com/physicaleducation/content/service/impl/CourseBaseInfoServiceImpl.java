@@ -2,17 +2,14 @@ package com.physicaleducation.content.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.physicaleducation.content.mapper.CourseBaseMapper;
-import com.physicaleducation.content.mapper.CourseCategoryMapper;
-import com.physicaleducation.content.mapper.CourseMarketMapper;
+import com.physicaleducation.content.mapper.*;
 import com.physicaleducation.content.model.dto.AddCourseDto;
 import com.physicaleducation.content.model.dto.CourseBaseInfoDto;
 import com.physicaleducation.content.model.dto.EditCourseDto;
 import com.physicaleducation.content.model.dto.QueryCourseParamsDto;
-import com.physicaleducation.content.model.po.CourseBase;
-import com.physicaleducation.content.model.po.CourseCategory;
-import com.physicaleducation.content.model.po.CourseMarket;
+import com.physicaleducation.content.model.po.*;
 import com.physicaleducation.content.service.CourseBaseInfoService;
+import com.physicaleducation.content.service.TeachplanService;
 import com.physicaleducation.execption.PEPlusException;
 import com.physicaleducation.model.PageParams;
 import com.physicaleducation.model.PageResult;
@@ -37,6 +34,10 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
 
     @Resource
     private CourseBaseMapper courseBaseMapper;
+    @Resource
+    private TeachplanMapper teachplanMapper;
+    @Resource
+    private CourseTeacherMapper courseTeacherMapper;
 
     @Autowired
     private CourseMarketMapper courseMarketMapper;
@@ -174,6 +175,37 @@ public class CourseBaseInfoServiceImpl implements CourseBaseInfoService {
         CourseBaseInfoDto courseBaseInfo = this.getCourseBaseInfo(courseId);
         return courseBaseInfo;
 
+    }
+
+    @Override
+    public void deleteCourseBase(Long courseId, Long companyId) {
+        // 检验参数合规性
+        CourseBase courseBase = courseBaseMapper.selectById(courseId);
+        if(courseBase==null){
+            PEPlusException.cast("课程不存在");
+        }
+        if(!courseBase.getCompanyId().equals(companyId)){
+            PEPlusException.cast("只能删除本机构的课程");
+        }
+
+        String auditStatus = courseBase.getAuditStatus();
+        if(!auditStatus.equals("202002") ){
+            PEPlusException.cast("只能删除审核状态为未提交的课程");
+        }
+        // 删除课程基本数据
+        courseBaseMapper.deleteById(courseBase);
+        // 删除营销信息
+        courseMarketMapper.deleteById(courseBase);
+
+        // 删除课程计划
+        LambdaQueryWrapper<Teachplan> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(Teachplan::getCourseId, courseId);
+        teachplanMapper.delete(queryWrapper);
+
+        // 删除教师信息
+        LambdaQueryWrapper<CourseTeacher> queryWrapper2 = new LambdaQueryWrapper<>();
+        queryWrapper2.eq(CourseTeacher::getCourseId, courseId);
+        courseTeacherMapper.delete(queryWrapper2);
     }
 
     // 保存课程营销信息

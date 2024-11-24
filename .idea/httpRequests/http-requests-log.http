@@ -1,3 +1,447 @@
+POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2024-11-24T164354.200.json
+
+###
+
+GET http://localhost:63040/content/course/40
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-24T164130.200.json
+
+###
+
+GET http://localhost:63010/content/course/40
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-24T164127.503.json
+
+###
+
+POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2024-11-24T164112.503.json
+
+###
+
+POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2024-11-24T164110.503.json
+
+###
+
+POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2024-11-24T164108.503.json
+
+###
+
+POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2024-11-24T163845.503.json
+
+###
+
+POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2024-11-24T163536.503.json
+
+###
+
+POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2024-11-24T163226.503.json
+
+###
+
+POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2024-11-24T163200.503.json
+
+###
+
+GET http://localhost:63040/content/course/40
+Content-Type: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-24T163154.200.json
+
+###
+
+POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2024-11-24T163101.503.json
+
+###
+
+POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
+Content-Type: application/json
+Content-Length: 76
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "auditStatus": "202004",
+  "courseName": "java",
+  "publishStatus": ""
+}
+
+<> 2024-11-24T162501.503.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 115
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "courseId": 101,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "教师简介"
+}
+
+<> 2024-11-24T155239.200.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "教师简介"
+}
+
+<> 2024-11-24T155155.500.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 179
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 22,
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "数学王子秦老师",
+  "photograph": null,
+  "createDate": null
+}
+
+<> 2024-11-24T155129.200.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "教师简介"
+}
+
+<> 2024-11-24T155126.500.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 179
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 22,
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "数学王子秦老师",
+  "photograph": null,
+  "createDate": null
+}
+
+<> 2024-11-24T110449.200.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 179
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 22,
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "数学王子秦老师",
+  "photograph": null,
+  "createDate": null
+}
+
+<> 2024-11-24T110249.200.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 170
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 22,
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "教师简介",
+  "photograph": null,
+  "createDate": null
+}
+
+<> 2024-11-24T110226.200.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 170
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 24,
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "教师简介",
+  "photograph": null,
+  "createDate": null
+}
+
+<> 2024-11-24T105224.500.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 170
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 24,
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "教师简介",
+  "photograph": null,
+  "createDate": null
+}
+
+<> 2024-11-24T105146.500.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 170
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "id": 24,
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "教师简介",
+  "photograph": null,
+  "createDate": null
+}
+
+<> 2024-11-24T105023.500.json
+
+###
+
+POST http://localhost:63040/content/courseTeacher
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "教师简介"
+}
+
+<> 2024-11-24T104815.200.json
+
+###
+
+GET http://localhost:63040/content/courseTeacher/list/75
+Content-Type: application/json
+Content-Length: 114
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "courseId": 75,
+  "teacherName": "王老师",
+  "position": "教师职位",
+  "introduction": "教师简介"
+}
+
+<> 2024-11-24T104733.200.json
+
+###
+
+DELETE http://localhost:63040/content/teachplan/43
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
 GET http://localhost:63040/content/teachplan/117/tree-nodes
 Connection: Keep-Alive
 User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
@@ -263,294 +707,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2024-11-23T142350.404.json
-
-###
-
-GET http://localhost:63040/content/course/40
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-23T142207.404.json
-
-###
-
-GET http://localhost:63040/content/course/40
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-23T142143.404.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 349
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201001",
-  "price": 150,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1",
-  "st": "1-16",
-  "name": "",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": "国脚二级羽毛球运动员教学视频"
-}
-
-<> 2024-11-23T134808.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 382
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201001",
-  "price": 150,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1",
-  "st": "1-16",
-  "name": "北京体育大学羽毛球课程",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": "国脚二级羽毛球运动员教学视频"
-}
-
-<> 2024-11-23T134207.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 349
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201001",
-  "price": 150,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1",
-  "st": "1-16",
-  "name": "",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": "国脚二级羽毛球运动员教学视频"
-}
-
-<> 2024-11-23T131453.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 349
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201001",
-  "price": 150,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1",
-  "st": "1-16",
-  "name": "",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": "国脚二级羽毛球运动员教学视频"
-}
-
-<> 2024-11-23T131318.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 349
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201001",
-  "price": 150,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1",
-  "st": "1-16",
-  "name": "",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": "国脚二级羽毛球运动员教学视频"
-}
-
-<> 2024-11-23T124810.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 382
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201001",
-  "price": 150,
-  "originalPrice":0,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1",
-  "st": "1-16",
-  "name": "北京体育大学羽毛球课程",
-  "pic": "",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "",
-  "grade": "204001",
-  "description": "国脚二级羽毛球运动员教学视频"
-}
-
-<> 2024-11-23T105148.200.json
-
-###
-
-GET http://localhost:63040/content/course-category/tree-nodes
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-14T171711.200.json
-
-###
-
-GET http://localhost:63040/content/course-category/tree-nodes
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://localhost:63040/content/course-category/tree-nodes
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://localhost:63040/content/course-category/tree-nodes
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-GET http://localhost:63040/content/course-category/tree-nodes
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-###
-
-POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
-Content-Type: application/json
-Content-Length: 76
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "auditStatus": "202004",
-  "courseName": "java",
-  "publishStatus": ""
-}
-
-<> 2024-11-14T105203.200.json
-
-###
-
-POST http://localhost:63040/course/list?pageNo=1&pageSize=2
-Content-Type: application/json
-Content-Length: 76
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "auditStatus": "202004",
-  "courseName": "java",
-  "publishStatus": ""
-}
-
-<> 2024-11-14T104818.404.html
-
-###
-
-POST http://localhost:63040/content/course/list?pageNo=1&pageSize=2
-Content-Type: application/json
-Content-Length: 76
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "auditStatus": "202004",
-  "courseName": "java",
-  "publishStatus": ""
-}
-
-<> 2024-11-14T104620.200.json
 
 ###
 
