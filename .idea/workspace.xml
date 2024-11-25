@@ -4,66 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="媒资服务工程搭建">
-      <change afterPath="$PROJECT_DIR$/api-test/sc-media-api.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/physicaleducation/media/model/dto/UploadFileParamsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/physicaleducation/media/model/dto/UploadFileResultDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/config/MinioConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/test/java/MinioTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/xcplus_media.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T142350.404.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T142429.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T142508.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T144636.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T144925.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T145756.200.json" beforeDir="false" />
+    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="上传图片接口完成">
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/model/RestResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/java/com/physicaleducation/media/api/BigFilesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T165254.500.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2024-11-14/error.2024-11-14-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-14/error.2024-11-14-12.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2024-11-14/error.2024-11-14-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-14/error.2024-11-14-13.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2024-11-14/error.2024-11-14-14.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-14/error.2024-11-14-14.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2024-11-14/info.2024-11-14-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-14/info.2024-11-14-13.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2024-11-23/error.2024-11-23-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-23/error.2024-11-23-16.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2024-11-24/info.2024-11-24-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-24/info.2024-11-24-15.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/java/com/xuecheng/MediaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/java/com/physicaleducation/MediaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/java/com/xuecheng/media/api/MediaFilesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/java/com/physicaleducation/media/api/MediaFilesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/resources/log4j2-dev.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/xuecheng/media/model/dto/QueryMediaParamsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/physicaleducation/media/model/dto/QueryMediaParamsDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/xuecheng/media/model/po/MediaFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/physicaleducation/media/model/po/MediaFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/xuecheng/media/model/po/MediaProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/physicaleducation/media/model/po/MediaProcess.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/xuecheng/media/model/po/MediaProcessHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/physicaleducation/media/model/po/MediaProcessHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/xuecheng/media/model/po/MqMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/physicaleducation/media/model/po/MqMessage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/xuecheng/media/model/po/MqMessageHistory.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/physicaleducation/media/model/po/MqMessageHistory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/config/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaFilesMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MediaFilesMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaFilesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MediaFilesMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaProcessHistoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MediaProcessHistoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaProcessHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MediaProcessHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaProcessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MediaProcessMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/mapper/MediaProcessMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MediaProcessMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/mapper/MqMessageHistoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MqMessageHistoryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/mapper/MqMessageHistoryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MqMessageHistoryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/mapper/MqMessageMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MqMessageMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/mapper/MqMessageMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MqMessageMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/service/MediaFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/MediaFileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/xuecheng/media/service/impl/MediaFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/xuecheng/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/physicaleducation/system/SystemApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/xuecheng/system/config/GlobalCorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/physicaleducation/system/config/GlobalCorsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/xuecheng/system/config/LocalDateTimeConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/physicaleducation/system/config/LocalDateTimeConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/xuecheng/system/controller/DictionaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java/com/physicaleducation/system/controller/DictionaryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-model/src/main/java/com/xuecheng/system/model/po/Dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-model/src/main/java/com/physicaleducation/system/model/po/Dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/xuecheng/system/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/physicaleducation/system/config/MybatisPlusConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/xuecheng/system/mapper/DictionaryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/physicaleducation/system/mapper/DictionaryMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/xuecheng/system/mapper/DictionaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/physicaleducation/system/mapper/DictionaryMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/xuecheng/system/service/DictionaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/physicaleducation/system/service/DictionaryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/xuecheng/system/service/impl/DictionaryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java/com/physicaleducation/system/service/impl/DictionaryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/MediaFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/MediaFileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -194,13 +144,13 @@
     "Spring Boot.ContentApplication (1).executor": "Run",
     "Spring Boot.ContentApplication.executor": "Run",
     "Spring Boot.ContentApplication2.executor": "Run",
-    "Spring Boot.MediaApplication.executor": "Debug",
+    "Spring Boot.MediaApplication.executor": "Run",
     "Spring Boot.PhysicalEducationGatewayApplication.executor": "Run",
     "Spring Boot.SystemApplication.executor": "Run",
     "git-widget-placeholder": "dev",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project/api-test",
+    "last_opened_file_path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project/physicaleducation-plus-base/src/main/java/com/physicaleducation/model",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -229,11 +179,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-base\src\main\java\com\physicaleducation\model" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\api-test" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\sql" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-gateway\src\main\resources" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-model\src\main\java\com\physicaleducation\content\model\dto" />
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\xuecheng-plus-system\xuecheng-plus-system-service\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-media\physicaleducation-plus-media-service\src" />
@@ -328,8 +278,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.sc-media-api | 上传文件" />
         <item itemvalue="Spring Boot.MediaApplication" />
+        <item itemvalue="HTTP Request.sc-media-api | 上传文件" />
         <item itemvalue="JUnit.MinioTest.testMd5" />
         <item itemvalue="JUnit.MinioTest.getFile" />
         <item itemvalue="JUnit.MinioTest.upload2" />
@@ -362,7 +312,7 @@
       <workItem from="1732412259729" duration="4446000" />
       <workItem from="1732416724087" duration="15439000" />
       <workItem from="1732440380517" duration="7114000" />
-      <workItem from="1732499557650" duration="11230000" />
+      <workItem from="1732499557650" duration="32732000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构">
       <option name="closed" value="true" />
@@ -452,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732447339296</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="上传图片接口完成">
+      <option name="closed" value="true" />
+      <created>1732516444743</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732516444743</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -479,7 +437,8 @@
     <MESSAGE value="查询以及添加课程计划接口" />
     <MESSAGE value="内容管理模块基本完成" />
     <MESSAGE value="媒资服务工程搭建" />
-    <option name="LAST_COMMIT_MESSAGE" value="媒资服务工程搭建" />
+    <MESSAGE value="上传图片接口完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传图片接口完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -493,6 +452,24 @@
           <url>file://$PROJECT_DIR$/agyudga/src/main/java/com/phsicaleducation/Main.java</url>
           <line>19</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java</url>
+          <line>267</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java</url>
+          <line>300</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java</url>
+          <line>277</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

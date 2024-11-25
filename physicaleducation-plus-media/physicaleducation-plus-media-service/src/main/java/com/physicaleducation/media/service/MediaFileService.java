@@ -7,6 +7,7 @@ import com.physicaleducation.media.model.dto.UploadFileResultDto;
 import com.physicaleducation.media.model.po.MediaFiles;
 import com.physicaleducation.model.PageParams;
 import com.physicaleducation.model.PageResult;
+import com.physicaleducation.model.RestResponse;
 
 /**
  * @author Mr.M
@@ -45,4 +46,38 @@ public interface MediaFileService {
      * @return
      */
     MediaFiles addMediaFilesToDb(Long companyId, String fileMd5, UploadFileParamsDto uploadFileParamsDto, String bucketFiles, String objectName);
+
+    /**
+     * 检查文件是否存在
+     * @param fileMd5
+     * @return
+     */
+    RestResponse checkFile(String fileMd5);
+
+    /**
+     * 检查分块是否存在
+     * @param fileMd5
+     * @param chunkIndex
+     * @return
+     */
+    RestResponse checkChunk(String fileMd5, int chunkIndex);
+
+    /**
+     * 上传数据
+     * @param fileMd5
+     * @param localChunkFilePath
+     * @param chunkTotal
+     * @return
+     */
+    RestResponse uploadChunk(String fileMd5, String localChunkFilePath, int chunkTotal);
+
+    /**
+     * 把分块信息全部合并
+     * @param companyId
+     * @param fileMd5
+     * @param chunkTotal
+     * @param uploadFileParamsDto
+     * @return
+     */
+    RestResponse mergechunks(Long companyId, String fileMd5, int chunkTotal, UploadFileParamsDto uploadFileParamsDto);
 }
