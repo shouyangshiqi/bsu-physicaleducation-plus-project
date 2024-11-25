@@ -45,12 +45,12 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$720acce7.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$720acce7.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -134,7 +134,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.physicaleducation.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -193,12 +193,12 @@ java.net.ConnectException: Connection timed out: connect
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$720acce7.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$720acce7.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -296,12 +296,12 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$fb9391cb.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$fb9391cb.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -389,7 +389,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.physicaleducation.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -448,12 +448,12 @@ java.net.ConnectException: Connection timed out: connect
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$fb9391cb.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$fb9391cb.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -555,12 +555,12 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -648,7 +648,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.physicaleducation.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -707,12 +707,12 @@ java.net.ConnectException: Connection timed out: connect
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -814,12 +814,12 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -907,7 +907,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.physicaleducation.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -966,12 +966,12 @@ java.net.ConnectException: Connection timed out: connect
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1073,12 +1073,12 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1166,7 +1166,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.physicaleducation.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -1225,12 +1225,12 @@ java.net.ConnectException: Connection timed out: connect
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1332,12 +1332,12 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1425,7 +1425,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.physicaleducation.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -1484,12 +1484,12 @@ java.net.ConnectException: Connection timed out: connect
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1591,12 +1591,12 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1684,7 +1684,7 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
 ### The error may exist in com/xuecheng/system/mapper/DictionaryMapper.java (best guess)
-### The error may involve com.xuecheng.system.mapper.DictionaryMapper.selectList
+### The error may involve com.physicaleducation.system.mapper.DictionaryMapper.selectList
 ### The error occurred while executing a query
 ### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
 
@@ -1743,12 +1743,12 @@ java.net.ConnectException: Connection timed out: connect
 	at com.sun.proxy.$Proxy85.selectList(Unknown Source)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:279)
 	at com.baomidou.mybatisplus.extension.service.IService.list(IService.java:288)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl.queryAll(DictionaryServiceImpl.java:27)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$FastClassBySpringCGLIB$$fc4b9bb9.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:687)
-	at com.xuecheng.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
-	at com.xuecheng.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
+	at com.physicaleducation.system.service.impl.DictionaryServiceImpl$$EnhancerBySpringCGLIB$$e33575db.queryAll(<generated>)
+	at com.physicaleducation.system.controller.DictionaryController.queryAll(DictionaryController.java:29)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

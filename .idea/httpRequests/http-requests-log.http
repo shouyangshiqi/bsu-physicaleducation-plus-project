@@ -1,3 +1,111 @@
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Content-Length: 57362
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< d:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
+--WebAppBoundary--
+
+<> 2024-11-25T142326.200.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Content-Length: 57362
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< d:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
+--WebAppBoundary--
+
+<> 2024-11-25T141558.200.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Content-Length: 57362
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< d:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
+--WebAppBoundary--
+
+<> 2024-11-25T141429.500.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Content-Length: 57362
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< D:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
+--WebAppBoundary--
+
+<> 2024-11-25T141329.500.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Content-Length: 57362
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< D:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
+--WebAppBoundary--
+
+<> 2024-11-25T141237.500.json
+
+###
+
+POST http://localhost:63050/media/upload/coursefile
+Content-Type: multipart/form-data; boundary=WebAppBoundary
+Content-Length: 57362
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+--WebAppBoundary
+Content-Disposition: form-data; name="filedata"; filename="1.jpg"
+Content-Type: application/octet-stream
+
+< D:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
+--WebAppBoundary--
+
+<> 2024-11-25T141050.500.json
+
+###
+
 POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
 Content-Type: application/json
 Content-Length: 76
@@ -599,114 +707,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2024-11-23T165254.500.json
-
-###
-
-PUT http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 626
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "id": 40,
-  "name": "SpringBoot核心",
-  "users": "Spring Boot初学者",
-  "tags": "Spring项目的快速构建",
-  "mt": "1-3",
-  "st": "1-3-2",
-  "grade": "200003",
-  "teachmode": "201001",
-  "description": "课程系统性地深度探讨 Spring Boot 核心特性，引导小伙伴对 Java 规范的重视，启发对技术原理性的思考，掌握排查问题的技能，以及学习阅读源码的方法和技巧，全面提升研发能力，进军架构师队伍。",
-  "pic": "https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg",
-  "charge": "201001",
-  "price": 0.01
-}
-
-<> 2024-11-23T145756.200.json
-
-###
-
-PUT http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 626
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "id": 40,
-  "name": "SpringBoot核心",
-  "users": "Spring Boot初学者",
-  "tags": "Spring项目的快速构建",
-  "mt": "1-3",
-  "st": "1-3-2",
-  "grade": "200003",
-  "teachmode": "201001",
-  "description": "课程系统性地深度探讨 Spring Boot 核心特性，引导小伙伴对 Java 规范的重视，启发对技术原理性的思考，掌握排查问题的技能，以及学习阅读源码的方法和技巧，全面提升研发能力，进军架构师队伍。",
-  "pic": "https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg",
-  "charge": "201001",
-  "price": 0.01
-}
-
-<> 2024-11-23T144925.500.json
-
-###
-
-PUT http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 626
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "id": 40,
-  "name": "SpringBoot核心",
-  "users": "Spring Boot初学者",
-  "tags": "Spring项目的快速构建",
-  "mt": "1-3",
-  "st": "1-3-2",
-  "grade": "200003",
-  "teachmode": "201001",
-  "description": "课程系统性地深度探讨 Spring Boot 核心特性，引导小伙伴对 Java 规范的重视，启发对技术原理性的思考，掌握排查问题的技能，以及学习阅读源码的方法和技巧，全面提升研发能力，进军架构师队伍。",
-  "pic": "https://cdn.educba.com/academy/wp-content/uploads/2018/08/Spring-BOOT-Interview-questions.jpg",
-  "charge": "201001",
-  "price": 0.01
-}
-
-<> 2024-11-23T144636.500.json
-
-###
-
-GET http://localhost:63040/content/course/40
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-23T142508.200.json
-
-###
-
-GET http://localhost:63040/content/course/40
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-23T142429.500.json
-
-###
-
-GET http://localhost:63040/content/course/40
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-23T142350.404.json
 
 ###
 

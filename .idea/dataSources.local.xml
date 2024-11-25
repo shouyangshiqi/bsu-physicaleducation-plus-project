@@ -15,6 +15,7 @@
             <name qname="@" />
             <name qname="nacos" />
             <name qname="xc402_content" />
+            <name qname="xc402_media" />
             <name qname="xc402_system" />
           </node>
         </introspection-scope>

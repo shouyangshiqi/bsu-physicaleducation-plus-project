@@ -72,40 +72,40 @@
 2024-11-24 16:01:47,736 DEBUG [main][Logger.java:49] - Registered plugin: 'com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor@490c7a83'
 2024-11-24 16:01:47,738 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
 2024-11-24 16:01:47,738 DEBUG [main][Logger.java:49] - Property 'mapperLocations' was not specified.
-2024-11-24 16:01:47,978 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-11-24 16:01:47,978 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.insert
-2024-11-24 16:01:47,980 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-11-24 16:01:47,980 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.delete
-2024-11-24 16:01:47,982 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-11-24 16:01:47,982 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteByMap
-2024-11-24 16:01:47,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-11-24 16:01:47,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteById
-2024-11-24 16:01:47,993 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-11-24 16:01:47,993 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.deleteBatchIds
-2024-11-24 16:01:47,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-11-24 16:01:47,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.update
-2024-11-24 16:01:47,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-11-24 16:01:47,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.updateById
-2024-11-24 16:01:47,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-11-24 16:01:47,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectById
-2024-11-24 16:01:47,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-11-24 16:01:47,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectBatchIds
-2024-11-24 16:01:47,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-11-24 16:01:47,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectByMap
-2024-11-24 16:01:47,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-11-24 16:01:47,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectOne
-2024-11-24 16:01:48,000 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-11-24 16:01:48,000 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectCount
-2024-11-24 16:01:48,003 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-11-24 16:01:48,003 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMaps
-2024-11-24 16:01:48,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-11-24 16:01:48,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectMapsPage
-2024-11-24 16:01:48,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-11-24 16:01:48,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectObjs
-2024-11-24 16:01:48,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-11-24 16:01:48,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectList
-2024-11-24 16:01:48,009 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
-2024-11-24 16:01:48,009 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.xuecheng.system.mapper.DictionaryMapper.selectPage
+2024-11-24 16:01:47,978 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.insert
+2024-11-24 16:01:47,978 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.insert
+2024-11-24 16:01:47,980 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.delete
+2024-11-24 16:01:47,980 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.delete
+2024-11-24 16:01:47,982 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.deleteByMap
+2024-11-24 16:01:47,982 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.deleteByMap
+2024-11-24 16:01:47,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.deleteById
+2024-11-24 16:01:47,992 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.deleteById
+2024-11-24 16:01:47,993 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.deleteBatchIds
+2024-11-24 16:01:47,993 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.deleteBatchIds
+2024-11-24 16:01:47,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.update
+2024-11-24 16:01:47,995 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.update
+2024-11-24 16:01:47,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.updateById
+2024-11-24 16:01:47,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.updateById
+2024-11-24 16:01:47,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectById
+2024-11-24 16:01:47,996 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectById
+2024-11-24 16:01:47,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectBatchIds
+2024-11-24 16:01:47,998 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectBatchIds
+2024-11-24 16:01:47,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectByMap
+2024-11-24 16:01:47,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectByMap
+2024-11-24 16:01:47,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectOne
+2024-11-24 16:01:47,999 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectOne
+2024-11-24 16:01:48,000 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectCount
+2024-11-24 16:01:48,000 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectCount
+2024-11-24 16:01:48,003 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectMaps
+2024-11-24 16:01:48,003 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectMaps
+2024-11-24 16:01:48,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectMapsPage
+2024-11-24 16:01:48,005 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectMapsPage
+2024-11-24 16:01:48,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectObjs
+2024-11-24 16:01:48,007 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectObjs
+2024-11-24 16:01:48,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectList
+2024-11-24 16:01:48,008 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectList
+2024-11-24 16:01:48,009 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectPage
+2024-11-24 16:01:48,009 DEBUG [main][MybatisConfiguration.java:128] - addMappedStatement: com.physicaleducation.system.mapper.DictionaryMapper.selectPage
 2024-11-24 16:01:48,204 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-11-24 16:01:48,204 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
 2024-11-24 16:01:48,223 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.

@@ -1,6 +1,6 @@
 2024-11-23 16:01:27,622 ERROR [http-nio-63040-exec-6][GlobalExceptionHandler.java:52] - 【系统异常】Validation failed for argument [0] in public com.physicaleducation.content.model.dto.CourseBaseInfoDto com.physicaleducation.content.api.CourseBaseInfoController.createCourseBase(com.physicaleducation.content.model.dto.AddCourseDto): [Field error in object 'addCourseDto' on field 'st': rejected value [null]; codes [NotEmpty.addCourseDto.st,NotEmpty.st,NotEmpty.java.lang.String,NotEmpty]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [addCourseDto.st,st]; arguments []; default message [st]]; default message [课程分类不能为空]] 
 2024-11-23 16:21:49,598 ERROR [main][MapperFactoryBean.java:82] - Error while adding the mapper 'interface com.physicaleducation.content.mapper.TeachplanMapper' to configuration.
-org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
 	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.loadXmlResource(MybatisMapperAnnotationBuilder.java:174)
@@ -54,26 +54,26 @@ org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML lo
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at com.physicaleducation.ContentApplication.main(ContentApplication.java:17)
-Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
 	... 52 more
-Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
 	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
 	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
 	... 56 more
-Caused by: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
 	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
 	... 58 more
 2024-11-23 16:21:49,619 ERROR [main][SpringApplication.java:837] - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanController': Unsatisfied dependency expressed through field 'teachplanService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanServiceImpl': Unsatisfied dependency expressed through field 'teachplanMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanController': Unsatisfied dependency expressed through field 'teachplanService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanServiceImpl': Unsatisfied dependency expressed through field 'teachplanMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
@@ -95,7 +95,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at com.physicaleducation.ContentApplication.main(ContentApplication.java:17)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanServiceImpl': Unsatisfied dependency expressed through field 'teachplanMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanServiceImpl': Unsatisfied dependency expressed through field 'teachplanMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
@@ -111,7 +111,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
 	... 20 more
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
@@ -124,13 +124,13 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
 	... 33 more
-Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
 	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
 	... 43 more
-Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
 	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.loadXmlResource(MybatisMapperAnnotationBuilder.java:174)
@@ -139,26 +139,26 @@ Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML.
 	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:152)
 	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
 	... 46 more
-Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
 	... 52 more
-Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
 	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
 	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
 	... 56 more
-Caused by: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
 	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
 	... 58 more
 2024-11-23 16:24:01,346 ERROR [main][MapperFactoryBean.java:82] - Error while adding the mapper 'interface com.physicaleducation.content.mapper.TeachplanMapper' to configuration.
-org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
 	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.loadXmlResource(MybatisMapperAnnotationBuilder.java:174)
@@ -212,26 +212,26 @@ org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML lo
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at com.physicaleducation.ContentApplication.main(ContentApplication.java:17)
-Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
 	... 52 more
-Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
 	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
 	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
 	... 56 more
-Caused by: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
 	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:116)
 	... 58 more
 2024-11-23 16:24:01,365 ERROR [main][SpringApplication.java:837] - Application run failed
-org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanController': Unsatisfied dependency expressed through field 'teachplanService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanServiceImpl': Unsatisfied dependency expressed through field 'teachplanMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanController': Unsatisfied dependency expressed through field 'teachplanService'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanServiceImpl': Unsatisfied dependency expressed through field 'teachplanMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
@@ -253,7 +253,7 @@ org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
 	at com.physicaleducation.ContentApplication.main(ContentApplication.java:17)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanServiceImpl': Unsatisfied dependency expressed through field 'teachplanMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'teachplanServiceImpl': Unsatisfied dependency expressed through field 'teachplanMapper'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
 	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
@@ -269,7 +269,7 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
 	... 20 more
-Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'teachplanMapper' defined in file [D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\target\classes\com\physicaleducation\content\mapper\TeachplanMapper.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1794)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516)
@@ -282,13 +282,13 @@ Caused by: org.springframework.beans.factory.BeanCreationException: Error creati
 	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1227)
 	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
 	... 33 more
-Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: java.lang.IllegalArgumentException: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:83)
 	at org.springframework.dao.support.DaoSupport.afterPropertiesSet(DaoSupport.java:44)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1790)
 	... 43 more
-Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'com/physicaleducation/content/mapper/TeachplanMapper.xml'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:123)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:95)
 	at com.baomidou.mybatisplus.core.MybatisMapperAnnotationBuilder.loadXmlResource(MybatisMapperAnnotationBuilder.java:174)
@@ -297,19 +297,19 @@ Caused by: org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML.
 	at com.baomidou.mybatisplus.core.MybatisConfiguration.addMapper(MybatisConfiguration.java:152)
 	at org.mybatis.spring.mapper.MapperFactoryBean.checkDaoConfig(MapperFactoryBean.java:80)
 	... 46 more
-Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:118)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:263)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElement(XMLMapperBuilder.java:254)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.resultMapElements(XMLMapperBuilder.java:246)
 	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:119)
 	... 52 more
-Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.xuecheng.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.physicaleducation.content.model.dto.TeachplanDto'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:120)
 	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:149)
 	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:116)
 	... 56 more
-Caused by: java.lang.ClassNotFoundException: Cannot find class: com.xuecheng.content.model.dto.TeachplanDto
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.physicaleducation.content.model.dto.TeachplanDto
 	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:196)
 	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:89)
 	at org.apache.ibatis.io.Resources.classForName(Resources.java:261)
