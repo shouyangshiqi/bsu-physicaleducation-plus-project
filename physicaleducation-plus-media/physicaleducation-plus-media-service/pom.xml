@@ -12,6 +12,12 @@
     <description>physicaleducation-plus-media-service</description>
 
     <dependencies>
+        <!--xxl_job-->
+        <dependency>
+            <groupId>com.xuxueli</groupId>
+            <artifactId>xxl-job-core</artifactId>
+            <version>2.3.1</version>
+        </dependency>
         <!-- minio -->
         <dependency>
             <groupId>io.minio</groupId>

@@ -6,9 +6,7 @@
 
 import com.j256.simplemagic.ContentInfo;
 import com.j256.simplemagic.ContentInfoUtil;
-import io.minio.GetObjectArgs;
-import io.minio.MinioClient;
-import io.minio.UploadObjectArgs;
+import io.minio.*;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.io.IOUtils;
 import org.junit.jupiter.api.Test;
@@ -18,6 +16,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.FilterInputStream;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 /**
  * 测试minio的功能
@@ -100,6 +101,21 @@ public class MinioTest {
         if (source_md5.equals(local_md5)) {
             System.out.println("下载成功");
         }
+    }
+
+    @Test
+    public void test_merge() throws Exception {
+        List<ComposeSource> sources = Stream.iterate(0, i -> ++i)
+                .limit(6)
+                .map(i -> ComposeSource.builder()
+                        .bucket("testbucket")
+                        .object("chunk/".concat(Integer.toString(i)))
+                        .build())
+                .collect(Collectors.toList());
+
+        ComposeObjectArgs composeObjectArgs = ComposeObjectArgs.builder().bucket("testbucket").object("merge01.mp4").sources(sources).build();
+        minioClient.composeObject(composeObjectArgs);
+
     }
 }
 

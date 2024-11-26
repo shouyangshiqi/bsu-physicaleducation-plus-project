@@ -6,10 +6,12 @@ import com.j256.simplemagic.ContentInfo;
 import com.j256.simplemagic.ContentInfoUtil;
 import com.physicaleducation.execption.PEPlusException;
 import com.physicaleducation.media.mapper.MediaFilesMapper;
+import com.physicaleducation.media.mapper.MediaProcessMapper;
 import com.physicaleducation.media.model.dto.QueryMediaParamsDto;
 import com.physicaleducation.media.model.dto.UploadFileParamsDto;
 import com.physicaleducation.media.model.dto.UploadFileResultDto;
 import com.physicaleducation.media.model.po.MediaFiles;
+import com.physicaleducation.media.model.po.MediaProcess;
 import com.physicaleducation.media.service.MediaFileService;
 import com.physicaleducation.model.PageParams;
 import com.physicaleducation.model.PageResult;
@@ -62,6 +64,9 @@ public class MediaFileServiceImpl implements MediaFileService {
 
     @Autowired
     private MediaFileService mediaFileService;
+
+    @Autowired
+    private MediaProcessMapper mediaProcessMapper;
 
     @Override
     public PageResult<MediaFiles> queryMediaFiels(Long companyId, PageParams pageParams, QueryMediaParamsDto queryMediaParamsDto) {
@@ -145,7 +150,7 @@ public class MediaFileServiceImpl implements MediaFileService {
     }
 
 
-    private boolean addMediaFilesToMinIO(String localFilePath, String mimeType, String bucket, String objectName){
+    public boolean addMediaFilesToMinIO(String localFilePath, String mimeType, String bucket, String objectName){
         try {
             UploadObjectArgs testbucket = UploadObjectArgs.builder()
                     .bucket(bucket)
@@ -322,9 +327,37 @@ public class MediaFileServiceImpl implements MediaFileService {
             return  RestResponse.success(false, "文件入库失败");
         }
 
+        // 如果视频是avi，将视频信息存放到
+        mediaFileService.addWaitingTask(mediaFiles);
+
+
         // 清理分块文件
         clearChunkFiles(chunkFileFolderPath,chunkTotal);
         return RestResponse.success(true);
+    }
+
+    /**
+     * 添加待处理任务
+     * @param mediaFiles 媒资文件信息
+     */
+    @Transactional
+    public void addWaitingTask(MediaFiles mediaFiles){
+        //文件名称
+        String filename = mediaFiles.getFilename();
+        //文件扩展名
+        String extension = filename.substring(filename.lastIndexOf("."));
+        //文件mimeType
+        String mimeType = getMimeType(extension);
+        //如果是avi视频添加到视频待处理表
+        if(mimeType.equals("video/x-msvideo")){
+            MediaProcess mediaProcess = new MediaProcess();
+            BeanUtils.copyProperties(mediaFiles,mediaProcess);
+            mediaProcess.setStatus("1");//未处理
+            mediaProcess.setFailCount(0);//失败次数默认为0
+            mediaProcess.setUrl(null);
+            mediaProcessMapper.insert(mediaProcess);
+            log.debug("保存文件信息到数据库成功,{}", mediaFiles.toString());
+        }
     }
 
     /**
@@ -347,7 +380,7 @@ public class MediaFileServiceImpl implements MediaFileService {
      * @param objectName
      * @return
      */
-    private File downloadFileFromMinIO(String bucket, String objectName){
+    public File downloadFileFromMinIO(String bucket, String objectName){
         //临时文件
         File minioFile = null;
         FileOutputStream outputStream = null;

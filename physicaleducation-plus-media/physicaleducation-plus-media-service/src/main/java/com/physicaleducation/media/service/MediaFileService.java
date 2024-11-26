@@ -80,4 +80,11 @@ public interface MediaFileService {
      * @return
      */
     RestResponse mergechunks(Long companyId, String fileMd5, int chunkTotal, UploadFileParamsDto uploadFileParamsDto);
+
+    /**
+     * 将待处理视频数据加入到相应数据库中
+     * @param mediaFiles
+     */
+    void addWaitingTask(MediaFiles mediaFiles);
+
 }

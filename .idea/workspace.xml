@@ -4,16 +4,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="上传图片接口完成">
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/model/RestResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/java/com/physicaleducation/media/api/BigFilesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T165254.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="上传视频接口完成">
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/Base64Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/FileUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/HttpUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/IDCardUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/IPUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/JsonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/Mp4VideoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/PasswordUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/PaymentUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/PhoneUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/RSAUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/RandomStringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/StringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/VideoUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/config/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/MediaFileProcessService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileProcessServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/jobhandler/SampleXxlJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/jobhandler/VideoTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sql/tables_xxl_job.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MediaProcessMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/mapper/MediaProcessMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/MediaFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/MediaFileService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/test/java/MinioTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/test/java/MinioTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +119,7 @@
   "keyToString": {
     "Application.ContentCodeGenerator.executor": "Run",
     "Database Script.nacos.sql.executor": "Run",
+    "Database Script.tables_xxl_job.sql.executor": "Run",
     "Database Script.xcplus_content.sql.executor": "Run",
     "Database Script.xcplus_media.sql.executor": "Run",
     "Database Script.xcplus_system.sql.executor": "Run",
@@ -150,7 +177,7 @@
     "git-widget-placeholder": "dev",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project/physicaleducation-plus-base/src/main/java/com/physicaleducation/model",
+    "last_opened_file_path": "D:/java_learn/idea-program/xxl-job-2.3.1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -173,17 +200,18 @@
       "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xc402_content\"",
       "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xc402_system\"",
       "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3",
-      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xc402_media\""
+      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xc402_media\"",
+      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xxl_job_2.3.1\""
     ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-base\src\main\java\com\physicaleducation\model" />
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\api-test" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-media\physicaleducation-plus-media-service\src\main\java\com\physicaleducation\media\service" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-media\physicaleducation-plus-media-service\src\main\java\com\physicaleducation\media\config" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\sql" />
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-gateway\src\main\resources" />
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-model\src\main\java\com\physicaleducation\content\model\dto" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-base\src\main\java\com\physicaleducation" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-base\src\main\java\com\physicaleducation\model" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-media\physicaleducation-plus-media-service\src" />
@@ -210,11 +238,11 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.sc-media-api | 上传文件">
-    <configuration name="sc-content-api | 查询某个课程的课程计划" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" index="6" requestIdentifier="查询某个课程的课程计划" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="sc-content-api | 删除课程计划" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" index="7" requestIdentifier="删除课程计划" runType="Run single request">
+  <component name="RunManager" selected="Database Script.tables_xxl_job.sql">
+    <configuration name="tables_xxl_job.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/sql/tables_xxl_job.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="9ca46317-ad26-4ee7-814f-bd7df8e7e5a3" namespace="schema/&quot;xxl_job_2.3.1&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="sc-content-api | 课程查询" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" index="4" requestIdentifier="课程查询" runType="Run single request">
@@ -223,35 +251,15 @@
     <configuration name="sc-content-api | 查询课程信息" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" requestIdentifier="查询课程信息" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="sc-media-api | 上传文件" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-media-api.http" requestIdentifier="上传文件" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="MinioTest.getFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-media-service" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinioTest" />
-      <option name="METHOD_NAME" value="getFile" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinioTest.testMd5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-media-service" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinioTest" />
-      <option name="METHOD_NAME" value="testMd5" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinioTest.upload2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-media-service" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MinioTest" />
-      <option name="METHOD_NAME" value="upload2" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-content-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.ContentApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -269,20 +277,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhysicalEducationGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.PhysicalEducationGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="xuecheng-plus-system-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.system.SystemApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="HTTP Request.sc-media-api | 上传文件" />
-      <item itemvalue="JUnit.MinioTest.getFile" />
-      <item itemvalue="JUnit.MinioTest.testMd5" />
-      <item itemvalue="JUnit.MinioTest.upload2" />
+      <item itemvalue="Database Script.tables_xxl_job.sql" />
+      <item itemvalue="Spring Boot.ContentApplication" />
+      <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
+      <item itemvalue="Spring Boot.SystemApplication" />
       <item itemvalue="Spring Boot.MediaApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MediaApplication" />
-        <item itemvalue="HTTP Request.sc-media-api | 上传文件" />
-        <item itemvalue="JUnit.MinioTest.testMd5" />
-        <item itemvalue="JUnit.MinioTest.getFile" />
-        <item itemvalue="JUnit.MinioTest.upload2" />
+        <item itemvalue="Database Script.tables_xxl_job.sql" />
+        <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
+        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="Spring Boot.ContentApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +346,9 @@
       <workItem from="1732412259729" duration="4446000" />
       <workItem from="1732416724087" duration="15439000" />
       <workItem from="1732440380517" duration="7114000" />
-      <workItem from="1732499557650" duration="32732000" />
+      <workItem from="1732499557650" duration="34492000" />
+      <workItem from="1732585020881" duration="931000" />
+      <workItem from="1732585967706" duration="25373000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构">
       <option name="closed" value="true" />
@@ -410,7 +446,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732516444743</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="上传视频接口完成">
+      <option name="closed" value="true" />
+      <created>1732544310203</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732544310203</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +482,8 @@
     <MESSAGE value="内容管理模块基本完成" />
     <MESSAGE value="媒资服务工程搭建" />
     <MESSAGE value="上传图片接口完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传图片接口完成" />
+    <MESSAGE value="上传视频接口完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="上传视频接口完成" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -455,21 +500,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java</url>
-          <line>267</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java</url>
-          <line>300</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java</url>
-          <line>277</line>
-          <option name="timeStamp" value="13" />
+          <line>292</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
