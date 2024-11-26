@@ -1,5 +1,6 @@
 package com.physicaleducation.content.api;
 
+import com.physicaleducation.content.model.dto.BindTeachplanMediaDto;
 import com.physicaleducation.content.model.dto.SaveTeachplanDto;
 import com.physicaleducation.content.model.dto.TeachplanDto;
 import com.physicaleducation.content.service.TeachplanService;
@@ -54,4 +55,11 @@ public class TeachplanController {
     public void moveupTeachplan( @PathVariable Long id){
         teachplanService.moveupTeachplan(id);
     }
+
+    @ApiOperation(value = "课程计划和媒资信息绑定")
+    @PostMapping("/teachplan/association/media")
+    public void associationMedia(@RequestBody BindTeachplanMediaDto bindTeachplanMediaDto){
+        teachplanService.associationMedia(bindTeachplanMediaDto);
+    }
+
 }

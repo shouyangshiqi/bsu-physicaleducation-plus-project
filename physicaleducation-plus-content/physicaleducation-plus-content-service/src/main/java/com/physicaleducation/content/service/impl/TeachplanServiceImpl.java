@@ -2,9 +2,12 @@ package com.physicaleducation.content.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.physicaleducation.content.mapper.TeachplanMapper;
+import com.physicaleducation.content.mapper.TeachplanMediaMapper;
+import com.physicaleducation.content.model.dto.BindTeachplanMediaDto;
 import com.physicaleducation.content.model.dto.SaveTeachplanDto;
 import com.physicaleducation.content.model.dto.TeachplanDto;
 import com.physicaleducation.content.model.po.Teachplan;
+import com.physicaleducation.content.model.po.TeachplanMedia;
 import com.physicaleducation.content.service.TeachplanService;
 import com.physicaleducation.execption.PEPlusException;
 import org.springframework.beans.BeanUtils;
@@ -12,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 /**
@@ -25,6 +29,10 @@ public class TeachplanServiceImpl implements TeachplanService {
 
     @Autowired
     private TeachplanMapper teachplanMapper;
+
+    @Autowired
+    private TeachplanMediaMapper teachplanMediaMapper;
+
 
     @Override
     public List<TeachplanDto> findTeachplanTree(long courseId) {
@@ -109,7 +117,34 @@ public class TeachplanServiceImpl implements TeachplanService {
         teachplanMapper.updateById(teachplanBefore);
     }
 
-/*  求解满足条件的数据条数，然后以数据数量+1作为新增数据的orderby
+    @Override
+    public TeachplanMedia associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto) {
+
+        // 获取计划信息
+        Teachplan teachplan = teachplanMapper.selectById(bindTeachplanMediaDto.getTeachplanId());
+        if(teachplan == null){
+            PEPlusException.cast("教学计划不存在");
+        }
+
+        // 如果有视频数据就先删除
+        TeachplanMedia teachplanMedia1 = teachplanMediaMapper.selectOne(new LambdaQueryWrapper<TeachplanMedia>()
+                .eq(TeachplanMedia::getTeachplanId, bindTeachplanMediaDto.getTeachplanId()));
+        if(teachplanMedia1 != null){
+            teachplanMediaMapper.deleteById(teachplanMedia1);
+        }
+
+        TeachplanMedia teachplanMedia = new TeachplanMedia();
+        BeanUtils.copyProperties(bindTeachplanMediaDto, teachplanMedia);
+        teachplanMedia.setCourseId(teachplan.getCourseId());
+        teachplanMedia.setMediaFilename(bindTeachplanMediaDto.getFileName());
+        teachplanMedia.setCreateDate(LocalDateTime.now());
+
+        int insert = teachplanMediaMapper.insert(teachplanMedia);
+        return teachplanMedia;
+
+    }
+
+/*  (淘汰该解法）求解满足条件的数据条数，然后以数据数量+1作为新增数据的orderby
  private int getTeachplanCount(Long courseId, Long parentId){
         LambdaQueryWrapper<Teachplan> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.eq(Teachplan::getCourseId, courseId);

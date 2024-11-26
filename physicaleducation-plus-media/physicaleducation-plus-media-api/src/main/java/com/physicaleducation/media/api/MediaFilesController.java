@@ -37,6 +37,7 @@ public class MediaFilesController {
     @PostMapping("/files")
     public PageResult<MediaFiles> list(PageParams pageParams, @RequestBody QueryMediaParamsDto queryMediaParamsDto) {
         Long companyId = 1232141425L;
+        pageParams.setPageSize(10L);
         return mediaFileService.queryMediaFiels(companyId, pageParams, queryMediaParamsDto);
 
     }

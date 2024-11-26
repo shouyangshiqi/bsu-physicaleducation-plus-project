@@ -1,7 +1,9 @@
 package com.physicaleducation.content.service;
 
+import com.physicaleducation.content.model.dto.BindTeachplanMediaDto;
 import com.physicaleducation.content.model.dto.SaveTeachplanDto;
 import com.physicaleducation.content.model.dto.TeachplanDto;
+import com.physicaleducation.content.model.po.TeachplanMedia;
 
 import java.util.List;
 
@@ -43,4 +45,10 @@ public interface TeachplanService {
      * @param id 传入的课程计划id
      */
     void moveupTeachplan(Long id);
+
+    /**
+     * 将媒资信息与课程信息绑定
+     * @param bindTeachplanMediaDto
+     */
+    TeachplanMedia associationMedia(BindTeachplanMediaDto bindTeachplanMediaDto);
 }

@@ -90,3 +90,13 @@ Content-Type: application/json
   "photograph": null,
   "createDate": null
 }
+
+### 课程计划绑定视频
+POST {{media_host}}/media/teachplan/association/media
+Content-Type: application/json
+
+{
+  "mediaId": "",
+  "fileName": "",
+  "teachplanId": ""
+}
