@@ -360,6 +360,12 @@ public class MediaFileServiceImpl implements MediaFileService {
         }
     }
 
+    @Override
+    public MediaFiles getFileById(String mediaId) {
+        MediaFiles mediaFiles = mediaFilesMapper.selectById(mediaId);
+        return mediaFiles;
+    }
+
     /**
      * 查询出该分块的文件目录
      * @param fileMd5

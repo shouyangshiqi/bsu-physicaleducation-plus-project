@@ -12,16 +12,19 @@ spring:
       discovery: # 服务注册相关配置
         namespace: dev
         group: physicaleducation-plus-project
-#      config:   # 配置文件相关配置
-#        namespace: dev
-#        group: physicaleducation-plus-project
-#        file-extension: yaml
-#        refresh-enabled: true
+      config:   # 配置文件相关配置
+        namespace: dev
+        group: xuecheng-plus-project
+        file-extension: yaml
+        refresh-enabled: true
 #        extension-configs:
 #          - data-id: content-service-${spring.profiles.active}.yaml
 #            group: physicaleducation-plus-project
 #            refresh: true
-#        shared-configs:
+        shared-configs:
+          - data-id: freemarker-config-${spring.profiles.active}.yaml
+            group: xuecheng-plus-common
+            refresh: true
 #          - data-id: swagger-${spring.profiles.active}.yaml
 #            group: physicaleducation-plus-common
 #            refresh: true
