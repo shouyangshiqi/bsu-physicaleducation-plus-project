@@ -1,0 +1,580 @@
+2024-11-27 22:42:00,840 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-27 22:42:00,840 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-27 22:42:00,840 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-27 22:42:00,840 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-27 22:42:00,843 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-27 22:42:00,843 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-27 22:42:00,938 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-27 22:42:00,938 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-27 22:42:01,051 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:42:01,051 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:42:01,053 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-27 22:42:01,053 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-27 22:42:01,053 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@content-api:172.18.210.246:63040 from beat map.
+2024-11-27 22:42:01,053 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@content-api:172.18.210.246:63040 from beat map.
+2024-11-27 22:42:01,053 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-27 22:42:01,053 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-27 22:42:01,071 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-27 22:42:01,071 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-27 22:42:01,071 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-27 22:42:01,071 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-27 22:42:02,535 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:42:02,535 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:42:02,547 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api -> []
+2024-11-27 22:42:02,547 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api -> []
+2024-11-27 22:42:03,426 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-27 22:42:03,426 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-27 22:42:03,427 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-27 22:42:03,427 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-27 22:42:04,338 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-27 22:42:04,338 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-27 22:42:04,350 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api@@DEFAULT -> []
+2024-11-27 22:42:04,350 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api@@DEFAULT -> []
+2024-11-27 22:42:04,353 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-27 22:42:04,353 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-27 22:42:07,376 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-27 22:42:07,376 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-27 22:42:07,376 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-27 22:42:07,376 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-27 22:42:07,377 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-27 22:42:07,377 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-27 22:42:07,377 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-27 22:42:07,377 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-27 22:42:07,377 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-27 22:42:07,377 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-27 22:42:07,378 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-27 22:42:07,378 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-27 22:42:07,379 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-27 22:42:07,379 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-27 22:42:07,380 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-27 22:42:07,380 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-27 22:42:07,380 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-27 22:42:07,380 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-27 22:42:07,380 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-27 22:42:07,380 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-27 22:42:07,381 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-11-27 22:42:07,381 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-11-27 22:42:07,383 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-27 22:42:07,383 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-27 22:42:07,388 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-27 22:42:07,388 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-27 22:42:07,392 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-27 22:42:07,392 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-27 22:42:13,388 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-11-27 22:42:13,388 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-11-27 22:42:13,831 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2024-11-27 22:42:13,831 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2024-11-27 22:42:13,840 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2024-11-27 22:42:13,840 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2024-11-27 22:42:13,850 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-freemarker-config-dev.yaml,xuecheng-plus-common'}]
+2024-11-27 22:42:13,850 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-freemarker-config-dev.yaml,xuecheng-plus-common'}]
+2024-11-27 22:42:13,865 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-27 22:42:13,865 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-27 22:42:14,332 INFO [main][GenericScope.java:295] - BeanFactory id=b5fcc6f5-a846-367e-a072-fb8a62fb5208
+2024-11-27 22:42:14,332 INFO [main][GenericScope.java:295] - BeanFactory id=b5fcc6f5-a846-367e-a072-fb8a62fb5208
+2024-11-27 22:42:14,443 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-27 22:42:14,444 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-27 22:42:14,443 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-27 22:42:14,444 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-27 22:42:14,444 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-27 22:42:14,444 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-27 22:42:14,448 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-27 22:42:14,448 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-27 22:42:14,448 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-27 22:42:14,448 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-27 22:42:14,449 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-27 22:42:14,450 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-27 22:42:14,450 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-27 22:42:14,450 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-27 22:42:14,450 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-27 22:42:14,450 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-27 22:42:14,450 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-27 22:42:14,511 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2024-11-27 22:42:14,511 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2024-11-27 22:42:14,516 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2024-11-27 22:42:14,516 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2024-11-27 22:42:14,516 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-11-27 22:42:14,516 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-11-27 22:42:14,516 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-11-27 22:42:14,516 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-11-27 22:42:14,567 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-11-27 22:42:14,567 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-11-27 22:42:14,567 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 695 ms
+2024-11-27 22:42:14,567 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 695 ms
+2024-11-27 22:42:15,205 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-27 22:42:15,205 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-27 22:42:15,223 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-27 22:42:15,223 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-27 22:42:15,223 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-27 22:42:15,223 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-27 22:42:15,227 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-27 22:42:15,227 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-27 22:42:15,227 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-27 22:42:15,227 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-27 22:42:15,278 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-27 22:42:15,278 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-27 22:42:15,376 DEBUG [reactor-http-nio-5][RoutePredicateHandlerMapping.java:149] - Route matched: content-api
+2024-11-27 22:42:15,376 DEBUG [reactor-http-nio-5][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://gatewayserver/content/course/list?pageNo=7&pageSize=10] to Route{id='content-api', uri=lb://content-api, order=0, predicate=Paths: [/content/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-27 22:42:15,376 DEBUG [reactor-http-nio-5][AbstractHandlerMapping.java:183] - [39ce3c69-27] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@7322bfb4
+2024-11-27 22:42:15,376 DEBUG [reactor-http-nio-5][RoutePredicateHandlerMapping.java:149] - Route matched: content-api
+2024-11-27 22:42:15,377 DEBUG [reactor-http-nio-5][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-27 22:42:15,376 DEBUG [reactor-http-nio-5][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://gatewayserver/content/course/list?pageNo=7&pageSize=10] to Route{id='content-api', uri=lb://content-api, order=0, predicate=Paths: [/content/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-27 22:42:15,376 DEBUG [reactor-http-nio-5][AbstractHandlerMapping.java:183] - [39ce3c69-27] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@7322bfb4
+2024-11-27 22:42:15,377 DEBUG [reactor-http-nio-5][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-27 22:42:15,509 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:42:15,509 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:42:15,722 WARN [main][BlockingLoadBalancerClientAutoConfiguration.java:108] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-11-27 22:42:15,722 WARN [main][BlockingLoadBalancerClientAutoConfiguration.java:108] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-11-27 22:42:15,784 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-27 22:42:15,784 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-27 22:42:15,784 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-27 22:42:15,784 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-27 22:42:15,784 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-27 22:42:15,784 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-27 22:42:15,843 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2024-11-27 22:42:15,843 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2024-11-27 22:42:15,855 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2024-11-27 22:42:15,855 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2024-11-27 22:42:15,856 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63040, ip='172.18.210.246', weight=1.0, serviceName='physicaleducation-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-11-27 22:42:15,856 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63040, ip='172.18.210.246', weight=1.0, serviceName='physicaleducation-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-11-27 22:42:15,856 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-11-27 22:42:15,856 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-11-27 22:42:15,867 INFO [main][NacosServiceRegistry.java:75] - nacos registry, physicaleducation-plus-project content-api 172.18.210.246:63040 register finished
+2024-11-27 22:42:15,867 INFO [main][NacosServiceRegistry.java:75] - nacos registry, physicaleducation-plus-project content-api 172.18.210.246:63040 register finished
+2024-11-27 22:42:15,905 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27 22:42:15,905 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27 22:42:15,905 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-11-27 22:42:15,905 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-11-27 22:42:15,911 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2024-11-27 22:42:15,911 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 6 ms
+2024-11-27 22:42:15,980 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-11-27 22:42:15,980 INFO [http-nio-63040-exec-1][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-11-27 22:42:16,017 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-11-27 22:42:16,017 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-11-27 22:42:16,023 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-11-27 22:42:16,023 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-11-27 22:42:16,043 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-11-27 22:42:16,043 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-11-27 22:42:16,108 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-11-27 22:42:16,108 INFO [http-nio-63040-exec-1][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-11-27 22:42:16,181 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 3.219 seconds (JVM running for 3.781)
+2024-11-27 22:42:16,181 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 3.219 seconds (JVM running for 3.781)
+2024-11-27 22:42:16,185 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] freemarker-config-dev.yaml+xuecheng-plus-common+dev
+2024-11-27 22:42:16,185 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] freemarker-config-dev.yaml+xuecheng-plus-common+dev
+2024-11-27 22:42:16,185 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=freemarker-config-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-27 22:42:16,185 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=freemarker-config-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-27 22:42:16,185 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api.yaml+xuecheng-plus-project+dev
+2024-11-27 22:42:16,185 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api.yaml+xuecheng-plus-project+dev
+2024-11-27 22:42:16,185 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:42:16,185 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:42:16,185 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api+xuecheng-plus-project+dev
+2024-11-27 22:42:16,185 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api+xuecheng-plus-project+dev
+2024-11-27 22:42:16,185 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:42:16,185 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:42:16,189 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api-dev.yaml+xuecheng-plus-project+dev
+2024-11-27 22:42:16,189 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api-dev.yaml+xuecheng-plus-project+dev
+2024-11-27 22:42:16,189 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:42:16,189 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:42:16,571 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:42:16,571 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:42:16,577 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:42:16,577 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:42:16,864 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-27 22:42:16,864 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-27 22:42:16,869 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-27 22:42:16,869 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-27 22:42:24,658 DEBUG [reactor-http-nio-6][RoutePredicateHandlerMapping.java:149] - Route matched: content-api
+2024-11-27 22:42:24,658 DEBUG [reactor-http-nio-6][RoutePredicateHandlerMapping.java:149] - Route matched: content-api
+2024-11-27 22:42:24,658 DEBUG [reactor-http-nio-6][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://gatewayserver/content/courseaudit/commit/124] to Route{id='content-api', uri=lb://content-api, order=0, predicate=Paths: [/content/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-27 22:42:24,658 DEBUG [reactor-http-nio-6][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://gatewayserver/content/courseaudit/commit/124] to Route{id='content-api', uri=lb://content-api, order=0, predicate=Paths: [/content/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-27 22:42:24,658 DEBUG [reactor-http-nio-6][AbstractHandlerMapping.java:183] - [13c588ed-28] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@7322bfb4
+2024-11-27 22:42:24,658 DEBUG [reactor-http-nio-6][AbstractHandlerMapping.java:183] - [13c588ed-28] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@7322bfb4
+2024-11-27 22:42:24,658 DEBUG [reactor-http-nio-6][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-27 22:42:24,658 DEBUG [reactor-http-nio-6][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-27 22:42:24,690 ERROR [http-nio-63040-exec-3][GlobalExceptionHandler.java:27] - 【系统异常】本机构只能提交本机构的课程
+2024-11-27 22:42:24,690 ERROR [http-nio-63040-exec-3][GlobalExceptionHandler.java:27] - 【系统异常】本机构只能提交本机构的课程
+2024-11-27 22:42:24,986 DEBUG [reactor-http-nio-7][RoutePredicateHandlerMapping.java:149] - Route matched: content-api
+2024-11-27 22:42:24,986 DEBUG [reactor-http-nio-7][RoutePredicateHandlerMapping.java:149] - Route matched: content-api
+2024-11-27 22:42:24,986 DEBUG [reactor-http-nio-7][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://gatewayserver/content/course/list?pageNo=7&pageSize=10] to Route{id='content-api', uri=lb://content-api, order=0, predicate=Paths: [/content/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-27 22:42:24,986 DEBUG [reactor-http-nio-7][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://gatewayserver/content/course/list?pageNo=7&pageSize=10] to Route{id='content-api', uri=lb://content-api, order=0, predicate=Paths: [/content/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-27 22:42:24,986 DEBUG [reactor-http-nio-7][AbstractHandlerMapping.java:183] - [5388c511-29] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@7322bfb4
+2024-11-27 22:42:24,986 DEBUG [reactor-http-nio-7][AbstractHandlerMapping.java:183] - [5388c511-29] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@7322bfb4
+2024-11-27 22:42:24,986 DEBUG [reactor-http-nio-7][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-27 22:42:24,986 DEBUG [reactor-http-nio-7][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-27 22:42:44,455 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-27 22:42:44,455 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-27 22:42:44,456 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-27 22:42:44,456 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-27 22:42:44,456 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-27 22:42:44,456 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-27 22:42:44,456 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-27 22:42:44,456 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-27 22:42:44,456 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-27 22:42:44,456 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-27 22:42:44,457 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-27 22:42:44,457 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-27 22:42:44,457 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-27 22:42:44,457 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-27 22:42:44,457 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-27 22:42:44,457 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-27 22:42:44,457 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-27 22:42:44,457 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-27 22:42:44,458 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-27 22:42:44,458 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-27 22:42:44,458 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-27 22:42:44,458 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-27 22:42:44,458 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-27 22:42:44,458 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-27 22:42:44,458 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-27 22:42:44,458 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-27 22:42:44,459 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-27 22:42:44,459 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-27 22:42:44,459 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-27 22:42:44,459 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-27 22:42:44,459 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-27 22:42:44,459 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-27 22:43:14,476 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-27 22:43:14,476 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-27 22:43:14,477 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-27 22:43:14,477 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-27 22:43:14,477 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-27 22:43:14,477 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-27 22:43:14,478 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-27 22:43:14,478 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-27 22:43:14,478 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-27 22:43:14,478 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-27 22:43:14,479 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-27 22:43:14,479 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-27 22:43:14,479 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-27 22:43:14,479 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-27 22:43:14,479 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-27 22:43:14,479 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-27 22:43:14,479 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-27 22:43:14,479 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-27 22:43:14,480 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-27 22:43:14,480 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-27 22:43:14,480 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-27 22:43:14,480 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-27 22:43:14,481 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-27 22:43:14,481 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-27 22:43:14,481 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-27 22:43:14,481 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-27 22:43:14,481 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-27 22:43:14,481 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-27 22:43:14,481 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-27 22:43:14,481 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-27 22:43:14,482 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-27 22:43:14,482 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-27 22:43:35,617 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-27 22:43:35,617 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-27 22:43:35,617 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-27 22:43:35,617 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-27 22:43:35,617 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-27 22:43:35,617 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-27 22:43:35,618 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-27 22:43:35,618 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-27 22:43:35,733 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:43:35,733 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:43:35,734 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-27 22:43:35,734 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-27 22:43:35,734 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@content-api:172.18.210.246:63040 from beat map.
+2024-11-27 22:43:35,734 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@content-api:172.18.210.246:63040 from beat map.
+2024-11-27 22:43:35,735 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-27 22:43:35,735 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-27 22:43:35,741 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-27 22:43:35,741 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-27 22:43:35,741 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-27 22:43:35,741 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-27 22:43:36,159 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-27 22:43:36,159 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-27 22:43:36,160 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-27 22:43:36,160 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-27 22:43:36,739 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:43:36,739 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:43:36,744 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api -> []
+2024-11-27 22:43:36,744 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api -> []
+2024-11-27 22:43:37,005 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-27 22:43:37,005 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-27 22:43:37,010 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api@@DEFAULT -> []
+2024-11-27 22:43:37,010 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api@@DEFAULT -> []
+2024-11-27 22:43:37,011 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-27 22:43:37,011 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-27 22:43:40,043 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-27 22:43:40,043 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-27 22:43:40,046 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-27 22:43:40,046 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-27 22:43:40,047 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-27 22:43:40,047 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-27 22:43:40,047 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-27 22:43:40,047 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-27 22:43:40,048 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-27 22:43:40,048 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-27 22:43:40,053 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-27 22:43:40,053 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-27 22:43:40,055 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-27 22:43:40,055 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-27 22:43:40,057 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-27 22:43:40,057 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-27 22:43:40,057 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-27 22:43:40,057 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-27 22:43:40,057 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-27 22:43:40,057 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-27 22:43:40,057 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-11-27 22:43:40,057 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-11-27 22:43:40,058 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-27 22:43:40,058 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-27 22:43:40,061 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-27 22:43:40,061 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-27 22:43:40,065 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-27 22:43:40,065 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-27 22:43:44,487 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-27 22:43:44,487 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-27 22:43:44,487 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-27 22:43:44,487 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-27 22:43:44,487 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-27 22:43:44,487 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-27 22:43:44,488 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-27 22:43:44,489 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-27 22:43:44,489 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-27 22:43:44,489 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-27 22:43:44,489 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-27 22:43:44,489 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-27 22:43:44,489 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-27 22:43:44,489 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-27 22:43:44,489 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-27 22:43:44,489 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-27 22:43:44,489 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-27 22:43:44,490 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-27 22:43:44,490 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-27 22:43:44,490 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-27 22:43:44,490 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-27 22:43:45,351 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-11-27 22:43:45,351 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-11-27 22:43:45,797 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2024-11-27 22:43:45,797 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2024-11-27 22:43:45,806 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2024-11-27 22:43:45,806 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2024-11-27 22:43:45,817 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-freemarker-config-dev.yaml,xuecheng-plus-common'}]
+2024-11-27 22:43:45,817 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-freemarker-config-dev.yaml,xuecheng-plus-common'}]
+2024-11-27 22:43:45,832 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-27 22:43:45,832 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-27 22:43:46,252 INFO [main][GenericScope.java:295] - BeanFactory id=b5fcc6f5-a846-367e-a072-fb8a62fb5208
+2024-11-27 22:43:46,252 INFO [main][GenericScope.java:295] - BeanFactory id=b5fcc6f5-a846-367e-a072-fb8a62fb5208
+2024-11-27 22:43:46,455 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2024-11-27 22:43:46,455 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2024-11-27 22:43:46,460 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2024-11-27 22:43:46,460 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2024-11-27 22:43:46,460 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-11-27 22:43:46,460 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-11-27 22:43:46,460 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-11-27 22:43:46,460 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-11-27 22:43:46,508 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-11-27 22:43:46,508 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-11-27 22:43:46,509 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 669 ms
+2024-11-27 22:43:46,509 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 669 ms
+2024-11-27 22:43:47,096 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-27 22:43:47,096 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-27 22:43:47,110 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-27 22:43:47,110 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-27 22:43:47,110 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-27 22:43:47,110 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-27 22:43:47,112 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-27 22:43:47,112 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-27 22:43:47,112 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-27 22:43:47,112 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-27 22:43:47,153 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-27 22:43:47,153 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-27 22:43:47,355 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:43:47,355 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:43:47,555 WARN [main][BlockingLoadBalancerClientAutoConfiguration.java:108] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-11-27 22:43:47,555 WARN [main][BlockingLoadBalancerClientAutoConfiguration.java:108] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-11-27 22:43:47,618 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-27 22:43:47,618 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-27 22:43:47,618 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-27 22:43:47,618 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-27 22:43:47,618 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-27 22:43:47,618 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-27 22:43:47,666 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2024-11-27 22:43:47,666 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2024-11-27 22:43:47,675 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2024-11-27 22:43:47,675 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2024-11-27 22:43:47,678 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63040, ip='172.18.210.246', weight=1.0, serviceName='physicaleducation-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-11-27 22:43:47,678 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63040, ip='172.18.210.246', weight=1.0, serviceName='physicaleducation-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-11-27 22:43:47,678 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-11-27 22:43:47,678 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-11-27 22:43:47,685 INFO [main][NacosServiceRegistry.java:75] - nacos registry, physicaleducation-plus-project content-api 172.18.210.246:63040 register finished
+2024-11-27 22:43:47,685 INFO [main][NacosServiceRegistry.java:75] - nacos registry, physicaleducation-plus-project content-api 172.18.210.246:63040 register finished
+2024-11-27 22:43:47,819 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-11-27 22:43:47,819 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-11-27 22:43:47,828 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-11-27 22:43:47,828 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-11-27 22:43:47,850 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-11-27 22:43:47,850 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-11-27 22:43:47,959 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 3.024 seconds (JVM running for 3.553)
+2024-11-27 22:43:47,959 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 3.024 seconds (JVM running for 3.553)
+2024-11-27 22:43:47,962 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] freemarker-config-dev.yaml+xuecheng-plus-common+dev
+2024-11-27 22:43:47,962 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] freemarker-config-dev.yaml+xuecheng-plus-common+dev
+2024-11-27 22:43:47,962 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=freemarker-config-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-27 22:43:47,962 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=freemarker-config-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-27 22:43:47,962 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api.yaml+xuecheng-plus-project+dev
+2024-11-27 22:43:47,962 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api.yaml+xuecheng-plus-project+dev
+2024-11-27 22:43:47,962 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:43:47,962 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:43:47,963 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api+xuecheng-plus-project+dev
+2024-11-27 22:43:47,963 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:43:47,963 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api+xuecheng-plus-project+dev
+2024-11-27 22:43:47,963 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:43:47,964 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api-dev.yaml+xuecheng-plus-project+dev
+2024-11-27 22:43:47,964 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api-dev.yaml+xuecheng-plus-project+dev
+2024-11-27 22:43:47,965 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:43:47,965 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-27 22:43:48,708 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-27 22:43:48,708 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-27 22:43:48,716 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-27 22:43:48,716 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-27 22:43:50,789 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:43:50,789 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:43:50,796 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:43:50,796 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:43:51,086 DEBUG [reactor-http-nio-8][RoutePredicateHandlerMapping.java:149] - Route matched: content-api
+2024-11-27 22:43:51,086 DEBUG [reactor-http-nio-8][RoutePredicateHandlerMapping.java:149] - Route matched: content-api
+2024-11-27 22:43:51,086 DEBUG [reactor-http-nio-9][RoutePredicateHandlerMapping.java:149] - Route matched: content-api
+2024-11-27 22:43:51,086 DEBUG [reactor-http-nio-9][RoutePredicateHandlerMapping.java:149] - Route matched: content-api
+2024-11-27 22:43:51,086 DEBUG [reactor-http-nio-8][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://gatewayserver/content/courseaudit/commit/124] to Route{id='content-api', uri=lb://content-api, order=0, predicate=Paths: [/content/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-27 22:43:51,086 DEBUG [reactor-http-nio-8][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://gatewayserver/content/courseaudit/commit/124] to Route{id='content-api', uri=lb://content-api, order=0, predicate=Paths: [/content/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-27 22:43:51,087 DEBUG [reactor-http-nio-9][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://gatewayserver/content/course/list?pageNo=7&pageSize=10] to Route{id='content-api', uri=lb://content-api, order=0, predicate=Paths: [/content/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-27 22:43:51,087 DEBUG [reactor-http-nio-9][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://gatewayserver/content/course/list?pageNo=7&pageSize=10] to Route{id='content-api', uri=lb://content-api, order=0, predicate=Paths: [/content/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-27 22:43:51,087 DEBUG [reactor-http-nio-8][AbstractHandlerMapping.java:183] - [83caa09a-30] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@7322bfb4
+2024-11-27 22:43:51,087 DEBUG [reactor-http-nio-8][AbstractHandlerMapping.java:183] - [83caa09a-30] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@7322bfb4
+2024-11-27 22:43:51,087 DEBUG [reactor-http-nio-9][AbstractHandlerMapping.java:183] - [15ae495c-31] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@7322bfb4
+2024-11-27 22:43:51,087 DEBUG [reactor-http-nio-9][AbstractHandlerMapping.java:183] - [15ae495c-31] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@7322bfb4
+2024-11-27 22:43:51,087 DEBUG [reactor-http-nio-9][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-27 22:43:51,087 DEBUG [reactor-http-nio-9][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-27 22:43:51,087 DEBUG [reactor-http-nio-8][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-27 22:43:51,087 DEBUG [reactor-http-nio-8][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-27 22:43:51,123 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27 22:43:51,123 INFO [http-nio-63040-exec-1][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-11-27 22:43:51,123 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-11-27 22:43:51,123 INFO [http-nio-63040-exec-1][FrameworkServlet.java:525] - Initializing Servlet 'dispatcherServlet'
+2024-11-27 22:43:51,127 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2024-11-27 22:43:51,127 INFO [http-nio-63040-exec-1][FrameworkServlet.java:547] - Completed initialization in 4 ms
+2024-11-27 22:43:51,153 INFO [http-nio-63040-exec-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-11-27 22:43:51,153 INFO [http-nio-63040-exec-2][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-11-27 22:43:51,305 INFO [http-nio-63040-exec-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-11-27 22:43:51,305 INFO [http-nio-63040-exec-2][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-11-27 22:44:01,293 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-27 22:44:01,293 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-27 22:44:01,293 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-27 22:44:01,293 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-27 22:44:01,294 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-27 22:44:01,294 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-27 22:44:01,294 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-27 22:44:01,294 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-27 22:44:01,404 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:44:01,404 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:44:01,405 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-27 22:44:01,405 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-27 22:44:01,405 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@content-api:172.18.210.246:63040 from beat map.
+2024-11-27 22:44:01,405 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@content-api:172.18.210.246:63040 from beat map.
+2024-11-27 22:44:01,405 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-27 22:44:01,405 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-27 22:44:01,413 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-27 22:44:01,413 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-27 22:44:01,413 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-27 22:44:01,413 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-27 22:44:02,721 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-27 22:44:02,721 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-27 22:44:02,722 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-27 22:44:02,722 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-27 22:44:05,750 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-27 22:44:05,750 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-27 22:44:08,761 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-27 22:44:08,762 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-27 22:44:08,762 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-27 22:44:08,763 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-27 22:44:08,763 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-27 22:44:08,761 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-27 22:44:08,762 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-27 22:44:08,762 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-27 22:44:08,763 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-27 22:44:08,763 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-27 22:44:08,764 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-27 22:44:08,765 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-27 22:44:08,764 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-27 22:44:08,765 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-27 22:44:08,765 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-27 22:44:08,765 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-27 22:44:08,765 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-27 22:44:08,765 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-27 22:44:08,765 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-27 22:44:08,765 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-27 22:44:08,765 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-11-27 22:44:08,765 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-11-27 22:44:08,766 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-27 22:44:08,766 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-27 22:44:08,769 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-27 22:44:08,769 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-27 22:44:08,773 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-27 22:44:08,773 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-27 22:44:09,620 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-27 22:44:09,620 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-27 22:44:09,620 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-27 22:44:09,620 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-27 22:44:09,621 INFO [Thread-35][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2024-11-27 22:44:09,621 INFO [Thread-35][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2024-11-27 22:44:09,621 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-27 22:44:09,621 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-27 22:44:09,623 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-27 22:44:09,623 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-27 22:44:09,630 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:44:09,630 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-27 22:44:09,632 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-27 22:44:09,632 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-27 22:44:09,632 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@gateway:172.18.210.246:63010 from beat map.
+2024-11-27 22:44:09,632 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@gateway:172.18.210.246:63010 from beat map.
+2024-11-27 22:44:09,632 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@gateway with instance: Instance{instanceId='null', ip='172.18.210.246', port=63010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-27 22:44:09,632 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@gateway with instance: Instance{instanceId='null', ip='172.18.210.246', port=63010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-27 22:44:09,639 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-27 22:44:09,639 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-27 22:44:09,639 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-27 22:44:09,639 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-27 22:44:10,830 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:44:10,830 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:44:10,835 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api -> []
+2024-11-27 22:44:10,835 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api -> []
+2024-11-27 22:44:12,657 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-27 22:44:12,657 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-27 22:44:12,659 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-27 22:44:12,659 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-27 22:44:12,758 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@gateway@@DEFAULT -> [{"instanceId":"172.18.210.246#63010#DEFAULT#physicaleducation-plus-project@@gateway","ip":"172.18.210.246","port":63010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:44:12,758 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@gateway@@DEFAULT -> [{"instanceId":"172.18.210.246#63010#DEFAULT#physicaleducation-plus-project@@gateway","ip":"172.18.210.246","port":63010,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000}]
+2024-11-27 22:44:12,767 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@gateway@@DEFAULT -> []
+2024-11-27 22:44:12,767 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@gateway@@DEFAULT -> []
+2024-11-27 22:44:12,854 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-27 22:44:12,854 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin

@@ -1,0 +1,38 @@
+2024-11-26 22:14:52,269 WARN [Thread-19][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-26 22:14:52,269 WARN [Thread-19][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-26 22:14:52,269 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-26 22:14:52,269 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-26 22:14:52,275 WARN [Thread-19][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-26 22:14:52,275 WARN [Thread-19][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-26 22:14:52,275 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-26 22:14:52,275 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-26 22:14:52,292 WARN [Thread-17][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-26 22:14:52,292 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-26 22:14:52,292 INFO [Thread-47][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2024-11-26 22:14:52,292 INFO [Thread-47][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2024-11-26 22:14:52,292 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-26 22:14:52,292 WARN [Thread-17][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-26 22:14:52,292 WARN [Thread-17][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-26 22:14:52,292 WARN [Thread-17][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-26 22:14:52,293 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-26 22:14:52,293 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-26 22:14:52,301 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-26 22:14:52,301 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-26 22:14:52,303 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-26 22:14:52,303 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-26 22:14:52,303 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@gateway:172.18.210.246:63010 from beat map.
+2024-11-26 22:14:52,303 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@gateway:172.18.210.246:63010 from beat map.
+2024-11-26 22:14:52,304 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@gateway with instance: Instance{instanceId='null', ip='172.18.210.246', port=63010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-26 22:14:52,304 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@gateway with instance: Instance{instanceId='null', ip='172.18.210.246', port=63010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-26 22:14:52,314 WARN [Thread-16][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-26 22:14:52,314 WARN [Thread-16][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-26 22:14:52,314 WARN [Thread-10][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-26 22:14:52,314 WARN [Thread-10][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-26 22:14:52,314 WARN [Thread-16][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-26 22:14:52,314 WARN [Thread-16][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-26 22:14:52,315 WARN [Thread-10][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-26 22:14:52,315 WARN [Thread-10][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-26 22:14:52,330 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-26 22:14:52,330 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-26 22:14:52,331 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-26 22:14:52,331 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin

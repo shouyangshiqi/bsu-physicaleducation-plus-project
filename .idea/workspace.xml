@@ -4,25 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="分布式处理视频转化（avi转化为mp4），利用xxl_job自动处理的整个逻辑功能板块完成。">
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseOpenController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CoursePublishController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/FreemarkerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/resources/templates/course_template.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/resources/templates/test.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/src/main/java/com/physicaleducation/content/model/dto/CoursePreviewDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/CoursePublishService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CoursePublishServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/java/com/physicaleducation/media/api/MediaOpenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" afterDir="false" />
+    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="课程内容预览接口+媒资资源播放接口">
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/config/XxlJobConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/jobhandler/CoursePublishTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/CoursePublishServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/ContentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/ContentApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CoursePublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CoursePublishController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/MediaFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/MediaFileService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/resources/templates/course_template.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/resources/templates/course_template.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/CoursePublishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/CoursePublishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseBaseInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CoursePublishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CoursePublishServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,6 +131,7 @@
     "JUnit.CourseBaseMapperTests.testCourseBaseMapper.executor": "Run",
     "JUnit.CourseCategoryServiceImplTests.testCourseBaseMapper.executor": "Run",
     "JUnit.CourseCategoryServiceImplTests.testSql.executor": "Run",
+    "JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd.executor": "Run",
     "JUnit.MinioTest.getFile.executor": "Run",
     "JUnit.MinioTest.testMd5.executor": "Run",
     "JUnit.MinioTest.upload.executor": "Run",
@@ -162,13 +162,13 @@
     "Spring Boot.ContentApplication (1).executor": "Run",
     "Spring Boot.ContentApplication.executor": "Run",
     "Spring Boot.ContentApplication2.executor": "Run",
-    "Spring Boot.MediaApplication.executor": "Debug",
+    "Spring Boot.MediaApplication.executor": "Run",
     "Spring Boot.PhysicalEducationGatewayApplication.executor": "Run",
     "Spring Boot.SystemApplication.executor": "Run",
     "git-widget-placeholder": "dev",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/resources/templates",
+    "last_opened_file_path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -218,6 +218,7 @@
       <recent name="com.physicaleducation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.physicaleducation.content.config" />
       <recent name="com.physicaleducation.content" />
       <recent name="com.physicaleducation.content.model" />
     </key>
@@ -232,12 +233,25 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.sc-content-api | 查询课程信息">
+  <component name="RunManager" selected="JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd">
     <configuration name="sc-content-api | 查询课程信息" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" requestIdentifier="查询课程信息" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="sc-content-api | 查询课程信息" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" requestIdentifier="查询课程信息" runType="Run single request">
-      <method v="2" />
+    <configuration name="CoursePublishServiceImplTest.saveCoursePublishMessageAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-content-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.content.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.physicaleducation.content" />
+      <option name="MAIN_CLASS_NAME" value="com.physicaleducation.content.CoursePublishServiceImplTest" />
+      <option name="METHOD_NAME" value="saveCoursePublishMessageAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="physicaleducation-plus-content-api" />
@@ -292,7 +306,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.sc-content-api | 查询课程信息" />
+      <item itemvalue="JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd" />
       <item itemvalue="Spring Boot.ContentApplication" />
       <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
       <item itemvalue="Spring Boot.SystemApplication" />
@@ -301,10 +315,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ContentApplication" />
+        <item itemvalue="JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd" />
         <item itemvalue="Spring Boot.MediaApplication" />
         <item itemvalue="Spring Boot.SystemApplication" />
         <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
-        <item itemvalue="HTTP Request.sc-content-api | 查询课程信息" />
       </list>
     </recent_temporary>
   </component>
@@ -338,7 +352,9 @@
       <workItem from="1732585020881" duration="931000" />
       <workItem from="1732585967706" duration="29868000" />
       <workItem from="1732672323293" duration="4597000" />
-      <workItem from="1732678655147" duration="10989000" />
+      <workItem from="1732678655147" duration="18490000" />
+      <workItem from="1732758437990" duration="796000" />
+      <workItem from="1732777350531" duration="10621000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构">
       <option name="closed" value="true" />
@@ -452,7 +468,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732618916756</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="课程内容预览接口+媒资资源播放接口">
+      <option name="closed" value="true" />
+      <created>1732699474493</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732699474493</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +506,8 @@
     <MESSAGE value="上传图片接口完成" />
     <MESSAGE value="上传视频接口完成" />
     <MESSAGE value="分布式处理视频转化（avi转化为mp4），利用xxl_job自动处理的整个逻辑功能板块完成。" />
-    <option name="LAST_COMMIT_MESSAGE" value="分布式处理视频转化（avi转化为mp4），利用xxl_job自动处理的整个逻辑功能板块完成。" />
+    <MESSAGE value="课程内容预览接口+媒资资源播放接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="课程内容预览接口+媒资资源播放接口" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

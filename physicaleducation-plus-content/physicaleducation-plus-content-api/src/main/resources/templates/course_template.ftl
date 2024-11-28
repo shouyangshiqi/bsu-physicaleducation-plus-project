@@ -106,12 +106,16 @@
                         <div class="content-com course">
                             <div class="title"><span>课程制作</span></div>
                             <div class="cont">
-                                <img src="http://file.51xuecheng.cn${model.courseTeacher[0].photograph}" alt="" width="270" height="156">
                                 <div class="info-box">
                                     <#list model.courseTeacher as item>
-                                        <p class="name">教学方：<em>${item.teacherName}</em></p>
-                                        <p class="info">${item.introduction}</p>
+                                        <img src="http://file.51xuecheng.cn${item.photograph}" alt="" width="270" height="156">
+                                        <p class="name">教学方：<em>${item.teacherName!"未知名教师"}</em></p>
+                                        <p class="info">${item.introduction!"暂无介绍"}</p>
+                                    <#else>
+                                        <p class="name">教学方：<em>XX老师</em></p>
+                                        <p class="lab">高级前端开发工程师 10年开发经验</p>
                                     </#list>
+
                                    <#-- <p class="name">教学方：<em>XX老师</em></p>
                                     <!-- <p class="lab">高级前端开发工程师 10年开发经验</p>&ndash;&gt;
                                     <p class="info">JavaEE开发与教学多年，精通JavaEE技术体系，对流行框架JQuery、DWR、Struts1/2，Hibernate，Spring，MyBatis、JBPM、Lucene等有深入研究。授课逻辑严谨，条理清晰，注重学生独立解决问题的能力。</p>

@@ -1,0 +1,4 @@
+2024-11-28 17:10:50,272 ERROR [http-nio-63040-exec-7][GlobalExceptionHandler.java:27] - 【系统异常】只能发布本机构的课程
+2024-11-28 17:11:52,645 ERROR [http-nio-63040-exec-10][GlobalExceptionHandler.java:27] - 【系统异常】只能发布本机构的课程
+2024-11-28 17:13:54,495 ERROR [http-nio-63040-exec-2][GlobalExceptionHandler.java:27] - 【系统异常】只能发布本机构的课程
+2024-11-28 17:15:02,894 ERROR [http-nio-63040-exec-4][GlobalExceptionHandler.java:27] - 【系统异常】只能发布本机构的课程

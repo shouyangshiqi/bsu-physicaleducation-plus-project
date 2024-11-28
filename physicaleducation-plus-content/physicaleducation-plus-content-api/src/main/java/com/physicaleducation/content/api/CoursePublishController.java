@@ -2,10 +2,13 @@ package com.physicaleducation.content.api;
 
 import com.physicaleducation.content.model.dto.CoursePreviewDto;
 import com.physicaleducation.content.service.CoursePublishService;
+import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
@@ -30,4 +33,18 @@ public class CoursePublishController {
         return modelAndView;
     }
 
+    @ResponseBody
+    @PostMapping("/courseaudit/commit/{courseId}")
+    public void commitAudit(@PathVariable("courseId") Long courseId){
+        Long companyId = 1232141425L;
+        coursePublishService.commitAudit(companyId, courseId);
+    }
+
+    @ApiOperation("课程发布")
+    @ResponseBody
+    @PostMapping ("/coursepublish/{courseId}")
+    public void coursepublish(@PathVariable("courseId") Long courseId){
+        Long companyId = 1232141425L;
+        coursePublishService.coursepublish(companyId, courseId);
+    }
 }

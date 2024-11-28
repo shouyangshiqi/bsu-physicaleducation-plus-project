@@ -26,6 +26,19 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <!-- xxl-job -->
+        <dependency>
+            <groupId>com.xuxueli</groupId>
+            <artifactId>xxl-job-core</artifactId>
+        </dependency>
+
+        <!-- Message-sdk -->
+        <dependency>
+            <groupId>com.physicaleducation</groupId>
+            <artifactId>physicaleducation-plus-message-sdk</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
         <!-- MySQL 驱动 -->
         <dependency>
             <groupId>mysql</groupId>
