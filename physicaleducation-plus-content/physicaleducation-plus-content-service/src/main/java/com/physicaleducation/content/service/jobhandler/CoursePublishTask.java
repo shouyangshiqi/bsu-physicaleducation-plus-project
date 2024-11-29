@@ -1,28 +1,21 @@
 package com.physicaleducation.content.service.jobhandler;
 
-import com.physicaleducation.content.config.MultipartSupportConfig;
-import com.physicaleducation.content.feignclient.MediaServiceClient;
-import com.physicaleducation.content.model.dto.CoursePreviewDto;
+import com.physicaleducation.content.feignclient.SearchServiceClient;
+import com.physicaleducation.content.mapper.CoursePublishMapper;
+import com.physicaleducation.content.model.po.CourseIndex;
+import com.physicaleducation.content.model.po.CoursePublish;
 import com.physicaleducation.content.service.CoursePublishService;
 import com.physicaleducation.execption.PEPlusException;
 import com.physicaleducation.messagesdk.model.po.MqMessage;
 import com.physicaleducation.messagesdk.service.MessageProcessAbstract;
 import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;
-import freemarker.template.Configuration;
-import freemarker.template.Template;
 import lombok.extern.slf4j.Slf4j;
-import org.apache.commons.io.IOUtils;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
-import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -36,6 +29,12 @@ public class CoursePublishTask extends MessageProcessAbstract {
 
     @Autowired
     private CoursePublishService coursePublishService;
+
+    @Autowired
+    private CoursePublishMapper coursePublishMapper;
+
+    @Autowired
+    private SearchServiceClient searchServiceClient;
 
 
     //任务调度入口
@@ -91,6 +90,7 @@ public class CoursePublishTask extends MessageProcessAbstract {
     //将课程信息缓存至redis
     public void saveCourseCache(MqMessage mqMessage,long courseId){
         log.debug("将课程信息缓存至redis,课程id:{}",courseId);
+        // TODO: 将课程信息保存到Redis中
         try {
             TimeUnit.SECONDS.sleep(2);
         } catch (InterruptedException e) {
@@ -100,11 +100,27 @@ public class CoursePublishTask extends MessageProcessAbstract {
     //保存课程索引信息
     public void saveCourseIndex(MqMessage mqMessage,long courseId){
         log.debug("保存课程索引信息,课程id:{}",courseId);
-        try {
-            TimeUnit.SECONDS.sleep(2);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+
+        // 检查索引是否已经添加
+        Long id = mqMessage.getId();
+        int stageTwo = mqMessageService.getStageTwo(id);
+        if(stageTwo > 0){
+            log.debug("课程索引已处理直接返回，课程id:{}",courseId);
+            return ;
         }
+
+        // 取出课程发布的信息
+        CoursePublish coursePublish = coursePublishMapper.selectById(courseId);
+        CourseIndex courseIndex = new CourseIndex();
+        BeanUtils.copyProperties(coursePublish, courseIndex);
+
+        Boolean add = searchServiceClient.add(courseIndex);
+        if(!add){
+            PEPlusException.cast("添加索引失败");
+        }
+
+        // 保存状态
+        mqMessageService.completedStageTwo(id);
 
     }
 }

@@ -5,7 +5,6 @@ import com.physicaleducation.media.mapper.MediaProcessMapper;
 import com.physicaleducation.media.model.po.MediaProcess;
 import com.physicaleducation.media.model.po.MediaProcessHistory;
 import com.physicaleducation.media.service.MediaFileProcessService;
-import com.physicaleducation.media.service.MediaFileService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

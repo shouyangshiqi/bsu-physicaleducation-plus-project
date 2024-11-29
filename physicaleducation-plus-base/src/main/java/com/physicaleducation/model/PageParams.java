@@ -1,7 +1,6 @@
 package com.physicaleducation.model;
 
 
-import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
 import lombok.Data;
 import lombok.ToString;

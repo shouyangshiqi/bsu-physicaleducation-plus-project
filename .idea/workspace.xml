@@ -4,34 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="磕碜审核+课程发布">
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/config/MultipartSupportConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/feignclient/MediaServiceClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/feignclient/MediaServiceClientFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/feignclient/MediaServiceClientFallbackFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/FeignUploadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/FreemarkerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/GenerateCourseHtmlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/resources/templates/course_template.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/resources/templates/test.ftl" afterDir="false" />
+    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="feign远程调用+生成静态页面">
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/src/main/java/com/physicaleducation/content/model/po/CourseIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/feignclient/SearchServiceClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/feignclient/SearchServiceClientFallbackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2024-11-28/info.2024-11-28-19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-28/info.2024-11-28-19.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2024-11-23/error.2024-11-23-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-23/error.2024-11-23-13.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2024-11-23/error.2024-11-23-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-23/error.2024-11-23-15.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2024-11-23/error.2024-11-23-16.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-23/error.2024-11-23-16.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2024-11-25/info.2024-11-25-11.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-25/info.2024-11-25-11.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2024-11-25/info.2024-11-25-19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-25/info.2024-11-25-19.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2024-11-26/info.2024-11-26-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-26/info.2024-11-26-12.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2024-11-27/error.2024-11-27-10.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-27/error.2024-11-27-10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2024-11-27/error.2024-11-27-19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-27/error.2024-11-27-19.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2024-11-27/error.2024-11-27-20.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-27/error.2024-11-27-20.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2024-11-27/info.2024-11-27-12.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-27/info.2024-11-27-12.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/model/PageParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/model/PageParams.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/ContentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/ContentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseBaseInfoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/src/main/java/com/physicaleducation/content/model/dto/AddCourseDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/src/main/java/com/physicaleducation/content/model/dto/AddCourseDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/src/main/java/com/physicaleducation/content/model/dto/CourseBaseInfoDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-model/src/main/java/com/physicaleducation/content/model/dto/CourseBaseInfoDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/config/XxlJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/config/XxlJobConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/CoursePublishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/CoursePublishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/feignclient/MediaServiceClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/feignclient/MediaServiceClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/mapper/CourseCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/mapper/CourseCategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/CourseBaseInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/CourseBaseInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseBaseInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseBaseInfoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CourseCategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CoursePublishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/impl/CoursePublishServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/jobhandler/CoursePublishTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/jobhandler/CoursePublishTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/ContentApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/ContentApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/java/com/physicaleducation/media/api/MediaFilesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/java/com/physicaleducation/media/api/MediaFilesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/MediaFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/MediaFileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/CourseBaseInfoServiceImplTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/CourseBaseInfoServiceImplTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/CourseCategoryServiceImplTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/CourseCategoryServiceImplTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/GenerateCourseHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/GenerateCourseHtmlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/physicaleducation/media/model/dto/UploadFileResultDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java/com/physicaleducation/media/model/dto/UploadFileResultDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileProcessServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileProcessServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/jobhandler/SampleXxlJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/jobhandler/SampleXxlJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/jobhandler/VideoTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/jobhandler/VideoTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-message-sdk/src/main/java/com/physicaleducation/messagesdk/config/MybatisPlusConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-message-sdk/src/main/java/com/physicaleducation/messagesdk/config/MybatisPlusConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CourseBaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CourseBaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CourseCategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CourseCategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CourseMarketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CourseMarketController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CoursePublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CoursePublishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CoursePublishPreController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CoursePublishPreController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CourseTeacherController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/CourseTeacherController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/TeachplanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/TeachplanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/TeachplanMediaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/controller/TeachplanMediaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CourseBaseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CourseBaseMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CourseCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CourseCategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CourseMarketMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CourseMarketMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CoursePublishMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CoursePublishMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CoursePublishPreMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CoursePublishPreMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CourseTeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/CourseTeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/TeachplanMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/TeachplanMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/TeachplanMediaMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/mapper/TeachplanMediaMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CourseBaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CourseBaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CourseCategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CourseCategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CourseMarketServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CourseMarketServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CoursePublishPreServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CoursePublishPreServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CoursePublishServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CoursePublishServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CourseTeacherServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/CourseTeacherServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/TeachplanMediaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/TeachplanMediaServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/TeachplanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/xuecheng-plus-generator/src/main/java/com/physicaleducation/content/service/impl/TeachplanServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,6 +184,7 @@
     "JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd.executor": "Run",
     "JUnit.FeignUploadTest.test.executor": "Run",
     "JUnit.FreemarkerTest.testGenerateHtmlByTemplate.executor": "Debug",
+    "JUnit.GenerateCourseHtmlTest.testGenerate.executor": "Debug",
     "JUnit.MinioTest.getFile.executor": "Run",
     "JUnit.MinioTest.testMd5.executor": "Run",
     "JUnit.MinioTest.upload.executor": "Run",
@@ -176,6 +217,8 @@
     "Spring Boot.ContentApplication2.executor": "Run",
     "Spring Boot.MediaApplication.executor": "Run",
     "Spring Boot.PhysicalEducationGatewayApplication.executor": "Run",
+    "Spring Boot.SearchApplication (1).executor": "Run",
+    "Spring Boot.SearchApplication.executor": "Run",
     "Spring Boot.SystemApplication.executor": "Run",
     "git-widget-placeholder": "dev",
     "jdk.selected.JAVA_MODULE": "1.8",
@@ -192,7 +235,7 @@
     "project.structure.side.proportion": "0.36666667",
     "rest.client.default.execution.environment": "dev",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.ignored.files",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -230,6 +273,7 @@
       <recent name="com.physicaleducation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.physicaleducation.content.model.po" />
       <recent name="com.physicaleducation.content.config" />
       <recent name="com.physicaleducation.content" />
       <recent name="com.physicaleducation.content.model" />
@@ -245,7 +289,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GenerateCourseHtmlTest.testGenerate">
+  <component name="RunManager" selected="Spring Boot.SearchApplication">
     <configuration name="FeignUploadTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="physicaleducation-plus-content-service" />
       <extension name="coverage">
@@ -278,19 +322,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-media-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.MediaApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.physicaleducation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PhysicalEducationGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="physicaleducation-plus-gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.PhysicalEducationGatewayApplication" />
@@ -304,12 +335,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xuecheng-plus-system-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.system.SystemApplication" />
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.SearchApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.physicaleducation.system.*" />
+          <option name="PATTERN" value="com.physicaleducation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-search" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.SearchApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -321,16 +365,16 @@
       <item itemvalue="JUnit.GenerateCourseHtmlTest.testGenerate" />
       <item itemvalue="JUnit.FeignUploadTest.test" />
       <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
-      <item itemvalue="Spring Boot.SystemApplication" />
-      <item itemvalue="Spring Boot.MediaApplication" />
+      <item itemvalue="Spring Boot.SearchApplication" />
+      <item itemvalue="Spring Boot.SearchApplication (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SearchApplication" />
+        <item itemvalue="Spring Boot.SearchApplication (1)" />
         <item itemvalue="JUnit.GenerateCourseHtmlTest.testGenerate" />
         <item itemvalue="JUnit.FeignUploadTest.test" />
         <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
-        <item itemvalue="Spring Boot.SystemApplication" />
-        <item itemvalue="Spring Boot.MediaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -367,7 +411,7 @@
       <workItem from="1732678655147" duration="18490000" />
       <workItem from="1732758437990" duration="796000" />
       <workItem from="1732777350531" duration="17945000" />
-      <workItem from="1732842921230" duration="9328000" />
+      <workItem from="1732842921230" duration="18102000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构">
       <option name="closed" value="true" />
@@ -497,7 +541,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732798696559</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="feign远程调用+生成静态页面">
+      <option name="closed" value="true" />
+      <created>1732857768387</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732857768387</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,7 +581,8 @@
     <MESSAGE value="分布式处理视频转化（avi转化为mp4），利用xxl_job自动处理的整个逻辑功能板块完成。" />
     <MESSAGE value="课程内容预览接口+媒资资源播放接口" />
     <MESSAGE value="磕碜审核+课程发布" />
-    <option name="LAST_COMMIT_MESSAGE" value="磕碜审核+课程发布" />
+    <MESSAGE value="feign远程调用+生成静态页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="feign远程调用+生成静态页面" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -548,6 +601,11 @@
           <url>file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java</url>
           <line>294</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/GenerateCourseHtmlTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -2,7 +2,6 @@ package com.physicaleducation.content.mapper;
 
 import com.physicaleducation.content.model.po.CourseTeacher;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.springframework.stereotype.Repository;
 
 /**
  * <p>

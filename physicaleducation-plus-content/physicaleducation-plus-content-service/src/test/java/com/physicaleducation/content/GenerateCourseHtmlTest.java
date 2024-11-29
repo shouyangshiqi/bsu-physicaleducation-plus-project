@@ -3,7 +3,6 @@ package com.physicaleducation.content;
 import com.physicaleducation.content.service.jobhandler.CoursePublishTask;
 import com.physicaleducation.messagesdk.mapper.MqMessageMapper;
 import com.physicaleducation.messagesdk.model.po.MqMessage;
-import com.physicaleducation.messagesdk.service.MqMessageService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

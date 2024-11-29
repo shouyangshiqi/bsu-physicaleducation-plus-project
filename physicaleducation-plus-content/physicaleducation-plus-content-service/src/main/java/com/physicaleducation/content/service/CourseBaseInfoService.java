@@ -5,10 +5,8 @@ import com.physicaleducation.content.model.dto.CourseBaseInfoDto;
 import com.physicaleducation.content.model.dto.EditCourseDto;
 import com.physicaleducation.content.model.dto.QueryCourseParamsDto;
 import com.physicaleducation.content.model.po.CourseBase;
-import com.physicaleducation.content.service.impl.CourseBaseInfoServiceImpl;
 import com.physicaleducation.model.PageParams;
 import com.physicaleducation.model.PageResult;
-import org.springframework.beans.factory.annotation.Autowired;
 
 /**
  * @author khran

@@ -16,7 +16,6 @@ import com.physicaleducation.execption.CommonError;
 import com.physicaleducation.execption.PEPlusException;
 import com.physicaleducation.messagesdk.model.po.MqMessage;
 import com.physicaleducation.messagesdk.service.MqMessageService;
-import com.physicaleducation.utils.JsonUtil;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import org.apache.commons.io.IOUtils;
@@ -31,7 +30,6 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.File;
 import java.io.FileOutputStream;
-import java.io.IOException;
 import java.io.InputStream;
 import java.time.LocalDateTime;
 import java.util.HashMap;

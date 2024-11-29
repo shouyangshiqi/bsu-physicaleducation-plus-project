@@ -2,13 +2,8 @@ package com.physicaleducation.content.service.impl;
 
 import com.physicaleducation.content.mapper.CourseCategoryMapper;
 import com.physicaleducation.content.model.dto.CourseCategoryTreeDto;
-import com.physicaleducation.content.model.dto.QueryCourseParamsDto;
-import com.physicaleducation.content.model.po.CourseBase;
 import com.physicaleducation.content.model.po.CourseCategory;
-import com.physicaleducation.content.service.CourseBaseInfoService;
 import com.physicaleducation.content.service.CourseCategoryService;
-import com.physicaleducation.model.PageParams;
-import com.physicaleducation.model.PageResult;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,8 +12,6 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 /**
  * @author khran

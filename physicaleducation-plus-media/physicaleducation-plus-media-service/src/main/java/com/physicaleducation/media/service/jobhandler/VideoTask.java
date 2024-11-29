@@ -2,7 +2,6 @@ package com.physicaleducation.media.service.jobhandler;
 
 import com.physicaleducation.media.model.po.MediaProcess;
 import com.physicaleducation.media.service.MediaFileProcessService;
-import com.physicaleducation.media.service.MediaFileService;
 import com.physicaleducation.media.service.impl.MediaFileServiceImpl;
 import com.physicaleducation.utils.Mp4VideoUtil;
 import com.xxl.job.core.context.XxlJobHelper;

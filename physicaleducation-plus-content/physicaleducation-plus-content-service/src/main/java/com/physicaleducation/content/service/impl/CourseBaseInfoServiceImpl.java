@@ -9,7 +9,6 @@ import com.physicaleducation.content.model.dto.EditCourseDto;
 import com.physicaleducation.content.model.dto.QueryCourseParamsDto;
 import com.physicaleducation.content.model.po.*;
 import com.physicaleducation.content.service.CourseBaseInfoService;
-import com.physicaleducation.content.service.TeachplanService;
 import com.physicaleducation.execption.PEPlusException;
 import com.physicaleducation.model.PageParams;
 import com.physicaleducation.model.PageResult;

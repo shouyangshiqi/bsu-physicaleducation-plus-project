@@ -4,8 +4,6 @@ package com.physicaleducation.content.model.dto;
 import com.physicaleducation.content.model.po.CourseBase;
 import lombok.Data;
 
-import java.math.BigDecimal;
-
 /**
  * @description 课程基本信息dto
  * @author Khran

@@ -21,12 +21,9 @@
         <option value="$PROJECT_DIR$/xuecheng-plus-media/pom.xml" />
         <option value="$PROJECT_DIR$/physicaleducation-plus-media/pom.xml" />
         <option value="$PROJECT_DIR$/physicaleducation-plus-message-sdk/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-search/pom.xml" />
+        <option value="$PROJECT_DIR$/physicaleducation-plus-search/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/agyudga/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">

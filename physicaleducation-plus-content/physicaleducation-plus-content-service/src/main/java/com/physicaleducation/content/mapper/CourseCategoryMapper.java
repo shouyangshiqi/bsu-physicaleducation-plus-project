@@ -1,7 +1,6 @@
 package com.physicaleducation.content.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.physicaleducation.content.model.dto.CourseCategoryTreeDto;
 import com.physicaleducation.content.model.po.CourseCategory;
 
 import java.util.List;
