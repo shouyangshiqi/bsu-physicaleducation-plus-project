@@ -88,7 +88,7 @@ public class MediaFileServiceImpl implements MediaFileService {
     }
 
     @Override
-    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath) {
+    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath,String objectName) {
         // 将文件上传到minio保存
         // 确保文件存在
          File file = new File(localFilePath);
@@ -106,7 +106,9 @@ public class MediaFileServiceImpl implements MediaFileService {
         // 获取文件的默认目录
         String defaultFolderPath = getDefaultFolderPath();
         // 获取存储到minio中的对象名
-        String objectName = defaultFolderPath + fileMd5 + extension;
+        if(objectName == null) {
+            objectName = defaultFolderPath + fileMd5 + extension;
+        }
         // 将文件上传到minio中
         boolean flag = addMediaFilesToMinIO(localFilePath, mimeType, bucket_Files, objectName);
 

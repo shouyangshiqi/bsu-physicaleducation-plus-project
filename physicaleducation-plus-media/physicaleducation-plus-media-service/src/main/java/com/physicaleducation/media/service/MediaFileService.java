@@ -34,7 +34,7 @@ public interface MediaFileService {
      * @param localFilePath     文件磁盘路径
      * @return      文件信息
      */
-    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath);
+    public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath,String objectName);
 
     /**
      * 将文件信息上传到数据库中，为了减小事务的范围，利用注入自己类生成代理对象，代理对象执行事务方法，因此需要在interface中规定该方法

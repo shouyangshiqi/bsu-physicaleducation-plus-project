@@ -1,12 +1,28 @@
 package com.physicaleducation.content.service.jobhandler;
 
+import com.physicaleducation.content.config.MultipartSupportConfig;
+import com.physicaleducation.content.feignclient.MediaServiceClient;
+import com.physicaleducation.content.model.dto.CoursePreviewDto;
+import com.physicaleducation.content.service.CoursePublishService;
+import com.physicaleducation.execption.PEPlusException;
 import com.physicaleducation.messagesdk.model.po.MqMessage;
 import com.physicaleducation.messagesdk.service.MessageProcessAbstract;
 import com.xxl.job.core.context.XxlJobHelper;
 import com.xxl.job.core.handler.annotation.XxlJob;
+import freemarker.template.Configuration;
+import freemarker.template.Template;
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.io.IOUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -17,6 +33,10 @@ import java.util.concurrent.TimeUnit;
 @Component
 @Slf4j
 public class CoursePublishTask extends MessageProcessAbstract {
+
+    @Autowired
+    private CoursePublishService coursePublishService;
+
 
     //任务调度入口
     @XxlJob("CoursePublishJobHandler")
@@ -46,22 +66,22 @@ public class CoursePublishTask extends MessageProcessAbstract {
 
     //生成课程静态化页面并上传至文件系统
     public void generateCourseHtml(MqMessage mqMessage,long courseId){
-
+        //静态化文件
         log.debug("开始进行课程静态化,课程id:{}",courseId);
         //消息id
         Long id = mqMessage.getId();
-        //消息处理的service
-//        MqMessageService mqMessageService = this.getMqMessageService();
+
         //消息幂等性处理
         int stageOne = mqMessageService.getStageOne(id);
         if(stageOne >0){
             log.debug("课程静态化已处理直接返回，课程id:{}",courseId);
             return ;
         }
-        try {
-            TimeUnit.SECONDS.sleep(10);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+
+        // 处理页面静态化
+        File htmlFile = coursePublishService.generateCourseHtml(courseId);
+        if(htmlFile != null) {
+            coursePublishService.uploadCourseHtml(courseId, htmlFile);
         }
         //保存第一阶段状态
         mqMessageService.completedStageOne(id);

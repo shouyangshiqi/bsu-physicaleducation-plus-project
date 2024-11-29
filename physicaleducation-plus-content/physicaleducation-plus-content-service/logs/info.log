@@ -1,18 +1,60 @@
-2024-11-28 19:57:12,841 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2024-11-28 19:57:12,841 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
-2024-11-28 19:57:13,117 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2024-11-28 19:57:13,117 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
-2024-11-28 19:57:13,171 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2024-11-28 19:57:13,171 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
-2024-11-28 19:57:13,448 INFO [main][GenericScope.java:295] - BeanFactory id=4cecd85b-60b0-39da-b747-3c7871eb8201
-2024-11-28 19:57:13,448 INFO [main][GenericScope.java:295] - BeanFactory id=4cecd85b-60b0-39da-b747-3c7871eb8201
-2024-11-28 19:57:14,449 INFO [main][StartupInfoLogger.java:61] - Started CoursePublishServiceImplTest in 1.897 seconds (JVM running for 2.973)
-2024-11-28 19:57:14,449 INFO [main][StartupInfoLogger.java:61] - Started CoursePublishServiceImplTest in 1.897 seconds (JVM running for 2.973)
-2024-11-28 19:57:14,685 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
-2024-11-28 19:57:14,685 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
-2024-11-28 19:57:14,843 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
-2024-11-28 19:57:14,843 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
-2024-11-28 19:57:14,916 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2024-11-28 19:57:14,916 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
-2024-11-28 19:57:14,921 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
-2024-11-28 19:57:14,921 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-29 13:20:49,548 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-11-29 13:20:49,548 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-11-29 13:20:49,819 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-11-29 13:20:49,819 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-11-29 13:20:50,064 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-29 13:20:50,064 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-29 13:20:50,496 INFO [main][GenericScope.java:295] - BeanFactory id=e46d478a-691b-30c3-a91a-edaf3b58d837
+2024-11-29 13:20:50,496 INFO [main][GenericScope.java:295] - BeanFactory id=e46d478a-691b-30c3-a91a-edaf3b58d837
+2024-11-29 13:20:50,527 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'com.physicaleducation.content.feignclient.MediaServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-29 13:20:50,527 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'com.physicaleducation.content.feignclient.MediaServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-29 13:20:51,949 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-29 13:20:51,949 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-29 13:20:51,950 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-29 13:20:51,950 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-29 13:20:51,955 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-29 13:20:51,955 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-29 13:20:51,955 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-29 13:20:51,955 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-29 13:20:52,272 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-29 13:20:52,272 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-29 13:20:53,036 INFO [main][StartupInfoLogger.java:61] - Started GenerateCourseHtmlTest in 3.989 seconds (JVM running for 4.944)
+2024-11-29 13:20:53,036 INFO [main][StartupInfoLogger.java:61] - Started GenerateCourseHtmlTest in 3.989 seconds (JVM running for 4.944)
+2024-11-29 13:20:53,198 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-11-29 13:20:53,198 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-11-29 13:20:53,458 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-11-29 13:20:53,458 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-11-29 13:20:53,541 ERROR [main][_JULLoggerFactory.java:55] - DefaultObjectWrapper.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2024-11-29 13:20:53,541 ERROR [main][_JULLoggerFactory.java:55] - Configuration.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2024-11-29 13:20:53,541 ERROR [main][_JULLoggerFactory.java:55] - DefaultObjectWrapper.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2024-11-29 13:20:53,541 ERROR [main][_JULLoggerFactory.java:55] - Configuration.incompatibleImprovements was set to the object returned by Configuration.getVersion(). That defeats the purpose of incompatibleImprovements, and makes upgrading FreeMarker a potentially breaking change. Also, this probably won't be allowed starting from 2.4.0. Instead, set incompatibleImprovements to the highest concrete version that's known to be compatible with your application.
+2024-11-29 13:20:53,907 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: media-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2024-11-29 13:20:53,907 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: media-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2024-11-29 13:20:53,929 INFO [main][BaseLoadBalancer.java:197] - Client: media-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=media-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2024-11-29 13:20:53,929 INFO [main][BaseLoadBalancer.java:197] - Client: media-api instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=media-api,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2024-11-29 13:20:53,932 INFO [main][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2024-11-29 13:20:53,932 INFO [main][DynamicServerListLoadBalancer.java:222] - Using serverListUpdater PollingServerListUpdater
+2024-11-29 13:20:53,966 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: media-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2024-11-29 13:20:53,966 INFO [main][ChainedDynamicProperty.java:115] - Flipping property: media-api.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2024-11-29 13:20:53,967 INFO [main][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client media-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=media-api,current list of Servers=[172.18.210.246:63050],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:172.18.210.246:63050;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@6df37f7a
+2024-11-29 13:20:53,967 INFO [main][DynamicServerListLoadBalancer.java:150] - DynamicServerListLoadBalancer for client media-api initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=media-api,current list of Servers=[172.18.210.246:63050],Load balancer stats=Zone stats: {unknown=[Zone:unknown;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:172.18.210.246:63050;	Zone:UNKNOWN;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:com.alibaba.cloud.nacos.ribbon.NacosServerList@6df37f7a
+2024-11-29 13:20:54,277 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-29 13:20:54,277 WARN [Thread-12][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-29 13:20:54,277 WARN [Thread-6][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-29 13:20:54,277 WARN [Thread-12][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-29 13:20:54,278 INFO [Thread-16][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2024-11-29 13:20:54,278 INFO [Thread-16][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2024-11-29 13:20:54,278 WARN [Thread-12][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-29 13:20:54,278 WARN [Thread-12][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-29 13:20:54,278 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-29 13:20:54,278 WARN [Thread-6][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-29 13:20:54,279 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-29 13:20:54,279 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-29 13:21:02,135 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-29 13:21:02,135 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-29 13:21:02,141 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-29 13:21:02,141 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
