@@ -102,3 +102,227 @@
 2024-11-29 17:28:01,216 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
 2024-11-29 17:28:01,220 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
 2024-11-29 17:28:01,220 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-29 17:28:10,308 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-11-29 17:28:10,308 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-11-29 17:28:10,535 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-11-29 17:28:10,535 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-11-29 17:28:10,884 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2024-11-29 17:28:10,884 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api] & group[xuecheng-plus-project]
+2024-11-29 17:28:10,893 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2024-11-29 17:28:10,893 WARN [main][NacosPropertySourceBuilder.java:87] - Ignore the empty nacos configuration and get it based on dataId[content-api.yaml] & group[xuecheng-plus-project]
+2024-11-29 17:28:10,906 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-service-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-feign-dev.yaml,xuecheng-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-freemarker-config-dev.yaml,xuecheng-plus-common'}]
+2024-11-29 17:28:10,906 INFO [main][PropertySourceBootstrapConfiguration.java:112] - Located property source: [BootstrapPropertySource {name='bootstrapProperties-content-api-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-api,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-content-service-dev.yaml,xuecheng-plus-project'}, BootstrapPropertySource {name='bootstrapProperties-feign-dev.yaml,xuecheng-plus-common'}, BootstrapPropertySource {name='bootstrapProperties-freemarker-config-dev.yaml,xuecheng-plus-common'}]
+2024-11-29 17:28:10,923 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-29 17:28:10,923 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-29 17:28:11,934 INFO [main][GenericScope.java:295] - BeanFactory id=90c29556-10d7-3ee8-91cc-1dfb667cd8ac
+2024-11-29 17:28:11,934 INFO [main][GenericScope.java:295] - BeanFactory id=90c29556-10d7-3ee8-91cc-1dfb667cd8ac
+2024-11-29 17:28:11,942 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'com.physicaleducation.content.feignclient.MediaServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-29 17:28:11,942 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'com.physicaleducation.content.feignclient.MediaServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-29 17:28:11,943 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'com.physicaleducation.content.feignclient.SearchServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-29 17:28:11,943 INFO [main][PostProcessorRegistrationDelegate.java:335] - Bean 'com.physicaleducation.content.feignclient.SearchServiceClient' of type [org.springframework.cloud.openfeign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-11-29 17:28:12,116 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2024-11-29 17:28:12,116 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63040 (http)
+2024-11-29 17:28:12,122 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2024-11-29 17:28:12,122 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63040"]
+2024-11-29 17:28:12,124 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-11-29 17:28:12,124 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-11-29 17:28:12,124 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-11-29 17:28:12,124 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-11-29 17:28:12,179 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-11-29 17:28:12,179 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-11-29 17:28:12,179 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1249 ms
+2024-11-29 17:28:12,179 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 1249 ms
+2024-11-29 17:28:13,286 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2024-11-29 17:28:13,286 INFO [main][XxlJobConfig.java:46] - >>>>>>>>>>> xxl-job config init.
+2024-11-29 17:28:13,308 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-29 17:28:13,308 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-29 17:28:13,329 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-29 17:28:13,329 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-29 17:28:13,329 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-29 17:28:13,329 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-29 17:28:13,333 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-29 17:28:13,333 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-29 17:28:13,333 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-29 17:28:13,333 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-29 17:28:13,404 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-29 17:28:13,404 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-29 17:28:13,623 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-29 17:28:13,623 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-29 17:28:13,860 WARN [main][BlockingLoadBalancerClientAutoConfiguration.java:108] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-11-29 17:28:13,860 WARN [main][BlockingLoadBalancerClientAutoConfiguration.java:108] - You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2024-11-29 17:28:13,919 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:CoursePublishJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@5501d1c8[class com.physicaleducation.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
+2024-11-29 17:28:13,919 INFO [main][XxlJobExecutor.java:183] - >>>>>>>>>>> xxl-job register jobhandler success, name:CoursePublishJobHandler, jobHandler:com.xxl.job.core.handler.impl.MethodJobHandler@5501d1c8[class com.physicaleducation.content.service.jobhandler.CoursePublishTask#coursePublishJobHandler]
+2024-11-29 17:28:14,004 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-29 17:28:14,004 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-29 17:28:14,005 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-29 17:28:14,005 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-29 17:28:14,005 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-29 17:28:14,005 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-29 17:28:14,074 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2024-11-29 17:28:14,074 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63040"]
+2024-11-29 17:28:14,085 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2024-11-29 17:28:14,085 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63040 (http) with context path '/content'
+2024-11-29 17:28:14,089 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63040, ip='172.18.210.246', weight=1.0, serviceName='physicaleducation-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-11-29 17:28:14,089 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63040, ip='172.18.210.246', weight=1.0, serviceName='physicaleducation-plus-project@@content-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-11-29 17:28:14,090 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-11-29 17:28:14,090 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service physicaleducation-plus-project@@content-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63040, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-11-29 17:28:14,098 INFO [main][NacosServiceRegistry.java:75] - nacos registry, physicaleducation-plus-project content-api 172.18.210.246:63040 register finished
+2024-11-29 17:28:14,098 INFO [main][NacosServiceRegistry.java:75] - nacos registry, physicaleducation-plus-project content-api 172.18.210.246:63040 register finished
+2024-11-29 17:28:14,306 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-11-29 17:28:14,306 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-11-29 17:28:14,313 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-11-29 17:28:14,313 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-11-29 17:28:14,329 INFO [Thread-19][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 8999
+2024-11-29 17:28:14,329 INFO [Thread-19][EmbedServer.java:82] - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 8999
+2024-11-29 17:28:14,339 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-11-29 17:28:14,339 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-11-29 17:28:14,581 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 4.742 seconds (JVM running for 5.405)
+2024-11-29 17:28:14,581 INFO [main][StartupInfoLogger.java:61] - Started ContentApplication in 4.742 seconds (JVM running for 5.405)
+2024-11-29 17:28:14,590 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] freemarker-config-dev.yaml+xuecheng-plus-common+dev
+2024-11-29 17:28:14,590 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] freemarker-config-dev.yaml+xuecheng-plus-common+dev
+2024-11-29 17:28:14,591 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=freemarker-config-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-29 17:28:14,591 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=freemarker-config-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-29 17:28:14,591 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api.yaml+xuecheng-plus-project+dev
+2024-11-29 17:28:14,591 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api.yaml+xuecheng-plus-project+dev
+2024-11-29 17:28:14,591 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-29 17:28:14,591 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-29 17:28:14,595 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-service-dev.yaml+xuecheng-plus-project+dev
+2024-11-29 17:28:14,595 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-service-dev.yaml+xuecheng-plus-project+dev
+2024-11-29 17:28:14,595 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-29 17:28:14,595 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-29 17:28:14,595 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api+xuecheng-plus-project+dev
+2024-11-29 17:28:14,595 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api+xuecheng-plus-project+dev
+2024-11-29 17:28:14,595 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api, group=xuecheng-plus-project, cnt=1
+2024-11-29 17:28:14,595 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api, group=xuecheng-plus-project, cnt=1
+2024-11-29 17:28:14,610 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] feign-dev.yaml+xuecheng-plus-common+dev
+2024-11-29 17:28:14,610 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] feign-dev.yaml+xuecheng-plus-common+dev
+2024-11-29 17:28:14,610 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=feign-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-29 17:28:14,610 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=feign-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-29 17:28:14,616 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api-dev.yaml+xuecheng-plus-project+dev
+2024-11-29 17:28:14,616 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] content-api-dev.yaml+xuecheng-plus-project+dev
+2024-11-29 17:28:14,617 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-29 17:28:14,617 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=content-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-29 17:28:15,103 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-29 17:28:15,103 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-29 17:28:15,113 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-29 17:28:15,113 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-29 17:28:21,648 DEBUG [reactor-http-nio-10][RoutePredicateHandlerMapping.java:149] - Route matched: search-service
+2024-11-29 17:28:21,648 DEBUG [reactor-http-nio-10][RoutePredicateHandlerMapping.java:149] - Route matched: search-service
+2024-11-29 17:28:21,648 DEBUG [reactor-http-nio-10][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: GET http://gatewayserver/search/course/list?pageNo=1&pageSize=16&keywords=] to Route{id='search-service', uri=lb://search, order=0, predicate=Paths: [/search/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-29 17:28:21,648 DEBUG [reactor-http-nio-10][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: GET http://gatewayserver/search/course/list?pageNo=1&pageSize=16&keywords=] to Route{id='search-service', uri=lb://search, order=0, predicate=Paths: [/search/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-29 17:28:21,649 DEBUG [reactor-http-nio-10][AbstractHandlerMapping.java:183] - [e26719e7-56] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@52c70943
+2024-11-29 17:28:21,649 DEBUG [reactor-http-nio-10][AbstractHandlerMapping.java:183] - [e26719e7-56] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@52c70943
+2024-11-29 17:28:21,649 DEBUG [reactor-http-nio-10][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-29 17:28:21,649 DEBUG [reactor-http-nio-10][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@53c6f96d}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@4bc33720}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@136965e3}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@1b7a52dd}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@435cc7f9}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@5578be42}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@7f93dd4e}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@4e49ce2b}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@4364712f}, order = 2147483647]]
+2024-11-29 17:28:21,926 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 17:28:21,926 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 17:28:21,926 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 17:28:21,926 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 17:28:27,038 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-29 17:28:27,038 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-29 17:28:27,047 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-29 17:28:27,047 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@content-api -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-29 17:28:29,080 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 17:28:29,080 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 17:28:29,080 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 17:28:29,080 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 17:28:29,080 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 17:28:29,080 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 17:28:29,083 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 17:28:29,083 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 17:28:29,083 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 17:28:29,083 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 17:28:29,083 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 17:28:29,083 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 17:28:29,083 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 17:28:29,083 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 17:28:29,087 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 17:28:29,087 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 17:28:29,087 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 17:28:29,087 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 17:28:29,088 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 17:28:29,088 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 17:28:29,088 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 17:28:29,088 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 17:28:29,088 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 17:28:29,088 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 17:28:29,089 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 17:28:29,089 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 17:28:29,089 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 17:28:29,089 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 17:28:29,089 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 17:28:29,089 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 17:28:29,090 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 17:28:29,090 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 17:28:51,935 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 17:28:51,935 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 17:28:51,935 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 17:28:51,935 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 17:28:59,092 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 17:28:59,092 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 17:28:59,094 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 17:28:59,094 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 17:28:59,094 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 17:28:59,094 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 17:28:59,095 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 17:28:59,095 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 17:28:59,095 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 17:28:59,095 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 17:28:59,095 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 17:28:59,095 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 17:28:59,096 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 17:28:59,096 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 17:28:59,096 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 17:28:59,096 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 17:28:59,097 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 17:28:59,097 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 17:28:59,097 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 17:28:59,097 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 17:28:59,097 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 17:28:59,097 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 17:28:59,098 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 17:28:59,098 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 17:28:59,098 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 17:28:59,098 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 17:28:59,099 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 17:28:59,099 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 17:28:59,099 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 17:28:59,099 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 17:28:59,099 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 17:28:59,099 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 17:29:21,949 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 17:29:21,949 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 17:29:21,949 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 17:29:21,949 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 17:29:29,109 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 17:29:29,109 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 17:29:29,110 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 17:29:29,111 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 17:29:29,111 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 17:29:29,111 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 17:29:29,111 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 17:29:29,111 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 17:29:29,111 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 17:29:29,111 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 17:29:29,111 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 17:29:29,111 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 17:29:29,111 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 17:29:29,112 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 17:29:29,112 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 17:29:29,112 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 17:29:29,112 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 17:29:29,112 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 17:29:29,112 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 17:29:29,112 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 17:29:29,112 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api

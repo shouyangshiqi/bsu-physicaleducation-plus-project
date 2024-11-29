@@ -1,0 +1,18 @@
+2024-11-28 19:57:12,841 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-11-28 19:57:12,841 INFO [background-preinit][Version.java:21] - HV000001: Hibernate Validator 6.1.6.Final
+2024-11-28 19:57:13,117 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-11-28 19:57:13,117 WARN [background-preinit][CompositeLog.java:127] - For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2024-11-28 19:57:13,171 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-11-28 19:57:13,171 INFO [main][SpringApplication.java:651] - No active profile set, falling back to default profiles: default
+2024-11-28 19:57:13,448 INFO [main][GenericScope.java:295] - BeanFactory id=4cecd85b-60b0-39da-b747-3c7871eb8201
+2024-11-28 19:57:13,448 INFO [main][GenericScope.java:295] - BeanFactory id=4cecd85b-60b0-39da-b747-3c7871eb8201
+2024-11-28 19:57:14,449 INFO [main][StartupInfoLogger.java:61] - Started CoursePublishServiceImplTest in 1.897 seconds (JVM running for 2.973)
+2024-11-28 19:57:14,449 INFO [main][StartupInfoLogger.java:61] - Started CoursePublishServiceImplTest in 1.897 seconds (JVM running for 2.973)
+2024-11-28 19:57:14,685 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-11-28 19:57:14,685 INFO [main][HikariDataSource.java:110] - HikariPool-1 - Starting...
+2024-11-28 19:57:14,843 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-11-28 19:57:14,843 INFO [main][HikariDataSource.java:123] - HikariPool-1 - Start completed.
+2024-11-28 19:57:14,916 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-28 19:57:14,916 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-28 19:57:14,921 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-28 19:57:14,921 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
