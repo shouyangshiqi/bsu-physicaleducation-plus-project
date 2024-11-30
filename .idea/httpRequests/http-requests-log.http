@@ -1,3 +1,223 @@
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"111111"}
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T195618.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu111","authType":"password","password":"111111"}
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T195611.401.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"111111"}
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T195602.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"1111"}
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T195558.401.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"1111"}
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T195527.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"111111"}
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T194003.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu11","authType":"password","password":"111111"}
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T193954.401.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"111111"}
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T193936.200.json
+
+###
+
+GET http://localhost:63010/content/course/40
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ7XCJiaXJ0aGRheVwiOlwiMjAyMi0wOS0yOFQxOToyODo0NlwiLFwiY3JlYXRlVGltZVwiOlwiMjAyMi0wOS0yOFQwODozMjowM1wiLFwiaWRcIjpcIjUwXCIsXCJuYW1lXCI6XCLlrabnlJ8xXCIsXCJuaWNrbmFtZVwiOlwi5aSn5rC054mbXCIsXCJwYXNzd29yZFwiOlwiJDJhJDEwJDBwdDdXbGZUYm5QRFRjV3RwLy4yTXU1Q1RYdm9obk5RaFI2MjhxcTRSb0tTYzBkR0FkRWdtXCIsXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiMVwiLFwidXNlcm5hbWVcIjpcInN0dTFcIixcInVzZXJwaWNcIjpcImh0dHA6Ly9maWxlLjUxeHVlY2hlbmcuY24vZGRkZlwiLFwidXR5cGVcIjpcIjEwMTAwMVwifSIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NjE2OTEsImF1dGhvcml0aWVzIjpbInRlc3QiXSwianRpIjoiNWEzOWY3NGEtMzhhNS00ZGI5LWJkOWUtZTcxZjFhNGM4ZmJmIiwiY2xpZW50X2lkIjoiWGNXZWJBcHAifQ.pL2KjZQV-ELv0FQRU8fmT4eu_0xsEN2e_NVegLyY9L8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T163233.200.json
+
+###
+
+GET http://localhost:63010/content/course/40
+Authorization: Bearer adeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T163215.401.json
+
+###
+
+POST http://localhost:63070/auth/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ7XCJiaXJ0aGRheVwiOlwiMjAyMi0wOS0yOFQxOToyODo0NlwiLFwiY3JlYXRlVGltZVwiOlwiMjAyMi0wOS0yOFQwODozMjowM1wiLFwiaWRcIjpcIjUwXCIsXCJuYW1lXCI6XCLlrabnlJ8xXCIsXCJuaWNrbmFtZVwiOlwi5aSn5rC054mbXCIsXCJwYXNzd29yZFwiOlwiJDJhJDEwJDBwdDdXbGZUYm5QRFRjV3RwLy4yTXU1Q1RYdm9obk5RaFI2MjhxcTRSb0tTYzBkR0FkRWdtXCIsXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiMVwiLFwidXNlcm5hbWVcIjpcInN0dTFcIixcInVzZXJwaWNcIjpcImh0dHA6Ly9maWxlLjUxeHVlY2hlbmcuY24vZGRkZlwiLFwidXR5cGVcIjpcIjEwMTAwMVwifSIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NjE2OTEsImF1dGhvcml0aWVzIjpbInRlc3QiXSwianRpIjoiNWEzOWY3NGEtMzhhNS00ZGI5LWJkOWUtZTcxZjFhNGM4ZmJmIiwiY2xpZW50X2lkIjoiWGNXZWJBcHAifQ.pL2KjZQV-ELv0FQRU8fmT4eu_0xsEN2e_NVegLyY9L8
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T161520.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=111111
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T161451.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=111111
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T160917.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=11111
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T160912.400.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=1111
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T160908.400.json
+
+###
+
+POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=111111
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T160902.200.json
+
+###
+
+GET http://localhost:63010/content/course/40
+Authorization: Bearer adeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T151037.401.json
+
+###
+
+GET http://localhost:63010/content/course/40
+Authorization: Bearer adeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T151000.401.json
+
+###
+
+GET http://localhost:63010/content/course/40
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T150956.200.json
+
+###
+
+GET http://localhost:63010/content/course/40
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T150929.200.json
+
+###
+
+GET http://localhost:63010/content/course/40
+Authorization: Bearer adeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T150822.401.json
+
+###
+
+GET http://localhost:63010/content/course/40
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-11-30T150816.200.json
+
+###
+
 GET http://localhost:63010/content/course/40
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
 Connection: Keep-Alive
@@ -275,303 +495,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2024-11-30T120012.400.json
-
-###
-
-POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=authorization_code&code=4In5Sg&redirect_uri=http://www.51xuecheng.cn
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T120004.400.json
-
-###
-
-POST http://localhost:63070/oauth/check_token??token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T115937.404.html
-
-###
-
-POST http://localhost:63070/auth/oauth/check_token??token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T115913.400.json
-
-###
-
-POST http://localhost:63070/auth/oauth/check_token??token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NDYyNDQsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6Ijk4MzZkM2FjLTA0YjMtNDk4OC05OTU2LWM5ODdhMzZjYWY1YiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.ayKNZMll-lZGeOjy0NRpRnn9t0MI2whhWZeJq7LCdd4
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T115835.400.json
-
-###
-
-POST http://localhost:63070/auth/oauth/check_token??token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NDU4MDIsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6ImI4MmM1OThmLTRmNGItNDIzNy1iOGVhLTk1ZDA4ZGRjMDI5NSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.kfIVzZ-ZGBXOHO2sd6gIx8J64nK6bXmbLskxLO9RpKE
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T115802.400.json
-
-###
-
-POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=zhangsan&password=123
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T115724.200.json
-
-###
-
-POST http://localhost:63070/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NDU4MDIsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6ImI4MmM1OThmLTRmNGItNDIzNy1iOGVhLTk1ZDA4ZGRjMDI5NSIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.kfIVzZ-ZGBXOHO2sd6gIx8J64nK6bXmbLskxLO9RpKE
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T115703.404.html
-
-###
-
-POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=zhangsan&password=123
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T115003.200.json
-
-###
-
-POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=zhangsan&password=123
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T112743.200.json
-
-###
-
-POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=authorization_code&code=4In5Sg&redirect_uri=http://www.51xuecheng.cn
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T112731.200.json
-
-###
-
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
-Content-Length: 57362
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< d:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
---WebAppBoundary--
-
-<> 2024-11-25T150559.200.json
-
-###
-
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
-Content-Length: 57362
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< d:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
---WebAppBoundary--
-
-<> 2024-11-25T142326.200.json
-
-###
-
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
-Content-Length: 57362
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< d:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
---WebAppBoundary--
-
-<> 2024-11-25T141558.200.json
-
-###
-
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
-Content-Length: 57362
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< d:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
---WebAppBoundary--
-
-<> 2024-11-25T141429.500.json
-
-###
-
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
-Content-Length: 57362
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< D:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
---WebAppBoundary--
-
-<> 2024-11-25T141329.500.json
-
-###
-
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
-Content-Length: 57362
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< D:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
---WebAppBoundary--
-
-<> 2024-11-25T141237.500.json
-
-###
-
-POST http://localhost:63050/media/upload/coursefile
-Content-Type: multipart/form-data; boundary=WebAppBoundary
-Content-Length: 57362
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
---WebAppBoundary
-Content-Disposition: form-data; name="filedata"; filename="1.jpg"
-Content-Type: application/octet-stream
-
-< D:\照片\按照时间来区分的照片\202305_\IMG_0530.JPG
---WebAppBoundary--
-
-<> 2024-11-25T141050.500.json
-
-###
-
-POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
-Content-Type: application/json
-Content-Length: 76
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "auditStatus": "202004",
-  "courseName": "java",
-  "publishStatus": ""
-}
-
-<> 2024-11-24T164354.200.json
-
-###
-
-GET http://localhost:63040/content/course/40
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-24T164130.200.json
-
-###
-
-GET http://localhost:63010/content/course/40
-Content-Type: application/json
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-24T164127.503.json
-
-###
-
-POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
-Content-Type: application/json
-Content-Length: 76
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "auditStatus": "202004",
-  "courseName": "java",
-  "publishStatus": ""
-}
-
-<> 2024-11-24T164112.503.json
-
-###
-
-POST http://localhost:63010/content/course/list?pageNo=1&pageSize=2
-Content-Type: application/json
-Content-Length: 76
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "auditStatus": "202004",
-  "courseName": "java",
-  "publishStatus": ""
-}
-
-<> 2024-11-24T164110.503.json
 
 ###
 

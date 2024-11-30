@@ -4,72 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="任务调度中将课程信息添加到索引数据库中">
-      <change afterPath="$PROJECT_DIR$/api-test/sc-auth-api.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/config/AuthorizationServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/config/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/config/ResouceServerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/config/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-gateway/src/main/java/com/physicaleducation/gateway/config/GatewayAuthFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-gateway/src/main/java/com/physicaleducation/gateway/config/RestErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-gateway/src/main/java/com/physicaleducation/gateway/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-gateway/src/main/java/com/physicaleducation/gateway/config/TokenConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-gateway/src/main/resources/security-whitelist.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sql/xcplus_users.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T165301.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T165308.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T165542.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T170037.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T170059.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T170340.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T170741.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T171122.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T171302.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T171350.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T171409.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T171426.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T171623.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T172500.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T172841.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-23T173204.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T104733.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T104815.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T105023.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T105146.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T105224.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T110226.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T110249.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T110449.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T155126.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T155129.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T155155.500.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T155239.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T162501.503.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T163101.503.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T163154.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T163200.503.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T163226.503.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T163536.503.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T163845.503.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T164108.503.json" beforeDir="false" />
+    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="增加了用户认证功能（SpringSecurity）">
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/config/DaoAuthenticationProviderCustom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/impl/PasswordAuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/util/SecurityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T164110.503.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T164112.503.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T164127.503.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T164130.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-24T164354.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-25T141050.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-25T141237.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-25T141329.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-25T141429.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-25T141558.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-25T142326.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-25T150559.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T112731.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T112743.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T115003.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T115703.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T115724.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T115802.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T115835.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T115913.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T115937.404.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120004.400.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-test/sc-auth-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/sc-auth-api.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-test/sc-content-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/sc-content-api.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2024-11-29/info.2024-11-29-15.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2024-11-29/info.2024-11-29-15.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/execption/PEPlusException.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/execption/PEPlusException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/config/AuthorizationServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/config/AuthorizationServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseBaseInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseBaseInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-search/src/main/java/com/physicaleducation/search/controller/CourseIndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-search/src/main/java/com/physicaleducation/search/controller/CourseIndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-search/src/main/java/com/physicaleducation/search/dto/SearchPageResultDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-search/src/main/java/com/physicaleducation/search/dto/SearchPageResultDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/config/TokenConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/config/TokenConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-gateway/src/main/java/com/physicaleducation/gateway/config/GatewayAuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-gateway/src/main/java/com/physicaleducation/gateway/config/GatewayAuthFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,8 +138,11 @@
     "Database Script.xcplus_users.sql.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.sc-auth-api | 密码模式#2.executor": "Run",
     "HTTP Request.sc-auth-api | 密码模式.executor": "Run",
+    "HTTP Request.sc-auth-api | 扩展认证请求参数后############################################.executor": "Run",
     "HTTP Request.sc-auth-api | 授权码模式.executor": "Run",
+    "HTTP Request.sc-auth-api | 校验jwt令牌#2.executor": "Run",
     "HTTP Request.sc-auth-api | 校验jwt令牌.executor": "Run",
     "HTTP Request.sc-content-api | #1.executor": "Run",
     "HTTP Request.sc-content-api | 修改课程.executor": "Run",
@@ -220,10 +196,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.AuthApplication.executor": "Run",
     "Spring Boot.ContentApplication (1).executor": "Run",
-    "Spring Boot.ContentApplication.executor": "Run",
+    "Spring Boot.ContentApplication.executor": "Debug",
     "Spring Boot.ContentApplication2.executor": "Run",
     "Spring Boot.MediaApplication.executor": "Run",
-    "Spring Boot.PhysicalEducationGatewayApplication.executor": "Run",
+    "Spring Boot.PhysicalEducationGatewayApplication.executor": "Debug",
     "Spring Boot.SearchApplication (1).executor": "Run",
     "Spring Boot.SearchApplication.executor": "Run",
     "Spring Boot.SystemApplication.executor": "Run",
@@ -296,25 +272,18 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SystemApplication">
-    <configuration name="sc-auth-api | 密码模式" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-auth-api.http" index="2" requestIdentifier="密码模式" runType="Run single request">
+  <component name="RunManager" selected="HTTP Request.sc-auth-api | 扩展认证请求参数后############################################">
+    <configuration name="sc-auth-api | 密码模式#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-auth-api.http" index="4" requestIdentifier="密码模式#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="sc-auth-api | 扩展认证请求参数后############################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-auth-api.http" index="6" requestIdentifier="扩展认证请求参数后############################################" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="sc-auth-api | 校验jwt令牌#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-auth-api.http" index="4" requestIdentifier="校验jwt令牌#2" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="sc-content-api | 课程查询" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" index="4" requestIdentifier="课程查询" runType="Run single request">
       <method v="2" />
-    </configuration>
-    <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-content-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.ContentApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.physicaleducation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="PhysicalEducationGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="physicaleducation-plus-gateway" />
@@ -342,33 +311,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="xuecheng-plus-system-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.system.SystemApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.physicaleducation.system.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="HTTP Request.sc-auth-api | 密码模式" />
+      <item itemvalue="HTTP Request.sc-auth-api | 密码模式#2" />
+      <item itemvalue="HTTP Request.sc-auth-api | 扩展认证请求参数后############################################" />
+      <item itemvalue="HTTP Request.sc-auth-api | 校验jwt令牌#2" />
       <item itemvalue="HTTP Request.sc-content-api | 课程查询" />
-      <item itemvalue="Spring Boot.SystemApplication" />
-      <item itemvalue="Spring Boot.ContentApplication" />
       <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="HTTP Request.sc-auth-api | 扩展认证请求参数后############################################" />
         <item itemvalue="HTTP Request.sc-content-api | 课程查询" />
-        <item itemvalue="Spring Boot.ContentApplication" />
+        <item itemvalue="HTTP Request.sc-auth-api | 校验jwt令牌#2" />
+        <item itemvalue="HTTP Request.sc-auth-api | 密码模式#2" />
         <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
-        <item itemvalue="HTTP Request.sc-auth-api | 密码模式" />
       </list>
     </recent_temporary>
   </component>
@@ -407,7 +363,7 @@
       <workItem from="1732777350531" duration="17945000" />
       <workItem from="1732842921230" duration="18952000" />
       <workItem from="1732873905956" duration="2044000" />
-      <workItem from="1732929388920" duration="10010000" />
+      <workItem from="1732929388920" duration="22093000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构">
       <option name="closed" value="true" />
@@ -561,7 +517,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732872604468</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="增加了用户认证功能（SpringSecurity）">
+      <option name="closed" value="true" />
+      <created>1732949035403</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1732949035403</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,7 +559,8 @@
     <MESSAGE value="磕碜审核+课程发布" />
     <MESSAGE value="feign远程调用+生成静态页面" />
     <MESSAGE value="任务调度中将课程信息添加到索引数据库中" />
-    <option name="LAST_COMMIT_MESSAGE" value="任务调度中将课程信息添加到索引数据库中" />
+    <MESSAGE value="增加了用户认证功能（SpringSecurity）" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加了用户认证功能（SpringSecurity）" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,8 +587,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseBaseInfoController.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="21" />
+          <line>54</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

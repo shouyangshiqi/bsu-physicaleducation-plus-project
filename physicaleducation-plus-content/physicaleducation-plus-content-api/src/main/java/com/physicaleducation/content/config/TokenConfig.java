@@ -43,5 +43,4 @@ public class TokenConfig {
         return converter;
     }
 
-
 }

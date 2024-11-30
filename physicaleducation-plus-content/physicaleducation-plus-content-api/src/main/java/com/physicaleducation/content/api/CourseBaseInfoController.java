@@ -7,6 +7,7 @@ import com.physicaleducation.content.model.dto.EditCourseDto;
 import com.physicaleducation.content.model.dto.QueryCourseParamsDto;
 import com.physicaleducation.content.model.po.CourseBase;
 import com.physicaleducation.content.service.CourseBaseInfoService;
+import com.physicaleducation.content.util.SecurityUtil;
 import com.physicaleducation.model.PageParams;
 import com.physicaleducation.model.PageResult;
 import io.swagger.annotations.Api;
@@ -49,8 +50,8 @@ public class CourseBaseInfoController {
     @ApiOperation("课程id查询接口")
     @GetMapping("/course/{coursId}")
     public CourseBaseInfoDto getCourseBaseById(@PathVariable Long coursId){
-        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
-        System.out.println(principal);
+        SecurityUtil.XcUser user = SecurityUtil.getUser();
+        System.out.println(user.getUsername());
         CourseBaseInfoDto courseBaseInfoDto = courseBaseInfoService.getCourseBaseById(coursId);
         return courseBaseInfoDto;
     }
