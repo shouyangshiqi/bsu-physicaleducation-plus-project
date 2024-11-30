@@ -1,7 +1,0 @@
-{
-  "timestamp": "2024-11-30T04:10:45.578+00:00",
-  "status": 400,
-  "error": "Bad Request",
-  "message": "",
-  "path": "/auth/oauth/check_token"
-}

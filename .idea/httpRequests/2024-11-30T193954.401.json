@@ -1,0 +1,4 @@
+{
+  "error": "unauthorized",
+  "error_description": "UserDetailsService returned null, which is an interface contract violation"
+}

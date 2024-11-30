@@ -1,0 +1,682 @@
+2024-11-30 21:48:52,751 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-30 21:48:52,751 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-30 21:48:53,084 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-30 21:48:53,084 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-30 21:48:53,086 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-30 21:48:53,086 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-30 21:48:53,106 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2024-11-30 21:48:53,106 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 9ms. Found 0 Redis repository interfaces.
+2024-11-30 21:48:53,208 INFO [main][GenericScope.java:295] - BeanFactory id=4674f2e2-1a01-3217-a3c7-c6deae397b55
+2024-11-30 21:48:53,208 INFO [main][GenericScope.java:295] - BeanFactory id=4674f2e2-1a01-3217-a3c7-c6deae397b55
+2024-11-30 21:48:53,304 DEBUG [main][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2024-11-30 21:48:53,304 DEBUG [main][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2024-11-30 21:48:53,309 DEBUG [main][DefaultClientResources.java:108] - -Dio.netty.eventLoopThreads: 24
+2024-11-30 21:48:53,309 DEBUG [main][DefaultClientResources.java:108] - -Dio.netty.eventLoopThreads: 24
+2024-11-30 21:48:53,316 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2024-11-30 21:48:53,316 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2024-11-30 21:48:53,333 DEBUG [main][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-11-30 21:48:53,333 DEBUG [main][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-11-30 21:48:53,333 DEBUG [main][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-11-30 21:48:53,333 DEBUG [main][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-11-30 21:48:53,339 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2024-11-30 21:48:53,339 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2024-11-30 21:48:53,339 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2024-11-30 21:48:53,339 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2024-11-30 21:48:53,342 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7add838c
+2024-11-30 21:48:53,342 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@7add838c
+2024-11-30 21:48:53,367 DEBUG [main][PlatformDependent.java:1036] - Platform: Windows
+2024-11-30 21:48:53,367 DEBUG [main][PlatformDependent.java:1036] - Platform: Windows
+2024-11-30 21:48:53,370 DEBUG [main][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2024-11-30 21:48:53,370 DEBUG [main][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2024-11-30 21:48:53,371 DEBUG [main][PlatformDependent0.java:897] - Java version: 8
+2024-11-30 21:48:53,371 DEBUG [main][PlatformDependent0.java:897] - Java version: 8
+2024-11-30 21:48:53,372 DEBUG [main][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2024-11-30 21:48:53,372 DEBUG [main][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2024-11-30 21:48:53,373 DEBUG [main][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2024-11-30 21:48:53,373 DEBUG [main][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2024-11-30 21:48:53,375 DEBUG [main][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2024-11-30 21:48:53,375 DEBUG [main][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2024-11-30 21:48:53,375 DEBUG [main][PlatformDependent0.java:257] - direct buffer constructor: available
+2024-11-30 21:48:53,375 DEBUG [main][PlatformDependent0.java:257] - direct buffer constructor: available
+2024-11-30 21:48:53,376 DEBUG [main][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2024-11-30 21:48:53,376 DEBUG [main][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2024-11-30 21:48:53,377 DEBUG [main][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-11-30 21:48:53,377 DEBUG [main][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-11-30 21:48:53,377 DEBUG [main][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-11-30 21:48:53,377 DEBUG [main][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-11-30 21:48:53,377 DEBUG [main][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2024-11-30 21:48:53,377 DEBUG [main][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2024-11-30 21:48:53,378 DEBUG [main][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\10906\AppData\Local\Temp (java.io.tmpdir)
+2024-11-30 21:48:53,378 DEBUG [main][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\10906\AppData\Local\Temp (java.io.tmpdir)
+2024-11-30 21:48:53,378 DEBUG [main][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-11-30 21:48:53,378 DEBUG [main][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-11-30 21:48:53,379 DEBUG [main][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 7574388736 bytes
+2024-11-30 21:48:53,379 DEBUG [main][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 7574388736 bytes
+2024-11-30 21:48:53,379 DEBUG [main][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-11-30 21:48:53,379 DEBUG [main][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-11-30 21:48:53,381 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2024-11-30 21:48:53,381 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2024-11-30 21:48:53,381 DEBUG [main][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2024-11-30 21:48:53,381 DEBUG [main][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2024-11-30 21:48:53,389 DEBUG [main][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2024-11-30 21:48:53,389 DEBUG [main][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2024-11-30 21:48:53,397 DEBUG [main][Loggers.java:249] - Using Slf4j logging framework
+2024-11-30 21:48:53,397 DEBUG [main][Loggers.java:249] - Using Slf4j logging framework
+2024-11-30 21:48:53,538 DEBUG [main][DefaultClientResources.java:204] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2024-11-30 21:48:53,538 DEBUG [main][DefaultClientResources.java:204] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2024-11-30 21:48:53,614 DEBUG [main][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 48
+2024-11-30 21:48:53,614 DEBUG [main][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 48
+2024-11-30 21:48:53,615 DEBUG [main][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 48
+2024-11-30 21:48:53,615 DEBUG [main][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 48
+2024-11-30 21:48:53,615 DEBUG [main][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2024-11-30 21:48:53,615 DEBUG [main][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2024-11-30 21:48:53,615 DEBUG [main][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2024-11-30 21:48:53,615 DEBUG [main][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2024-11-30 21:48:53,615 DEBUG [main][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2024-11-30 21:48:53,615 DEBUG [main][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2024-11-30 21:48:53,616 DEBUG [main][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2024-11-30 21:48:53,616 DEBUG [main][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2024-11-30 21:48:53,616 DEBUG [main][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2024-11-30 21:48:53,616 DEBUG [main][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2024-11-30 21:48:53,616 DEBUG [main][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-11-30 21:48:53,616 DEBUG [main][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-11-30 21:48:53,616 DEBUG [main][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-11-30 21:48:53,616 DEBUG [main][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-11-30 21:48:53,616 DEBUG [main][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-11-30 21:48:53,616 DEBUG [main][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-11-30 21:48:53,617 DEBUG [main][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-11-30 21:48:53,617 DEBUG [main][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-11-30 21:48:53,617 DEBUG [main][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-11-30 21:48:53,617 DEBUG [main][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-11-30 21:48:53,873 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-30 21:48:53,873 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-30 21:48:53,873 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-30 21:48:53,873 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-30 21:48:53,879 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-30 21:48:53,879 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-30 21:48:53,879 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-30 21:48:53,879 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-30 21:48:53,903 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2024-11-30 21:48:53,903 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2024-11-30 21:48:53,909 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2024-11-30 21:48:53,909 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2024-11-30 21:48:53,910 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2024-11-30 21:48:53,910 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2024-11-30 21:48:53,911 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2024-11-30 21:48:53,911 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2024-11-30 21:48:53,912 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-11-30 21:48:53,912 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-11-30 21:48:53,912 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2024-11-30 21:48:53,912 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2024-11-30 21:48:53,912 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-11-30 21:48:53,912 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-11-30 21:48:53,912 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-11-30 21:48:53,912 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-11-30 21:48:53,913 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-11-30 21:48:53,913 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-11-30 21:48:53,913 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-11-30 21:48:53,913 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-11-30 21:48:53,914 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-11-30 21:48:53,914 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-11-30 21:48:53,915 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-11-30 21:48:53,915 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-11-30 21:48:53,915 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-11-30 21:48:53,915 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-11-30 21:48:53,915 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-11-30 21:48:53,915 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-11-30 21:48:53,915 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-11-30 21:48:53,915 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-11-30 21:48:53,915 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-11-30 21:48:53,915 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-11-30 21:48:54,145 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-30 21:48:54,145 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-30 21:48:54,561 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-30 21:48:54,561 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-30 21:48:54,922 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-30 21:48:54,922 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-30 21:48:54,922 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-30 21:48:54,923 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-30 21:48:54,922 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-30 21:48:54,923 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-30 21:48:54,926 DEBUG [main][NamingProxy.java:195] - server list provided by user: [81.70.63.156:8848]
+2024-11-30 21:48:54,926 DEBUG [main][NamingProxy.java:195] - server list provided by user: [81.70.63.156:8848]
+2024-11-30 21:48:54,927 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [81.70.63.156:8848]
+2024-11-30 21:48:54,927 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [81.70.63.156:8848]
+2024-11-30 21:48:54,929 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-11-30 21:48:54,929 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-11-30 21:48:54,936 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2024-11-30 21:48:54,937 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://81.70.63.156:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=172.18.210.246&serviceName=physicaleducation-plus-project%40%40checkcode&udpPort=51279&clusters=DEFAULT, body: {}
+2024-11-30 21:48:54,936 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2024-11-30 21:48:54,937 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://81.70.63.156:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=172.18.210.246&serviceName=physicaleducation-plus-project%40%40checkcode&udpPort=51279&clusters=DEFAULT, body: {}
+2024-11-30 21:48:54,999 INFO [main][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"172.18.210.246#63075#DEFAULT#physicaleducation-plus-project@@checkcode","ip":"172.18.210.246","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-30 21:48:54,999 INFO [main][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"172.18.210.246#63075#DEFAULT#physicaleducation-plus-project@@checkcode","ip":"172.18.210.246","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-30 21:48:54,999 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@26dc7ef8 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@7bd38fed
+2024-11-30 21:48:54,999 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@26dc7ef8 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@7bd38fed
+2024-11-30 21:48:55,008 INFO [main][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"172.18.210.246#63075#DEFAULT#physicaleducation-plus-project@@checkcode","ip":"172.18.210.246","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-30 21:48:55,008 INFO [main][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"172.18.210.246#63075#DEFAULT#physicaleducation-plus-project@@checkcode","ip":"172.18.210.246","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-30 21:48:55,015 INFO [main][StartupInfoLogger.java:61] - Started XuechengPlusCheckcodeApplicationTests in 3.589 seconds (JVM running for 4.902)
+2024-11-30 21:48:55,015 INFO [main][StartupInfoLogger.java:61] - Started XuechengPlusCheckcodeApplicationTests in 3.589 seconds (JVM running for 4.902)
+2024-11-30 21:48:55,019 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:48:55,019 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:48:55,020 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:48:55,020 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:48:55,022 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode-dev.yaml+xuecheng-plus-project+dev
+2024-11-30 21:48:55,022 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode-dev.yaml+xuecheng-plus-project+dev
+2024-11-30 21:48:55,022 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:48:55,022 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:48:55,022 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode+xuecheng-plus-project+dev
+2024-11-30 21:48:55,022 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode+xuecheng-plus-project+dev
+2024-11-30 21:48:55,023 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:48:55,023 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:48:55,023 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://81.70.63.156:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcodexuecheng-plus-projectdev, tenant=dev}
+2024-11-30 21:48:55,023 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://81.70.63.156:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcodexuecheng-plus-projectdev, tenant=dev}
+2024-11-30 21:48:55,023 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] redis-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:48:55,023 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] redis-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:48:55,023 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3170b1f9]
+2024-11-30 21:48:55,023 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3170b1f9]
+2024-11-30 21:48:55,023 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=redis-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:48:55,023 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=redis-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:48:55,023 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode.yaml+xuecheng-plus-project+dev
+2024-11-30 21:48:55,023 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode.yaml+xuecheng-plus-project+dev
+2024-11-30 21:48:55,023 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:48:55,023 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:48:55,024 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:48:55,024 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:48:55,025 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:48:55,025 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:48:55,032 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://81.70.63.156:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
+2024-11-30 21:48:55,032 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://81.70.63.156:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
+2024-11-30 21:48:55,032 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3170b1f9]
+2024-11-30 21:48:55,032 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3170b1f9]
+2024-11-30 21:48:55,039 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://81.70.63.156:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
+2024-11-30 21:48:55,039 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://81.70.63.156:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
+2024-11-30 21:48:55,040 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3170b1f9]
+2024-11-30 21:48:55,040 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@3170b1f9]
+2024-11-30 21:48:55,207 DEBUG [main][RedisClient.java:263] - Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2024-11-30 21:48:55,207 DEBUG [main][RedisClient.java:263] - Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2024-11-30 21:48:55,264 DEBUG [main][EpollProvider.java:70] - Starting without optional epoll library
+2024-11-30 21:48:55,264 DEBUG [main][EpollProvider.java:70] - Starting without optional epoll library
+2024-11-30 21:48:55,264 DEBUG [main][KqueueProvider.java:72] - Starting without optional kqueue library
+2024-11-30 21:48:55,264 DEBUG [main][KqueueProvider.java:72] - Starting without optional kqueue library
+2024-11-30 21:48:55,265 DEBUG [main][DefaultEventLoopGroupProvider.java:85] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2024-11-30 21:48:55,265 DEBUG [main][DefaultEventLoopGroupProvider.java:85] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2024-11-30 21:48:55,265 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.channel.nio.NioEventLoopGroup
+2024-11-30 21:48:55,265 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.channel.nio.NioEventLoopGroup
+2024-11-30 21:48:55,266 DEBUG [main][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 48
+2024-11-30 21:48:55,266 DEBUG [main][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 48
+2024-11-30 21:48:55,269 DEBUG [main][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2024-11-30 21:48:55,269 DEBUG [main][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2024-11-30 21:48:55,269 DEBUG [main][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-11-30 21:48:55,269 DEBUG [main][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-11-30 21:48:55,278 DEBUG [main][DefaultEventLoopGroupProvider.java:98] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@64f3ca6, existing ref count 0
+2024-11-30 21:48:55,278 DEBUG [main][DefaultEventLoopGroupProvider.java:98] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@64f3ca6, existing ref count 0
+2024-11-30 21:48:55,288 DEBUG [main][RedisClient.java:775] - Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2024-11-30 21:48:55,288 DEBUG [main][RedisClient.java:775] - Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2024-11-30 21:48:55,289 DEBUG [main][AbstractRedisClient.java:312] - Connecting to Redis at localhost:6379
+2024-11-30 21:48:55,289 DEBUG [main][AbstractRedisClient.java:312] - Connecting to Redis at localhost:6379
+2024-11-30 21:48:55,291 DEBUG [main][DefaultChannelId.java:79] - -Dio.netty.processId: 11944 (auto-detected)
+2024-11-30 21:48:55,291 DEBUG [main][DefaultChannelId.java:79] - -Dio.netty.processId: 11944 (auto-detected)
+2024-11-30 21:48:55,292 DEBUG [main][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2024-11-30 21:48:55,292 DEBUG [main][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2024-11-30 21:48:55,293 DEBUG [main][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2024-11-30 21:48:55,293 DEBUG [main][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2024-11-30 21:48:55,434 DEBUG [main][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-11-30 21:48:55,434 DEBUG [main][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-11-30 21:48:55,435 DEBUG [main][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-11-30 21:48:55,435 DEBUG [main][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-11-30 21:48:55,669 DEBUG [main][DefaultChannelId.java:101] - -Dio.netty.machineId: e8:b0:c5:ff:fe:5a:45:5b (auto-detected)
+2024-11-30 21:48:55,669 DEBUG [main][DefaultChannelId.java:101] - -Dio.netty.machineId: e8:b0:c5:ff:fe:5a:45:5b (auto-detected)
+2024-11-30 21:48:55,686 DEBUG [main][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2024-11-30 21:48:55,686 DEBUG [main][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2024-11-30 21:48:55,686 DEBUG [main][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-11-30 21:48:55,686 DEBUG [main][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-11-30 21:48:55,686 DEBUG [main][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-11-30 21:48:55,686 DEBUG [main][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-11-30 21:48:55,704 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:102] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-11-30 21:48:55,704 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:102] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-11-30 21:48:55,705 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:103] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-11-30 21:48:55,705 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:103] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-11-30 21:48:55,705 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:104] - -Dio.netty.recycler.linkCapacity: 16
+2024-11-30 21:48:55,705 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:104] - -Dio.netty.recycler.linkCapacity: 16
+2024-11-30 21:48:55,705 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:105] - -Dio.netty.recycler.ratio: 8
+2024-11-30 21:48:55,705 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:105] - -Dio.netty.recycler.ratio: 8
+2024-11-30 21:48:55,705 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:106] - -Dio.netty.recycler.delayedQueue.ratio: 8
+2024-11-30 21:48:55,705 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:106] - -Dio.netty.recycler.delayedQueue.ratio: 8
+2024-11-30 21:48:55,711 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:63] - -Dio.netty.buffer.checkAccessible: true
+2024-11-30 21:48:55,711 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:63] - -Dio.netty.buffer.checkAccessible: true
+2024-11-30 21:48:55,711 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:64] - -Dio.netty.buffer.checkBounds: true
+2024-11-30 21:48:55,711 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:64] - -Dio.netty.buffer.checkBounds: true
+2024-11-30 21:48:55,711 DEBUG [lettuce-nioEventLoop-4-1][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5c05ab37
+2024-11-30 21:48:55,711 DEBUG [lettuce-nioEventLoop-4-1][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5c05ab37
+2024-11-30 21:48:55,728 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:181] - [channel=0x19f37a25, [id: 0x7202cb0b] (inactive), chid=0x1] channelRegistered()
+2024-11-30 21:48:55,728 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:181] - [channel=0x19f37a25, [id: 0x7202cb0b] (inactive), chid=0x1] channelRegistered()
+2024-11-30 21:48:56,019 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://81.70.63.156:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=172.18.210.246&serviceName=physicaleducation-plus-project%40%40checkcode&udpPort=51279&clusters=DEFAULT, body: {}
+2024-11-30 21:48:56,019 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://81.70.63.156:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=172.18.210.246&serviceName=physicaleducation-plus-project%40%40checkcode&udpPort=51279&clusters=DEFAULT, body: {}
+2024-11-30 21:48:57,755 DEBUG [lettuce-nioEventLoop-4-1][AbstractRedisClient.java:348] - Connecting to Redis at localhost:6379: localhost:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-30 21:48:57,755 DEBUG [lettuce-nioEventLoop-4-1][AbstractRedisClient.java:348] - Connecting to Redis at localhost:6379: localhost:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-30 21:48:57,765 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:131] - close()
+2024-11-30 21:48:57,765 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:131] - close()
+2024-11-30 21:48:57,765 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:145] - closeAsync()
+2024-11-30 21:48:57,765 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:549] - [unknown, epid=0x1] closeAsync()
+2024-11-30 21:48:57,765 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:145] - closeAsync()
+2024-11-30 21:48:57,765 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:549] - [unknown, epid=0x1] closeAsync()
+2024-11-30 21:48:57,766 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:198] - [channel=0x19f37a25, [id: 0x7202cb0b] (inactive), chid=0x1] channelUnregistered()
+2024-11-30 21:48:57,766 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:198] - [channel=0x19f37a25, [id: 0x7202cb0b] (inactive), chid=0x1] channelUnregistered()
+2024-11-30 21:48:57,783 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-30 21:48:57,783 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-30 21:48:57,783 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-30 21:48:57,783 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-30 21:48:57,784 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-30 21:48:57,784 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-30 21:48:57,784 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-30 21:48:57,784 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-30 21:48:57,784 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-30 21:48:57,784 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-30 21:48:57,786 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-30 21:48:57,786 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-30 21:48:57,787 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-30 21:48:57,787 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-30 21:48:57,787 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-30 21:48:57,787 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-30 21:48:59,931 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-11-30 21:48:59,931 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-11-30 21:49:00,825 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-30 21:49:00,825 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-30 21:49:03,866 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-30 21:49:03,866 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-30 21:49:03,866 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-30 21:49:03,866 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-30 21:49:04,940 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-30 21:49:04,940 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-30 21:49:04,940 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-30 21:49:04,940 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-30 21:49:04,940 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-30 21:49:04,941 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-30 21:49:04,941 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-30 21:49:04,947 DEBUG [SpringContextShutdownHook][AbstractRedisClient.java:474] - Initiate shutdown (100, 100, MILLISECONDS)
+2024-11-30 21:49:04,947 DEBUG [SpringContextShutdownHook][AbstractRedisClient.java:474] - Initiate shutdown (100, 100, MILLISECONDS)
+2024-11-30 21:49:04,951 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:226] - Release executor io.netty.channel.nio.NioEventLoopGroup@64f3ca6
+2024-11-30 21:49:04,951 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:226] - Release executor io.netty.channel.nio.NioEventLoopGroup@64f3ca6
+2024-11-30 21:49:04,953 DEBUG [lettuce-nioEventLoop-4-1][PoolThreadCache.java:224] - Freed 1 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2024-11-30 21:49:04,953 DEBUG [lettuce-nioEventLoop-4-1][PoolThreadCache.java:224] - Freed 1 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2024-11-30 21:49:05,072 DEBUG [SpringContextShutdownHook][DefaultClientResources.java:631] - Initiate shutdown (0, 2, SECONDS)
+2024-11-30 21:49:05,072 DEBUG [SpringContextShutdownHook][DefaultClientResources.java:631] - Initiate shutdown (0, 2, SECONDS)
+2024-11-30 21:49:05,075 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:263] - Initiate shutdown (0, 2, SECONDS)
+2024-11-30 21:49:05,075 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:263] - Initiate shutdown (0, 2, SECONDS)
+2024-11-30 21:54:13,310 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-30 21:54:13,310 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-30 21:54:13,644 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-30 21:54:13,644 INFO [main][RepositoryConfigurationDelegate.java:249] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2024-11-30 21:54:13,646 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-30 21:54:13,646 INFO [main][RepositoryConfigurationDelegate.java:127] - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-30 21:54:13,663 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2024-11-30 21:54:13,663 INFO [main][RepositoryConfigurationDelegate.java:187] - Finished Spring Data repository scanning in 8ms. Found 0 Redis repository interfaces.
+2024-11-30 21:54:13,766 INFO [main][GenericScope.java:295] - BeanFactory id=4674f2e2-1a01-3217-a3c7-c6deae397b55
+2024-11-30 21:54:13,766 INFO [main][GenericScope.java:295] - BeanFactory id=4674f2e2-1a01-3217-a3c7-c6deae397b55
+2024-11-30 21:54:13,865 DEBUG [main][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2024-11-30 21:54:13,865 DEBUG [main][InternalLoggerFactory.java:45] - Using SLF4J as the default logging framework
+2024-11-30 21:54:13,869 DEBUG [main][DefaultClientResources.java:108] - -Dio.netty.eventLoopThreads: 24
+2024-11-30 21:54:13,869 DEBUG [main][DefaultClientResources.java:108] - -Dio.netty.eventLoopThreads: 24
+2024-11-30 21:54:13,876 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2024-11-30 21:54:13,876 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.util.concurrent.DefaultEventExecutorGroup
+2024-11-30 21:54:13,893 DEBUG [main][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-11-30 21:54:13,893 DEBUG [main][InternalThreadLocalMap.java:56] - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+2024-11-30 21:54:13,894 DEBUG [main][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-11-30 21:54:13,894 DEBUG [main][InternalThreadLocalMap.java:59] - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+2024-11-30 21:54:13,898 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2024-11-30 21:54:13,898 DEBUG [main][ResourceLeakDetector.java:129] - -Dio.netty.leakDetection.level: simple
+2024-11-30 21:54:13,899 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2024-11-30 21:54:13,899 DEBUG [main][ResourceLeakDetector.java:130] - -Dio.netty.leakDetection.targetRecords: 4
+2024-11-30 21:54:13,900 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5aea8994
+2024-11-30 21:54:13,900 DEBUG [main][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5aea8994
+2024-11-30 21:54:13,912 DEBUG [main][PlatformDependent.java:1036] - Platform: Windows
+2024-11-30 21:54:13,912 DEBUG [main][PlatformDependent.java:1036] - Platform: Windows
+2024-11-30 21:54:13,914 DEBUG [main][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2024-11-30 21:54:13,914 DEBUG [main][PlatformDependent0.java:417] - -Dio.netty.noUnsafe: false
+2024-11-30 21:54:13,915 DEBUG [main][PlatformDependent0.java:897] - Java version: 8
+2024-11-30 21:54:13,915 DEBUG [main][PlatformDependent0.java:897] - Java version: 8
+2024-11-30 21:54:13,916 DEBUG [main][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2024-11-30 21:54:13,916 DEBUG [main][PlatformDependent0.java:130] - sun.misc.Unsafe.theUnsafe: available
+2024-11-30 21:54:13,917 DEBUG [main][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2024-11-30 21:54:13,917 DEBUG [main][PlatformDependent0.java:154] - sun.misc.Unsafe.copyMemory: available
+2024-11-30 21:54:13,917 DEBUG [main][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2024-11-30 21:54:13,917 DEBUG [main][PlatformDependent0.java:192] - java.nio.Buffer.address: available
+2024-11-30 21:54:13,918 DEBUG [main][PlatformDependent0.java:257] - direct buffer constructor: available
+2024-11-30 21:54:13,918 DEBUG [main][PlatformDependent0.java:257] - direct buffer constructor: available
+2024-11-30 21:54:13,919 DEBUG [main][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2024-11-30 21:54:13,919 DEBUG [main][PlatformDependent0.java:331] - java.nio.Bits.unaligned: available, true
+2024-11-30 21:54:13,919 DEBUG [main][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-11-30 21:54:13,919 DEBUG [main][PlatformDependent0.java:396] - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+2024-11-30 21:54:13,919 DEBUG [main][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-11-30 21:54:13,919 DEBUG [main][PlatformDependent0.java:403] - java.nio.DirectByteBuffer.<init>(long, int): available
+2024-11-30 21:54:13,920 DEBUG [main][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2024-11-30 21:54:13,920 DEBUG [main][PlatformDependent.java:1079] - sun.misc.Unsafe: available
+2024-11-30 21:54:13,920 DEBUG [main][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\10906\AppData\Local\Temp (java.io.tmpdir)
+2024-11-30 21:54:13,920 DEBUG [main][PlatformDependent.java:1200] - -Dio.netty.tmpdir: C:\Users\10906\AppData\Local\Temp (java.io.tmpdir)
+2024-11-30 21:54:13,920 DEBUG [main][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-11-30 21:54:13,920 DEBUG [main][PlatformDependent.java:1279] - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+2024-11-30 21:54:13,921 DEBUG [main][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 7574388736 bytes
+2024-11-30 21:54:13,921 DEBUG [main][PlatformDependent.java:177] - -Dio.netty.maxDirectMemory: 7574388736 bytes
+2024-11-30 21:54:13,922 DEBUG [main][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-11-30 21:54:13,922 DEBUG [main][PlatformDependent.java:184] - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+2024-11-30 21:54:13,922 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2024-11-30 21:54:13,922 DEBUG [main][CleanerJava6.java:92] - java.nio.ByteBuffer.cleaner(): available
+2024-11-30 21:54:13,923 DEBUG [main][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2024-11-30 21:54:13,923 DEBUG [main][PlatformDependent.java:204] - -Dio.netty.noPreferDirect: false
+2024-11-30 21:54:13,928 DEBUG [main][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2024-11-30 21:54:13,928 DEBUG [main][PlatformDependent.java:940] - org.jctools-core.MpscChunkedArrayQueue: available
+2024-11-30 21:54:13,998 DEBUG [main][DefaultClientResources.java:204] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2024-11-30 21:54:13,998 DEBUG [main][DefaultClientResources.java:204] - LatencyUtils/HdrUtils are not available, metrics are disabled
+2024-11-30 21:54:14,052 DEBUG [main][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 48
+2024-11-30 21:54:14,052 DEBUG [main][PooledByteBufAllocator.java:154] - -Dio.netty.allocator.numHeapArenas: 48
+2024-11-30 21:54:14,053 DEBUG [main][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 48
+2024-11-30 21:54:14,053 DEBUG [main][PooledByteBufAllocator.java:155] - -Dio.netty.allocator.numDirectArenas: 48
+2024-11-30 21:54:14,053 DEBUG [main][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2024-11-30 21:54:14,053 DEBUG [main][PooledByteBufAllocator.java:157] - -Dio.netty.allocator.pageSize: 8192
+2024-11-30 21:54:14,053 DEBUG [main][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2024-11-30 21:54:14,053 DEBUG [main][PooledByteBufAllocator.java:162] - -Dio.netty.allocator.maxOrder: 11
+2024-11-30 21:54:14,053 DEBUG [main][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2024-11-30 21:54:14,053 DEBUG [main][PooledByteBufAllocator.java:166] - -Dio.netty.allocator.chunkSize: 16777216
+2024-11-30 21:54:14,053 DEBUG [main][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2024-11-30 21:54:14,053 DEBUG [main][PooledByteBufAllocator.java:167] - -Dio.netty.allocator.smallCacheSize: 256
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:168] - -Dio.netty.allocator.normalCacheSize: 64
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:169] - -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:170] - -Dio.netty.allocator.cacheTrimInterval: 8192
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:171] - -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:172] - -Dio.netty.allocator.useCacheForAllThreads: true
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-11-30 21:54:14,054 DEBUG [main][PooledByteBufAllocator.java:173] - -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+2024-11-30 21:54:14,265 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-30 21:54:14,265 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-30 21:54:14,265 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-30 21:54:14,265 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-30 21:54:14,270 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-30 21:54:14,270 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-30 21:54:14,270 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-30 21:54:14,270 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-30 21:54:14,294 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2024-11-30 21:54:14,294 DEBUG [main][ResourceBundleMessageInterpolator.java:172] - Loaded expression factory via original TCCL
+2024-11-30 21:54:14,300 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2024-11-30 21:54:14,300 DEBUG [main][AbstractConfigurationImpl.java:171] - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2024-11-30 21:54:14,300 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2024-11-30 21:54:14,300 DEBUG [main][AbstractConfigurationImpl.java:203] - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2024-11-30 21:54:14,301 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2024-11-30 21:54:14,301 DEBUG [main][AbstractConfigurationImpl.java:217] - Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+2024-11-30 21:54:14,302 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-11-30 21:54:14,302 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2024-11-30 21:54:14,302 DEBUG [main][ValidationXmlParser.java:120] - Trying to load META-INF/validation.xml for XML based Validator configuration.
+2024-11-30 21:54:14,302 DEBUG [main][ResourceLoaderHelper.java:53] - Trying to load META-INF/validation.xml via user class loader
+2024-11-30 21:54:14,302 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-11-30 21:54:14,302 DEBUG [main][ResourceLoaderHelper.java:60] - Trying to load META-INF/validation.xml via TCCL
+2024-11-30 21:54:14,302 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-11-30 21:54:14,302 DEBUG [main][ResourceLoaderHelper.java:66] - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2024-11-30 21:54:14,303 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-11-30 21:54:14,303 DEBUG [main][ValidationXmlParser.java:127] - No META-INF/validation.xml found. Using annotation based configuration only.
+2024-11-30 21:54:14,303 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-11-30 21:54:14,303 DEBUG [main][TraversableResolvers.java:60] - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+2024-11-30 21:54:14,305 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-11-30 21:54:14,305 DEBUG [main][ValidatorFactoryConfigurationHelper.java:300] - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+2024-11-30 21:54:14,305 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-11-30 21:54:14,305 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-11-30 21:54:14,305 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-11-30 21:54:14,306 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-11-30 21:54:14,305 DEBUG [main][ValidatorFactoryConfigurationHelper.java:375] - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+2024-11-30 21:54:14,305 DEBUG [main][ValidatorFactoryConfigurationHelper.java:376] - HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+2024-11-30 21:54:14,306 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-11-30 21:54:14,305 DEBUG [main][ValidatorFactoryConfigurationHelper.java:377] - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+2024-11-30 21:54:14,306 DEBUG [main][ValidatorFactoryConfigurationHelper.java:378] - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+2024-11-30 21:54:14,306 DEBUG [main][ValidatorFactoryConfigurationHelper.java:379] - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+2024-11-30 21:54:14,508 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-30 21:54:14,508 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-30 21:54:14,961 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-30 21:54:14,961 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-30 21:54:15,447 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-30 21:54:15,447 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-30 21:54:15,448 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-30 21:54:15,448 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-30 21:54:15,449 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-30 21:54:15,449 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-30 21:54:15,454 DEBUG [main][NamingProxy.java:195] - server list provided by user: [81.70.63.156:8848]
+2024-11-30 21:54:15,454 DEBUG [main][NamingProxy.java:195] - server list provided by user: [81.70.63.156:8848]
+2024-11-30 21:54:15,455 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [81.70.63.156:8848]
+2024-11-30 21:54:15,455 DEBUG [com.alibaba.nacos.client.naming.updater][NamingProxy.java:195] - server list provided by user: [81.70.63.156:8848]
+2024-11-30 21:54:15,459 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-11-30 21:54:15,459 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-11-30 21:54:15,467 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2024-11-30 21:54:15,467 DEBUG [main][HostReactor.java:306] - failover-mode: false
+2024-11-30 21:54:15,469 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://81.70.63.156:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=172.18.210.246&serviceName=physicaleducation-plus-project%40%40checkcode&udpPort=50888&clusters=DEFAULT, body: {}
+2024-11-30 21:54:15,469 DEBUG [main][NacosRestTemplate.java:476] - HTTP method: GET, url: http://81.70.63.156:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=172.18.210.246&serviceName=physicaleducation-plus-project%40%40checkcode&udpPort=50888&clusters=DEFAULT, body: {}
+2024-11-30 21:54:15,534 INFO [main][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"172.18.210.246#63075#DEFAULT#physicaleducation-plus-project@@checkcode","ip":"172.18.210.246","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-30 21:54:15,534 INFO [main][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"172.18.210.246#63075#DEFAULT#physicaleducation-plus-project@@checkcode","ip":"172.18.210.246","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-30 21:54:15,547 INFO [main][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"172.18.210.246#63075#DEFAULT#physicaleducation-plus-project@@checkcode","ip":"172.18.210.246","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-30 21:54:15,547 INFO [main][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@checkcode@@DEFAULT -> [{"instanceId":"172.18.210.246#63075#DEFAULT#physicaleducation-plus-project@@checkcode","ip":"172.18.210.246","port":63075,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@checkcode","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-30 21:54:15,555 INFO [main][StartupInfoLogger.java:61] - Started XuechengPlusCheckcodeApplicationTests in 3.598 seconds (JVM running for 4.896)
+2024-11-30 21:54:15,555 INFO [main][StartupInfoLogger.java:61] - Started XuechengPlusCheckcodeApplicationTests in 3.598 seconds (JVM running for 4.896)
+2024-11-30 21:54:15,559 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:54:15,559 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:54:15,560 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:54:15,560 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:54:15,562 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode-dev.yaml+xuecheng-plus-project+dev
+2024-11-30 21:54:15,562 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode-dev.yaml+xuecheng-plus-project+dev
+2024-11-30 21:54:15,562 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:54:15,562 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:54:15,562 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode+xuecheng-plus-project+dev
+2024-11-30 21:54:15,562 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode+xuecheng-plus-project+dev
+2024-11-30 21:54:15,562 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:54:15,562 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:54:15,563 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] redis-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:54:15,563 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] redis-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:54:15,563 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=redis-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:54:15,563 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=redis-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:54:15,563 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode.yaml+xuecheng-plus-project+dev
+2024-11-30 21:54:15,563 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] checkcode.yaml+xuecheng-plus-project+dev
+2024-11-30 21:54:15,563 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:54:15,563 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=checkcode.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-30 21:54:15,565 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:54:15,565 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-11-30 21:54:15,565 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:54:15,565 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-30 21:54:15,570 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://81.70.63.156:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
+2024-11-30 21:54:15,570 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://81.70.63.156:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
+2024-11-30 21:54:15,570 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@34d86a46]
+2024-11-30 21:54:15,570 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@34d86a46]
+2024-11-30 21:54:15,578 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://81.70.63.156:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
+2024-11-30 21:54:15,578 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:476] - HTTP method: POST, url: http://81.70.63.156:8848/nacos/v1/cs/configs/listener, body: {Listening-Configs=swagger-dev.yamlxuecheng-plus-common9c0d3be98c5a9ff620445bd718ea10addevlogging-dev.yamlxuecheng-plus-commoncf8b1af28beb25b242f97519c8f2c560devcheckcode-dev.yamlxuecheng-plus-project6033e8fd9f084a4e0019db05d6dc061edevcheckcode.yamlxuecheng-plus-projectdevcheckcodexuecheng-plus-projectdevredis-dev.yamlxuecheng-plus-commondev, tenant=dev}
+2024-11-30 21:54:15,579 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@34d86a46]
+2024-11-30 21:54:15,579 DEBUG [com.alibaba.nacos.client.Worker.longPolling.fixed-81.70.63.156_8848-dev][NacosRestTemplate.java:494] - Execute via interceptors :[com.alibaba.nacos.client.config.impl.ConfigHttpClientManager$LimiterHttpClientRequestInterceptor@34d86a46]
+2024-11-30 21:54:15,688 DEBUG [main][RedisClient.java:263] - Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2024-11-30 21:54:15,688 DEBUG [main][RedisClient.java:263] - Trying to get a Redis connection for: RedisURI [host='localhost', port=6379]
+2024-11-30 21:54:15,754 DEBUG [main][EpollProvider.java:70] - Starting without optional epoll library
+2024-11-30 21:54:15,754 DEBUG [main][EpollProvider.java:70] - Starting without optional epoll library
+2024-11-30 21:54:15,756 DEBUG [main][KqueueProvider.java:72] - Starting without optional kqueue library
+2024-11-30 21:54:15,756 DEBUG [main][KqueueProvider.java:72] - Starting without optional kqueue library
+2024-11-30 21:54:15,757 DEBUG [main][DefaultEventLoopGroupProvider.java:85] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2024-11-30 21:54:15,757 DEBUG [main][DefaultEventLoopGroupProvider.java:85] - Allocating executor io.netty.channel.nio.NioEventLoopGroup
+2024-11-30 21:54:15,757 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.channel.nio.NioEventLoopGroup
+2024-11-30 21:54:15,757 DEBUG [main][DefaultEventLoopGroupProvider.java:196] - Creating executor io.netty.channel.nio.NioEventLoopGroup
+2024-11-30 21:54:15,758 DEBUG [main][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 48
+2024-11-30 21:54:15,758 DEBUG [main][MultithreadEventLoopGroup.java:44] - -Dio.netty.eventLoopThreads: 48
+2024-11-30 21:54:15,763 DEBUG [main][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2024-11-30 21:54:15,763 DEBUG [main][NioEventLoop.java:106] - -Dio.netty.noKeySetOptimization: false
+2024-11-30 21:54:15,763 DEBUG [main][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-11-30 21:54:15,763 DEBUG [main][NioEventLoop.java:107] - -Dio.netty.selectorAutoRebuildThreshold: 512
+2024-11-30 21:54:15,775 DEBUG [main][DefaultEventLoopGroupProvider.java:98] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@47374fa5, existing ref count 0
+2024-11-30 21:54:15,775 DEBUG [main][DefaultEventLoopGroupProvider.java:98] - Adding reference to io.netty.channel.nio.NioEventLoopGroup@47374fa5, existing ref count 0
+2024-11-30 21:54:15,787 DEBUG [main][RedisClient.java:775] - Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2024-11-30 21:54:15,787 DEBUG [main][RedisClient.java:775] - Resolved SocketAddress localhost:6379 using RedisURI [host='localhost', port=6379]
+2024-11-30 21:54:15,788 DEBUG [main][AbstractRedisClient.java:312] - Connecting to Redis at localhost:6379
+2024-11-30 21:54:15,788 DEBUG [main][AbstractRedisClient.java:312] - Connecting to Redis at localhost:6379
+2024-11-30 21:54:15,791 DEBUG [main][DefaultChannelId.java:79] - -Dio.netty.processId: 20172 (auto-detected)
+2024-11-30 21:54:15,791 DEBUG [main][DefaultChannelId.java:79] - -Dio.netty.processId: 20172 (auto-detected)
+2024-11-30 21:54:15,793 DEBUG [main][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2024-11-30 21:54:15,793 DEBUG [main][NetUtil.java:135] - -Djava.net.preferIPv4Stack: false
+2024-11-30 21:54:15,793 DEBUG [main][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2024-11-30 21:54:15,793 DEBUG [main][NetUtil.java:136] - -Djava.net.preferIPv6Addresses: false
+2024-11-30 21:54:15,973 DEBUG [main][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-11-30 21:54:15,973 DEBUG [main][NetUtilInitializations.java:129] - Loopback interface: lo (Software Loopback Interface 1, 127.0.0.1)
+2024-11-30 21:54:15,974 DEBUG [main][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-11-30 21:54:15,974 DEBUG [main][NetUtil.java:187] - Failed to get SOMAXCONN from sysctl and file \proc\sys\net\core\somaxconn. Default: 200
+2024-11-30 21:54:16,101 DEBUG [main][DefaultChannelId.java:101] - -Dio.netty.machineId: e8:b0:c5:ff:fe:5a:45:5b (auto-detected)
+2024-11-30 21:54:16,101 DEBUG [main][DefaultChannelId.java:101] - -Dio.netty.machineId: e8:b0:c5:ff:fe:5a:45:5b (auto-detected)
+2024-11-30 21:54:16,114 DEBUG [main][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2024-11-30 21:54:16,114 DEBUG [main][ByteBufUtil.java:87] - -Dio.netty.allocator.type: pooled
+2024-11-30 21:54:16,114 DEBUG [main][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-11-30 21:54:16,114 DEBUG [main][ByteBufUtil.java:96] - -Dio.netty.threadLocalDirectBufferSize: 0
+2024-11-30 21:54:16,115 DEBUG [main][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-11-30 21:54:16,115 DEBUG [main][ByteBufUtil.java:99] - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+2024-11-30 21:54:16,128 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:102] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-11-30 21:54:16,128 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:102] - -Dio.netty.recycler.maxCapacityPerThread: 4096
+2024-11-30 21:54:16,129 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:103] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-11-30 21:54:16,129 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:103] - -Dio.netty.recycler.maxSharedCapacityFactor: 2
+2024-11-30 21:54:16,129 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:104] - -Dio.netty.recycler.linkCapacity: 16
+2024-11-30 21:54:16,129 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:104] - -Dio.netty.recycler.linkCapacity: 16
+2024-11-30 21:54:16,129 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:105] - -Dio.netty.recycler.ratio: 8
+2024-11-30 21:54:16,129 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:105] - -Dio.netty.recycler.ratio: 8
+2024-11-30 21:54:16,129 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:106] - -Dio.netty.recycler.delayedQueue.ratio: 8
+2024-11-30 21:54:16,129 DEBUG [lettuce-nioEventLoop-4-1][Recycler.java:106] - -Dio.netty.recycler.delayedQueue.ratio: 8
+2024-11-30 21:54:16,134 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:63] - -Dio.netty.buffer.checkAccessible: true
+2024-11-30 21:54:16,134 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:63] - -Dio.netty.buffer.checkAccessible: true
+2024-11-30 21:54:16,134 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:64] - -Dio.netty.buffer.checkBounds: true
+2024-11-30 21:54:16,134 DEBUG [lettuce-nioEventLoop-4-1][AbstractByteBuf.java:64] - -Dio.netty.buffer.checkBounds: true
+2024-11-30 21:54:16,134 DEBUG [lettuce-nioEventLoop-4-1][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4cba6a3c
+2024-11-30 21:54:16,134 DEBUG [lettuce-nioEventLoop-4-1][ResourceLeakDetectorFactory.java:196] - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4cba6a3c
+2024-11-30 21:54:16,148 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:181] - [channel=0xe50a9150, [id: 0x6913515e] (inactive), chid=0x1] channelRegistered()
+2024-11-30 21:54:16,148 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:181] - [channel=0xe50a9150, [id: 0x6913515e] (inactive), chid=0x1] channelRegistered()
+2024-11-30 21:54:16,477 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@3913079 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@2c0a3826
+2024-11-30 21:54:16,477 DEBUG [nacos.publisher-com.alibaba.nacos.client.naming.event.InstancesChangeEvent][DefaultPublisher.java:193] - [NotifyCenter] the com.alibaba.nacos.client.naming.event.InstancesChangeEvent@3913079 will received by com.alibaba.nacos.client.naming.event.InstancesChangeNotifier@2c0a3826
+2024-11-30 21:54:16,553 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://81.70.63.156:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=172.18.210.246&serviceName=physicaleducation-plus-project%40%40checkcode&udpPort=50888&clusters=DEFAULT, body: {}
+2024-11-30 21:54:16,553 DEBUG [com.alibaba.nacos.client.naming.updater][NacosRestTemplate.java:476] - HTTP method: GET, url: http://81.70.63.156:8848/nacos/v1/ns/instance/list?app=unknown&healthyOnly=false&namespaceId=dev&clientIP=172.18.210.246&serviceName=physicaleducation-plus-project%40%40checkcode&udpPort=50888&clusters=DEFAULT, body: {}
+2024-11-30 21:54:18,186 DEBUG [lettuce-nioEventLoop-4-1][AbstractRedisClient.java:348] - Connecting to Redis at localhost:6379: localhost:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-30 21:54:18,186 DEBUG [lettuce-nioEventLoop-4-1][AbstractRedisClient.java:348] - Connecting to Redis at localhost:6379: localhost:6379
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:715)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:707)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:655)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:581)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+2024-11-30 21:54:18,282 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:131] - close()
+2024-11-30 21:54:18,282 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:131] - close()
+2024-11-30 21:54:18,282 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:145] - closeAsync()
+2024-11-30 21:54:18,282 DEBUG [lettuce-nioEventLoop-4-1][RedisChannelHandler.java:145] - closeAsync()
+2024-11-30 21:54:18,282 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:549] - [unknown, epid=0x1] closeAsync()
+2024-11-30 21:54:18,282 DEBUG [lettuce-nioEventLoop-4-1][DefaultEndpoint.java:549] - [unknown, epid=0x1] closeAsync()
+2024-11-30 21:54:18,283 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:198] - [channel=0xe50a9150, [id: 0x6913515e] (inactive), chid=0x1] channelUnregistered()
+2024-11-30 21:54:18,283 DEBUG [lettuce-nioEventLoop-4-1][CommandHandler.java:198] - [channel=0xe50a9150, [id: 0x6913515e] (inactive), chid=0x1] channelUnregistered()
+2024-11-30 21:54:18,295 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-30 21:54:18,295 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-30 21:54:18,295 WARN [Thread-13][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-30 21:54:18,295 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-30 21:54:18,295 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-30 21:54:18,295 WARN [Thread-13][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-30 21:54:18,295 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-30 21:54:18,295 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-30 21:54:18,296 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-30 21:54:18,296 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-30 21:54:18,297 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-30 21:54:18,297 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-30 21:54:18,297 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-30 21:54:18,297 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-30 21:54:18,297 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-30 21:54:18,297 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-30 21:54:20,465 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-11-30 21:54:20,465 DEBUG [com.alibaba.nacos.naming.failover][FailoverReactor.java:147] - failover switch is not found, failover00-00---000-VIPSRV_FAILOVER_SWITCH-000---00-00
+2024-11-30 21:54:21,328 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-30 21:54:21,328 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-30 21:54:24,361 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-30 21:54:24,361 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-30 21:54:24,361 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-30 21:54:24,361 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-30 21:54:25,464 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-30 21:54:25,464 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-30 21:54:25,464 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-30 21:54:25,464 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-30 21:54:25,464 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-30 21:54:25,464 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-30 21:54:25,465 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-30 21:54:25,465 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-30 21:54:25,465 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-30 21:54:25,465 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-30 21:54:25,465 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-30 21:54:25,465 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-30 21:54:25,465 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-30 21:54:25,465 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-30 21:54:25,465 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-30 21:54:25,465 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-30 21:54:25,466 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-30 21:54:25,466 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-30 21:54:25,470 DEBUG [SpringContextShutdownHook][AbstractRedisClient.java:474] - Initiate shutdown (100, 100, MILLISECONDS)
+2024-11-30 21:54:25,470 DEBUG [SpringContextShutdownHook][AbstractRedisClient.java:474] - Initiate shutdown (100, 100, MILLISECONDS)
+2024-11-30 21:54:25,476 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:226] - Release executor io.netty.channel.nio.NioEventLoopGroup@47374fa5
+2024-11-30 21:54:25,476 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:226] - Release executor io.netty.channel.nio.NioEventLoopGroup@47374fa5
+2024-11-30 21:54:25,477 DEBUG [lettuce-nioEventLoop-4-1][PoolThreadCache.java:224] - Freed 1 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2024-11-30 21:54:25,477 DEBUG [lettuce-nioEventLoop-4-1][PoolThreadCache.java:224] - Freed 1 thread-local buffer(s) from thread: lettuce-nioEventLoop-4-1
+2024-11-30 21:54:25,590 DEBUG [SpringContextShutdownHook][DefaultClientResources.java:631] - Initiate shutdown (0, 2, SECONDS)
+2024-11-30 21:54:25,590 DEBUG [SpringContextShutdownHook][DefaultClientResources.java:631] - Initiate shutdown (0, 2, SECONDS)
+2024-11-30 21:54:25,593 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:263] - Initiate shutdown (0, 2, SECONDS)
+2024-11-30 21:54:25,593 DEBUG [SpringContextShutdownHook][DefaultEventLoopGroupProvider.java:263] - Initiate shutdown (0, 2, SECONDS)
