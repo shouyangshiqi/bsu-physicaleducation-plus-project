@@ -12,6 +12,7 @@ import com.physicaleducation.model.PageResult;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
@@ -48,6 +49,8 @@ public class CourseBaseInfoController {
     @ApiOperation("课程id查询接口")
     @GetMapping("/course/{coursId}")
     public CourseBaseInfoDto getCourseBaseById(@PathVariable Long coursId){
+        Object principal = SecurityContextHolder.getContext().getAuthentication().getPrincipal();
+        System.out.println(principal);
         CourseBaseInfoDto courseBaseInfoDto = courseBaseInfoService.getCourseBaseById(coursId);
         return courseBaseInfoDto;
     }

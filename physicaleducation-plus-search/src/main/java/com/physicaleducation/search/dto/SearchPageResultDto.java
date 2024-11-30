@@ -24,5 +24,4 @@ public class SearchPageResultDto<T> extends PageResult {
     public SearchPageResultDto(List<T> items, long counts, long page, long pageSize) {
         super(items, counts, page, pageSize);
     }
-
 }

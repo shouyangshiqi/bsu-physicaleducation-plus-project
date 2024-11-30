@@ -1,6 +1,7 @@
 package com.physicaleducation.execption;
 
 import lombok.Data;
+import lombok.ToString;
 
 /**
  * @author khran
@@ -9,6 +10,7 @@ import lombok.Data;
  */
 
 @Data
+@ToString
 public class PEPlusException extends RuntimeException{
 
     private String errMessage;

@@ -1,5 +1,4 @@
 package com.physicaleducation.search.controller;
-
 import com.physicaleducation.execption.PEPlusException;
 import com.physicaleducation.search.po.CourseIndex;
 import com.physicaleducation.search.service.IndexService;

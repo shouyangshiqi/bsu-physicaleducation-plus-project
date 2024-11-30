@@ -1,0 +1,8 @@
+{
+  "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0",
+  "token_type": "bearer",
+  "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJhdGkiOiI0ZTg1M2MwMi03YThlLTRhYTMtODY5OC1hMjA2YjYxMzgwOTIiLCJleHAiOjE3MzMyMDcyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6ImM2YjNkMWI2LTkzMjEtNDU1Ny04MzllLTdiMjAxMzkyZTFlMCIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.QjXPRlCkHzztXU2NvBrnPvSgiIAoCDQ2VzwUfh56oJM",
+  "expires_in": 7199,
+  "scope": "all",
+  "jti": "4e853c02-7a8e-4aa3-8698-a206b6138092"
+}
