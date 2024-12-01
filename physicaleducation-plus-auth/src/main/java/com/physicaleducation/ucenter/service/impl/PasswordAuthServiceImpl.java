@@ -36,7 +36,6 @@ public class PasswordAuthServiceImpl implements AuthService {
         String checkcodekey = authParamsDto.getCheckcodekey();
         if(StringUtils.isBlank(checkcodekey) || StringUtils.isBlank(checkcode)){
             throw new RuntimeException("验证码为空");
-
         }
         Boolean verify = checkcodeFeign.verify(checkcodekey, checkcode);
         if(!verify){

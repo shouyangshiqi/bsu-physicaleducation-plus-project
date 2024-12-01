@@ -4,35 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="用户认证功能">
-      <change afterPath="$PROJECT_DIR$/api-test/sc-checkcode-api.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/feignclient/CheckCodeClientFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/feignclient/CheckcodeFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120012.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120043.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120115.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120132.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120304.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120414.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120415.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120421.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120502.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120516.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120642.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120725.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T120843.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T121045.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T121238.404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T121357.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T121359.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T121409.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="验证码验证板块">
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/controller/WxLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/WxAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/impl/WxAuthServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/AuthApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/AuthApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/feignclient/CheckCodeClientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/feignclient/CheckCodeClientFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/impl/PasswordAuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/impl/PasswordAuthServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +49,8 @@
       <list>
         <option value="HTTP Public Environment File" />
         <option value="Enum" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -76,6 +58,12 @@
     <option name="BRANCH" value="dev" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -203,7 +191,7 @@
     "git-widget-placeholder": "dev",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project",
+    "last_opened_file_path": "D:/java_learn/idea-program/project-xczx2-portal-vue-ts",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -269,11 +257,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.sc-auth-api | 扩展认证请求参数后############################################">
+  <component name="RunManager" selected="Spring Boot.PhysicalEducationGatewayApplication">
     <configuration name="sc-auth-api | 扩展认证请求参数后############################################" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-auth-api.http" index="6" requestIdentifier="扩展认证请求参数后############################################" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="sc-checkcode-api | 申请验证码" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-checkcode-api.http" requestIdentifier="申请验证码" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="sc-checkcode-api | 校验验证码" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-checkcode-api.http" index="2" requestIdentifier="校验验证码" runType="Run single request">
@@ -295,6 +280,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.AuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CheckcodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="physicaleducation-plus-checkcode" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.checkcode.CheckcodeApplication" />
@@ -308,9 +306,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-search" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.SearchApplication" />
+    <configuration name="PhysicalEducationGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.PhysicalEducationGatewayApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.physicaleducation.*" />
@@ -323,15 +321,16 @@
     </configuration>
     <list>
       <item itemvalue="HTTP Request.sc-auth-api | 扩展认证请求参数后############################################" />
-      <item itemvalue="HTTP Request.sc-checkcode-api | 校验验证码" />
       <item itemvalue="JUnit.XuechengPlusCheckcodeApplicationTests.contextLoads" />
-      <item itemvalue="Spring Boot.SearchApplication" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
       <item itemvalue="Spring Boot.CheckcodeApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.AuthApplication" />
         <item itemvalue="Spring Boot.CheckcodeApplication" />
-        <item itemvalue="HTTP Request.sc-checkcode-api | 校验验证码" />
+        <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
         <item itemvalue="JUnit.XuechengPlusCheckcodeApplicationTests.contextLoads" />
         <item itemvalue="HTTP Request.sc-auth-api | 扩展认证请求参数后############################################" />
       </list>
@@ -373,7 +372,8 @@
       <workItem from="1732842921230" duration="18952000" />
       <workItem from="1732873905956" duration="2044000" />
       <workItem from="1732929388920" duration="30718000" />
-      <workItem from="1732977596548" duration="14000" />
+      <workItem from="1732977596548" duration="836000" />
+      <workItem from="1733023869135" duration="10251000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构">
       <option name="closed" value="true" />
@@ -543,7 +543,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732968282980</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="验证码验证板块">
+      <option name="closed" value="true" />
+      <created>1732977626616</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1732977626616</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +587,8 @@
     <MESSAGE value="任务调度中将课程信息添加到索引数据库中" />
     <MESSAGE value="增加了用户认证功能（SpringSecurity）" />
     <MESSAGE value="用户认证功能" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户认证功能" />
+    <MESSAGE value="验证码验证板块" />
+    <option name="LAST_COMMIT_MESSAGE" value="验证码验证板块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
