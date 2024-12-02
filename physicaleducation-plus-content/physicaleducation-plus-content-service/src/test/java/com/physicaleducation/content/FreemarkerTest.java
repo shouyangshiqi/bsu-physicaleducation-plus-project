@@ -46,7 +46,7 @@ public class FreemarkerTest {
 
 
         // 准备数据
-        Long courseId = 124L;
+        Long courseId = 127L;
         CoursePreviewDto coursePreviewDto = coursePublishService.getCoursePreviewInfo(courseId);
 
         HashMap<String, Object> map = new HashMap<>();

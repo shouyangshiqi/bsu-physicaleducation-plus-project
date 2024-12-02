@@ -21,6 +21,16 @@
     <file url="file://$PROJECT_DIR$/physicaleducation-plus-content/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/physicaleducation-plus-gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/physicaleducation-plus-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-learning/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-model/src/main/java" charset="UTF-8" />
@@ -35,17 +45,15 @@
     <file url="file://$PROJECT_DIR$/physicaleducation-plus-parent/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/physicaleducation-plus-search/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/physicaleducation-plus-search/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-generator/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-generator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-system/physicaleducation-plus-system-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-system/physicaleducation-plus-system-api/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-system/physicaleducation-plus-system-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-system/physicaleducation-plus-system-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-system/physicaleducation-plus-system-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-system/physicaleducation-plus-system-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-system/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/physicaleducation-plus-system/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-search/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/xuecheng-plus-search/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-system/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-system/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-api/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-model/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-model/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/xuecheng-plus-system/xuecheng-plus-system-service/src/main/resources" charset="UTF-8" />
   </component>
 </project>

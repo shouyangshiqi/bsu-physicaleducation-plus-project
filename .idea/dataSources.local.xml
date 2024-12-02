@@ -14,12 +14,13 @@
           <node kind="schema">
             <name qname="@" />
             <name qname="nacos" />
+            <name qname="sc402_learning" />
             <name qname="xc402_content" />
             <name qname="xc402_media" />
             <name qname="xc402_system" />
+            <name qname="xc402_users" />
             <name qname="xxl_job" />
             <name qname="xxl_job_2.3.1" />
-            <name qname="xc402_users" />
           </node>
         </introspection-scope>
       </schema-mapping>

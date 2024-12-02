@@ -22,7 +22,7 @@ public class GenerateCourseHtmlTest {
     private MqMessageMapper mqMessageMapper;
     @Test
     public void testGenerate(){
-        MqMessage mqMessage = mqMessageMapper.selectById(4L);
-        coursePublishTask.generateCourseHtml(mqMessage, 124L);
+        MqMessage mqMessage = mqMessageMapper.selectById(5L);
+        coursePublishTask.generateCourseHtml(mqMessage, 127L);
     }
 }

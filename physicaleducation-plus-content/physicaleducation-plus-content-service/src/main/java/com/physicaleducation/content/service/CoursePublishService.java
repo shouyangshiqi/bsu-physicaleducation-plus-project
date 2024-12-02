@@ -1,6 +1,7 @@
 package com.physicaleducation.content.service;
 
 import com.physicaleducation.content.model.dto.CoursePreviewDto;
+import com.physicaleducation.content.model.po.CoursePublish;
 
 import java.io.File;
 
@@ -52,4 +53,10 @@ public interface CoursePublishService{
      */
     public void  uploadCourseHtml(Long courseId,File file);
 
+    /**
+     * 查询发布的课程信息
+     * @param courseId
+     * @return
+     */
+    CoursePublish getCoursePublish(Long courseId);
 }

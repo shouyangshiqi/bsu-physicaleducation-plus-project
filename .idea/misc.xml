@@ -27,6 +27,9 @@
         <option value="$PROJECT_DIR$/physicaleducation-plus-auth/pom.xml" />
         <option value="$PROJECT_DIR$/xuecheng-plus-checkcode/pom.xml" />
         <option value="$PROJECT_DIR$/physicaleducation-plus-checkcode/pom.xml" />
+        <option value="$PROJECT_DIR$/physicaleducation-plus-system/pom.xml" />
+        <option value="$PROJECT_DIR$/xuecheng-plus-learning/pom.xml" />
+        <option value="$PROJECT_DIR$/physicaleducation-plus-learning/pom.xml" />
       </list>
     </option>
   </component>
