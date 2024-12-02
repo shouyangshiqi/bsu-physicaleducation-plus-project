@@ -130,14 +130,7 @@ public class WxAuthServiceImpl implements AuthService, WxAuthService {
     @Transactional
     public XcUser addWxUser(Map userInfo_map){
         String unionid = userInfo_map.get("unionid").toString();
-        //根据unionid查询数据库
-        XcUser xcUser = xcUserMapper.selectOne(new LambdaQueryWrapper<XcUser>().eq(XcUser::getWxUnionid, unionid));
-        if(xcUser!=null){
-            return xcUser;
-        }
-        String userId = UUID.randomUUID().toString();
-        xcUser = new XcUser();
-        xcUser.setId(userId);
+        XcUser xcUser = new XcUser();
         xcUser.setWxUnionid(unionid);
         //记录从微信得到的昵称
         xcUser.setNickname(userInfo_map.get("nickname").toString());
@@ -148,6 +141,15 @@ public class WxAuthServiceImpl implements AuthService, WxAuthService {
         xcUser.setUtype("101001");//学生类型
         xcUser.setStatus("1");//用户状态
         xcUser.setCreateTime(LocalDateTime.now());
+        // 查看原数据中是否存在用户数据,存在就更新数据
+        XcUser xcUserOld = xcUserMapper.selectOne(new LambdaQueryWrapper<XcUser>().eq(XcUser::getWxUnionid, unionid));
+        if(xcUserOld != null){
+            xcUser.setId(xcUserOld.getId());
+            xcUserMapper.updateById(xcUser);
+        }
+        // 不存在就添加数据
+        String userId = UUID.randomUUID().toString();
+        xcUser.setId(userId);
         xcUserMapper.insert(xcUser);
         XcUserRole xcUserRole = new XcUserRole();
         xcUserRole.setId(UUID.randomUUID().toString());
