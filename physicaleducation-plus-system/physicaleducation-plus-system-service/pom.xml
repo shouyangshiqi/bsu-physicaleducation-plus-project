@@ -3,18 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>xuecheng-plus-system</artifactId>
-        <groupId>com.xuecheng</groupId>
+        <artifactId>physicaleducation-plus-system</artifactId>
+        <groupId>com.physicaleducation</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>xuecheng-plus-system-service</artifactId>
-    <name>xuecheng-plus-system-service</name>
-    <description>xuecheng-plus-system-service</description>
+    <artifactId>physicaleducation-plus-system-service</artifactId>
+    <name>physicaleducation-plus-system-service</name>
+    <description>physicaleducation-plus-system-service</description>
 
     <dependencies>
         <dependency>
-            <groupId>com.xuecheng</groupId>
-            <artifactId>xuecheng-plus-system-model</artifactId>
+            <groupId>com.physicaleducation</groupId>
+            <artifactId>physicaleducation-plus-system-model</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 

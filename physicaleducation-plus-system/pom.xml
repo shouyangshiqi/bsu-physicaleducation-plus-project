@@ -8,15 +8,15 @@
         <version>0.0.1-SNAPSHOT</version>
         <relativePath>../physicaleducation-plus-parent</relativePath>
     </parent>
-    <groupId>com.xuecheng</groupId>
-    <artifactId>xuecheng-plus-system</artifactId>
-    <name>xuecheng-plus-system</name>
-    <description>xuecheng-plus-system</description>
+    <groupId>com.physicaleducation</groupId>
+    <artifactId>physicaleducation-plus-system</artifactId>
+    <name>physicaleducation-plus-system</name>
+    <description>physicaleducation-plus-system</description>
     <packaging>pom</packaging>
 
     <modules>
-        <module>xuecheng-plus-system-api</module>
-        <module>xuecheng-plus-system-service</module>
-        <module>xuecheng-plus-system-model</module>
+        <module>physicaleducation-plus-system-api</module>
+        <module>physicaleducation-plus-system-service</module>
+        <module>physicaleducation-plus-system-model</module>
     </modules>
 </project>
