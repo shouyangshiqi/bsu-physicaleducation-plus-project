@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="微信登录板块流程">
+      <change afterPath="$PROJECT_DIR$/Test1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/impl/WxAuthServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/impl/WxAuthServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/physicaleducation-plus-base">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="physicaleducation-plus-base" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Public Environment File" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="dev" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/physicaleducation-plus-base/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="HttpClientSelectedEnvironments">
+    <file url="file://$PROJECT_DIR$/api-test/sc-content-api.http" environment="dev" />
+    <file url="file://$PROJECT_DIR$/api-test/sc-media-api.http" environment="dev" />
+    <file url="file://$PROJECT_DIR$/api-test/sc-auth-api.http" environment="dev" />
+    <file url="file://$PROJECT_DIR$/api-test/sc-checkcode-api.http" environment="dev" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\software\cs_software\apache-maven-3.6.3" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\software\cs_software\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2oh0fnhi9geFl6yxKG1BbcsfIdY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ContentCodeGenerator.executor": "Run",
+    "Application.Test1.executor": "Run",
+    "Database Script.nacos.sql.executor": "Run",
+    "Database Script.tables_xxl_job.sql.executor": "Run",
+    "Database Script.xcplus_content.sql.executor": "Run",
+    "Database Script.xcplus_media.sql.executor": "Run",
+    "Database Script.xcplus_system.sql.executor": "Run",
+    "Database Script.xcplus_users.sql.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.sc-auth-api | 密码模式#2.executor": "Run",
+    "HTTP Request.sc-auth-api | 密码模式.executor": "Run",
+    "HTTP Request.sc-auth-api | 扩展认证请求参数后############################################.executor": "Run",
+    "HTTP Request.sc-auth-api | 授权码模式.executor": "Run",
+    "HTTP Request.sc-auth-api | 校验jwt令牌#2.executor": "Run",
+    "HTTP Request.sc-auth-api | 校验jwt令牌.executor": "Run",
+    "HTTP Request.sc-checkcode-api | 校验验证码.executor": "Run",
+    "HTTP Request.sc-checkcode-api | 申请验证码.executor": "Run",
+    "HTTP Request.sc-content-api | #1.executor": "Run",
+    "HTTP Request.sc-content-api | 修改课程.executor": "Run",
+    "HTTP Request.sc-content-api | 创建课程.executor": "Run",
+    "HTTP Request.sc-content-api | 删除课程计划.executor": "Run",
+    "HTTP Request.sc-content-api | 查询某个课程的课程计划.executor": "Run",
+    "HTTP Request.sc-content-api | 查询课程信息.executor": "Run",
+    "HTTP Request.sc-content-api | 查询课程分类.executor": "Run",
+    "HTTP Request.sc-content-api | 添加或修改老师#1.executor": "Run",
+    "HTTP Request.sc-content-api | 添加或修改老师#2.executor": "Run",
+    "HTTP Request.sc-content-api | 添加或修改老师.executor": "Run",
+    "HTTP Request.sc-content-api | 课程查询.executor": "Run",
+    "HTTP Request.sc-media-api | 上传文件.executor": "Run",
+    "JUnit.CourseBaseInfoServiceImplTests.testCourseBaseMapper.executor": "Debug",
+    "JUnit.CourseBaseMapperTests.testCourseBaseMapper.executor": "Run",
+    "JUnit.CourseCategoryServiceImplTests.testCourseBaseMapper.executor": "Run",
+    "JUnit.CourseCategoryServiceImplTests.testSql.executor": "Run",
+    "JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd.executor": "Run",
+    "JUnit.FeignUploadTest.test.executor": "Run",
+    "JUnit.FreemarkerTest.testGenerateHtmlByTemplate.executor": "Debug",
+    "JUnit.GenerateCourseHtmlTest.testGenerate.executor": "Debug",
+    "JUnit.MinioTest.getFile.executor": "Run",
+    "JUnit.MinioTest.testMd5.executor": "Run",
+    "JUnit.MinioTest.upload.executor": "Run",
+    "JUnit.MinioTest.upload2.executor": "Run",
+    "JUnit.XuechengPlusCheckcodeApplicationTests.contextLoads.executor": "Run",
+    "Maven.physicaleducation-plus-base [clean].executor": "Run",
+    "Maven.physicaleducation-plus-base [package].executor": "Run",
+    "Maven.physicaleducation-plus-checkcode [clean].executor": "Run",
+    "Maven.physicaleducation-plus-content [clean].executor": "Run",
+    "Maven.physicaleducation-plus-content [package].executor": "Run",
+    "Maven.physicaleducation-plus-content-service [clean].executor": "Run",
+    "Maven.physicaleducation-plus-content-service [compile].executor": "Run",
+    "Maven.physicaleducation-plus-content-service [package].executor": "Run",
+    "Maven.physicaleducation-plus-gateway [install].executor": "Run",
+    "Maven.physicaleducation-plus-media [clean].executor": "Run",
+    "Maven.physicaleducation-plus-parent [clean].executor": "Run",
+    "Maven.physicaleducation-plus-parent [compile].executor": "Run",
+    "Maven.physicaleducation-plus-parent [package].executor": "Run",
+    "Maven.physicaleducation-plus-search [clean].executor": "Run",
+    "Maven.physicaleducation-plus-search [install].executor": "Run",
+    "Maven.xuecheng-plus-generator [clean].executor": "Run",
+    "Maven.xuecheng-plus-media [clean].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AuthApplication.executor": "Run",
+    "Spring Boot.CheckcodeApplication.executor": "Run",
+    "Spring Boot.ContentApplication (1).executor": "Run",
+    "Spring Boot.ContentApplication.executor": "Run",
+    "Spring Boot.ContentApplication2.executor": "Run",
+    "Spring Boot.MediaApplication.executor": "Run",
+    "Spring Boot.PhysicalEducationGatewayApplication.executor": "Run",
+    "Spring Boot.SearchApplication (1).executor": "Run",
+    "Spring Boot.SearchApplication.executor": "Run",
+    "Spring Boot.SystemApplication.executor": "Run",
+    "git-widget-placeholder": "dev",
+    "jdk.selected.JAVA_MODULE": "1.8",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project/physicaleducation-plus-gateway/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.36666667",
+    "rest.client.default.execution.environment": "dev",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xc402_system\"",
+      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3",
+      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xc402_media\"",
+      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xxl_job_2.3.1\"",
+      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xc402_users\""
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\api-test" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-gateway\src\main\java\com\physicaleducation\gateway\config" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-api\src\main\java\com\physicaleducation\content\config" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-auth\src\main\java\com\physicaleducation\auth\config" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\sql" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-gateway\src\main\resources" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-media\physicaleducation-plus-media-service\src" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\sql" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\src\test" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-base\src\main\java\com\physicaleducation\base\config" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.physicaleducation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.physicaleducation.content.model.po" />
+      <recent name="com.physicaleducation.content.config" />
+      <recent name="com.physicaleducation.content" />
+      <recent name="com.physicaleducation.content.model" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="Application" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Test1">
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <module name="bsu-physicaleducation-plus-project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XuechengPlusCheckcodeApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-checkcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.checkcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.physicaleducation.checkcode" />
+      <option name="MAIN_CLASS_NAME" value="com.physicaleducation.checkcode.XuechengPlusCheckcodeApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-auth" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.AuthApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CheckcodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-checkcode" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.checkcode.CheckcodeApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.checkcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhysicalEducationGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.PhysicalEducationGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="JUnit.XuechengPlusCheckcodeApplicationTests.contextLoads" />
+      <item itemvalue="Spring Boot.AuthApplication" />
+      <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
+      <item itemvalue="Spring Boot.CheckcodeApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Spring Boot.CheckcodeApplication" />
+        <item itemvalue="Spring Boot.PhysicalEducationGatewayApplication" />
+        <item itemvalue="Spring Boot.AuthApplication" />
+        <item itemvalue="JUnit.XuechengPlusCheckcodeApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="" />
+      <created>1731306607195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731306607195</updated>
+      <workItem from="1731306608317" duration="10959000" />
+      <workItem from="1731399873209" duration="2868000" />
+      <workItem from="1731406774723" duration="7117000" />
+      <workItem from="1731459990163" duration="17154000" />
+      <workItem from="1731548201829" duration="20003000" />
+      <workItem from="1732269673789" duration="3093000" />
+      <workItem from="1732326463807" duration="30120000" />
+      <workItem from="1732412259729" duration="4446000" />
+      <workItem from="1732416724087" duration="15439000" />
+      <workItem from="1732440380517" duration="7114000" />
+      <workItem from="1732499557650" duration="34492000" />
+      <workItem from="1732585020881" duration="931000" />
+      <workItem from="1732585967706" duration="29868000" />
+      <workItem from="1732672323293" duration="4597000" />
+      <workItem from="1732678655147" duration="18490000" />
+      <workItem from="1732758437990" duration="796000" />
+      <workItem from="1732777350531" duration="17945000" />
+      <workItem from="1732842921230" duration="18952000" />
+      <workItem from="1732873905956" duration="2044000" />
+      <workItem from="1732929388920" duration="30718000" />
+      <workItem from="1732977596548" duration="836000" />
+      <workItem from="1733023869135" duration="11571000" />
+      <workItem from="1733105488202" duration="2955000" />
+    </task>
+    <task id="LOCAL-00001" summary="项目结构">
+      <option name="closed" value="true" />
+      <created>1731308389925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1731308389925</updated>
+    </task>
+    <task id="LOCAL-00002" summary="项目结构(内容管理模块）">
+      <option name="closed" value="true" />
+      <created>1731406607042</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731406607042</updated>
+    </task>
+    <task id="LOCAL-00003" summary="项目结构(内容管理模块）">
+      <option name="closed" value="true" />
+      <created>1731407390873</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731407390874</updated>
+    </task>
+    <task id="LOCAL-00004" summary="day1(结束）完成模块的基本搭建">
+      <option name="closed" value="true" />
+      <created>1731505015526</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731505015526</updated>
+    </task>
+    <task id="LOCAL-00005" summary="系统服务知识导入">
+      <option name="closed" value="true" />
+      <created>1731562811090</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731562811090</updated>
+    </task>
+    <task id="LOCAL-00006" summary="系统服务知识导入">
+      <option name="closed" value="true" />
+      <created>1731562824264</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731562824264</updated>
+    </task>
+    <task id="LOCAL-00007" summary="课程分类板块开发完成">
+      <option name="closed" value="true" />
+      <created>1731583926808</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1731583926808</updated>
+    </task>
+    <task id="LOCAL-00008" summary="课程添加功能以及自定义异常处理板块">
+      <option name="closed" value="true" />
+      <created>1732339584482</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732339584482</updated>
+    </task>
+    <task id="LOCAL-00009" summary="查询以及添加课程计划接口">
+      <option name="closed" value="true" />
+      <created>1732372186427</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1732372186427</updated>
+    </task>
+    <task id="LOCAL-00010" summary="内容管理模块基本完成">
+      <option name="closed" value="true" />
+      <created>1732440037345</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1732440037346</updated>
+    </task>
+    <task id="LOCAL-00011" summary="媒资服务工程搭建">
+      <option name="closed" value="true" />
+      <created>1732447339296</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1732447339296</updated>
+    </task>
+    <task id="LOCAL-00012" summary="上传图片接口完成">
+      <option name="closed" value="true" />
+      <created>1732516444743</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1732516444743</updated>
+    </task>
+    <task id="LOCAL-00013" summary="上传视频接口完成">
+      <option name="closed" value="true" />
+      <created>1732544310203</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1732544310203</updated>
+    </task>
+    <task id="LOCAL-00014" summary="分布式处理视频转化（avi转化为mp4），利用xxl_job自动处理的整个逻辑功能板块完成。">
+      <option name="closed" value="true" />
+      <created>1732618916756</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1732618916756</updated>
+    </task>
+    <task id="LOCAL-00015" summary="课程内容预览接口+媒资资源播放接口">
+      <option name="closed" value="true" />
+      <created>1732699474493</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732699474493</updated>
+    </task>
+    <task id="LOCAL-00016" summary="磕碜审核+课程发布">
+      <option name="closed" value="true" />
+      <created>1732798696559</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732798696559</updated>
+    </task>
+    <task id="LOCAL-00017" summary="feign远程调用+生成静态页面">
+      <option name="closed" value="true" />
+      <created>1732857768387</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1732857768387</updated>
+    </task>
+    <task id="LOCAL-00018" summary="任务调度中将课程信息添加到索引数据库中">
+      <option name="closed" value="true" />
+      <created>1732872584617</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1732872584617</updated>
+    </task>
+    <task id="LOCAL-00019" summary="任务调度中将课程信息添加到索引数据库中">
+      <option name="closed" value="true" />
+      <created>1732872604468</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1732872604468</updated>
+    </task>
+    <task id="LOCAL-00020" summary="增加了用户认证功能（SpringSecurity）">
+      <option name="closed" value="true" />
+      <created>1732949035403</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1732949035403</updated>
+    </task>
+    <task id="LOCAL-00021" summary="用户认证功能">
+      <option name="closed" value="true" />
+      <created>1732968282980</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1732968282980</updated>
+    </task>
+    <task id="LOCAL-00022" summary="验证码验证板块">
+      <option name="closed" value="true" />
+      <created>1732977626616</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1732977626616</updated>
+    </task>
+    <task id="LOCAL-00023" summary="微信登录板块流程">
+      <option name="closed" value="true" />
+      <created>1733053753773</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1733053753773</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="项目结构" />
+    <MESSAGE value="项目结构(内容管理模块）" />
+    <MESSAGE value="day1(结束）完成模块的基本搭建" />
+    <MESSAGE value="系统服务知识导入" />
+    <MESSAGE value="课程分类板块开发完成" />
+    <MESSAGE value="课程添加功能以及自定义异常处理板块" />
+    <MESSAGE value="查询以及添加课程计划接口" />
+    <MESSAGE value="内容管理模块基本完成" />
+    <MESSAGE value="媒资服务工程搭建" />
+    <MESSAGE value="上传图片接口完成" />
+    <MESSAGE value="上传视频接口完成" />
+    <MESSAGE value="分布式处理视频转化（avi转化为mp4），利用xxl_job自动处理的整个逻辑功能板块完成。" />
+    <MESSAGE value="课程内容预览接口+媒资资源播放接口" />
+    <MESSAGE value="磕碜审核+课程发布" />
+    <MESSAGE value="feign远程调用+生成静态页面" />
+    <MESSAGE value="任务调度中将课程信息添加到索引数据库中" />
+    <MESSAGE value="增加了用户认证功能（SpringSecurity）" />
+    <MESSAGE value="用户认证功能" />
+    <MESSAGE value="验证码验证板块" />
+    <MESSAGE value="微信登录板块流程" />
+    <option name="LAST_COMMIT_MESSAGE" value="微信登录板块流程" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-base2/src/main/java/com/physicaleducation/Main.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/agyudga/src/main/java/com/phsicaleducation/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java</url>
+          <line>294</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/GenerateCourseHtmlTest.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseBaseInfoController.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-checkcode/src/main/java/com/physicaleducation/checkcode/service/impl/RedisCheckCodeStore.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.xuecheng.system.service.impl.DictionaryServiceImpl" memberName="baseMapper" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

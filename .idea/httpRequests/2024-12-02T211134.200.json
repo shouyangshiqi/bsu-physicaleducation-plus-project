@@ -1,0 +1,16 @@
+{
+  "id": null,
+  "courseId": null,
+  "courseName": null,
+  "userId": null,
+  "companyId": null,
+  "orderType": null,
+  "createDate": null,
+  "validDays": null,
+  "coursePrice": null,
+  "status": null,
+  "validtimeStart": null,
+  "validtimeEnd": null,
+  "remarks": null,
+  "learnStatus": "702002"
+}

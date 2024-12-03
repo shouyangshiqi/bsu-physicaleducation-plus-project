@@ -1,0 +1,970 @@
+2024-11-22 21:11:49,770 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m41s521ms503µs800ns).
+2024-11-22 21:11:49,770 WARN [HikariPool-1 housekeeper][HikariPool.java:787] - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m41s521ms503µs800ns).
+2024-11-22 21:11:49,773 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,773 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@46307e19: (connection has passed maxLifetime)
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@46307e19: (connection has passed maxLifetime)
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,775 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,775 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,774 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,775 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,775 DEBUG [HikariPool-1 housekeeper][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 0, queue 1
+2024-11-22 21:11:49,776 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22513f91: (connection has passed maxLifetime)
+2024-11-22 21:11:49,776 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22513f91: (connection has passed maxLifetime)
+2024-11-22 21:11:49,777 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,777 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,777 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f558d34: (connection has passed maxLifetime)
+2024-11-22 21:11:49,777 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f558d34: (connection has passed maxLifetime)
+2024-11-22 21:11:49,778 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,778 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,778 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@427ec0de: (connection has passed maxLifetime)
+2024-11-22 21:11:49,778 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@427ec0de: (connection has passed maxLifetime)
+2024-11-22 21:11:49,779 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,779 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,780 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5160bb25: (connection has passed maxLifetime)
+2024-11-22 21:11:49,780 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5160bb25: (connection has passed maxLifetime)
+2024-11-22 21:11:49,780 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,780 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@636c35aa: (connection has passed maxLifetime)
+2024-11-22 21:11:49,780 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,780 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@636c35aa: (connection has passed maxLifetime)
+2024-11-22 21:11:49,781 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,781 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ef62821: (connection has passed maxLifetime)
+2024-11-22 21:11:49,781 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,781 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ef62821: (connection has passed maxLifetime)
+2024-11-22 21:11:49,782 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,782 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,782 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13393bea: (connection has passed maxLifetime)
+2024-11-22 21:11:49,782 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13393bea: (connection has passed maxLifetime)
+2024-11-22 21:11:49,782 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,782 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,782 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78d90dab: (connection has passed maxLifetime)
+2024-11-22 21:11:49,782 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@78d90dab: (connection has passed maxLifetime)
+2024-11-22 21:11:49,783 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,783 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,783 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d158aa2: (connection has passed maxLifetime)
+2024-11-22 21:11:49,783 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d158aa2: (connection has passed maxLifetime)
+2024-11-22 21:11:49,784 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,784 DEBUG [HikariPool-1 connection closer][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:11:49,787 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2037e4d2
+2024-11-22 21:11:49,787 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2037e4d2
+2024-11-22 21:11:49,825 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24fb4a44
+2024-11-22 21:11:49,825 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24fb4a44
+2024-11-22 21:11:49,873 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65c6407f
+2024-11-22 21:11:49,873 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65c6407f
+2024-11-22 21:11:49,932 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54e984f4
+2024-11-22 21:11:49,932 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54e984f4
+2024-11-22 21:11:49,980 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e9bf30
+2024-11-22 21:11:49,980 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5e9bf30
+2024-11-22 21:11:50,030 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45cdce49
+2024-11-22 21:11:50,030 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45cdce49
+2024-11-22 21:11:50,078 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a74670
+2024-11-22 21:11:50,078 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a74670
+2024-11-22 21:11:50,136 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ed5f266
+2024-11-22 21:11:50,136 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2ed5f266
+2024-11-22 21:11:50,180 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27b5ab29
+2024-11-22 21:11:50,180 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27b5ab29
+2024-11-22 21:11:50,240 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2de074bd
+2024-11-22 21:11:50,240 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2de074bd
+2024-11-22 21:11:50,295 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c87b211
+2024-11-22 21:11:50,295 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6c87b211
+2024-11-22 21:12:19,300 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:12:19,300 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:12:19,304 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:12:19,304 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:12:19,781 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:12:19,781 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:12:19,781 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:12:19,781 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:12:49,306 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:12:49,306 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:12:49,307 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:12:49,307 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:12:49,787 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:12:49,787 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:12:49,789 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:12:49,789 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:13:19,309 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:13:19,309 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:13:19,310 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:13:19,310 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:13:19,801 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:13:19,801 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:13:19,802 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:13:19,802 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:13:49,317 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:13:49,317 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:13:49,317 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:13:49,317 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:13:49,815 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:13:49,815 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:13:49,815 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:13:49,815 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:14:19,327 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:14:19,327 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:14:19,327 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:14:19,327 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:14:19,824 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:14:19,824 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:14:19,825 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:14:19,825 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:14:49,335 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:14:49,336 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:14:49,335 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:14:49,336 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:14:49,827 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:14:49,827 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:14:49,828 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:14:49,828 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:15:19,346 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:15:19,346 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:15:19,348 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:15:19,348 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:15:19,839 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:15:19,839 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:15:19,839 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:15:19,839 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:15:49,355 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:15:49,355 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:15:49,356 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:15:49,356 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:15:49,849 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:15:49,849 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:15:49,849 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:15:49,849 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:16:19,369 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:16:19,369 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:16:19,369 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:16:19,369 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:16:19,862 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:16:19,862 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:16:19,862 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:16:19,862 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:16:49,384 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:16:49,384 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:16:49,385 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:16:49,385 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:16:49,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:16:49,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:16:49,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:16:49,866 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:17:19,396 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:17:19,396 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:17:19,397 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:17:19,397 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:17:19,878 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:17:19,878 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:17:19,879 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:17:19,879 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:17:49,407 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:17:49,407 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:17:49,408 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:17:49,408 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:17:49,886 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:17:49,886 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:17:49,887 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:17:49,887 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:18:19,413 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:18:19,413 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:18:19,413 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:18:19,413 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:18:19,889 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:18:19,889 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:18:19,889 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:18:19,889 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:18:49,416 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:18:49,416 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:18:49,416 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:18:49,416 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:18:49,894 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:18:49,894 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:18:49,894 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:18:49,894 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:19:19,424 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:19:19,424 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:19:19,424 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:19:19,424 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:19:19,905 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:19:19,905 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:19:19,905 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:19:19,905 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:19:49,436 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:19:49,436 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:19:49,437 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:19:49,437 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:19:49,914 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:19:49,914 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:19:49,915 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:19:49,915 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:20:19,445 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:20:19,445 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:20:19,446 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:20:19,446 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:20:19,928 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:20:19,928 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:20:19,929 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:20:19,929 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:20:49,450 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:20:49,450 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:20:49,450 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:20:49,450 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:20:49,943 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:20:49,943 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:20:49,945 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:20:49,945 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:21:19,465 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:21:19,465 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:21:19,466 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:21:19,466 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:21:19,959 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:21:19,959 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:21:19,959 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:21:19,959 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:21:49,474 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:21:49,474 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:21:49,474 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:21:49,474 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:21:49,970 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:21:49,970 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:21:49,970 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:21:49,970 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:22:19,480 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:22:19,480 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:22:19,480 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:22:19,480 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:22:19,981 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:22:19,981 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:22:19,981 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:22:19,981 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:22:49,487 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:22:49,487 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:22:49,488 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:22:49,488 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:22:49,986 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:22:49,986 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:22:49,986 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:22:49,986 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:23:19,497 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:23:19,497 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:23:19,498 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:23:19,498 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:23:19,997 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:23:19,997 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:23:19,997 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:23:19,997 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:23:49,504 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:23:49,504 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:23:49,505 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:23:49,505 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:23:50,002 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:23:50,002 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:23:50,002 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:23:50,002 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:24:19,513 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:24:19,513 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:24:19,514 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:24:19,514 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:24:20,012 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:24:20,012 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:24:20,012 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:24:20,012 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:24:49,522 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:24:49,522 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:24:49,523 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:24:49,523 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:24:50,021 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:24:50,021 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:24:50,022 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:24:50,022 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:25:19,525 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:25:19,525 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:25:19,525 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:25:19,525 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:25:20,028 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:25:20,028 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:25:20,029 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:25:20,029 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:25:49,537 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:25:49,537 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:25:49,538 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:25:49,538 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:25:50,036 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:25:50,036 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:25:50,036 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:25:50,036 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:26:19,544 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:26:19,544 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:26:19,544 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:26:19,544 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:26:20,045 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:26:20,045 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:26:20,045 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:26:20,045 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:26:49,551 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:26:49,552 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:26:49,551 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:26:49,552 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:26:50,050 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:26:50,050 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:26:50,051 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:26:50,051 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:27:19,560 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:27:19,560 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:27:19,560 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:27:19,560 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:27:20,058 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:27:20,058 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:27:20,059 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:27:20,059 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:27:49,568 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:27:49,568 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:27:49,569 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:27:49,569 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:27:50,067 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:27:50,067 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:27:50,068 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:27:50,068 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:28:19,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:28:19,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:28:19,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:28:19,577 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:28:20,073 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:28:20,073 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:28:20,073 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:28:20,073 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:28:49,582 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:28:49,582 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:28:49,583 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:28:49,583 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:28:50,084 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:28:50,084 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:28:50,085 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:28:50,085 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:29:19,593 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:29:19,593 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:29:19,593 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:29:19,593 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:29:20,088 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:29:20,088 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:29:20,089 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:29:20,089 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:29:49,600 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:29:49,600 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:29:49,600 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:29:49,600 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:29:50,100 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:29:50,100 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:29:50,102 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:29:50,102 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:30:19,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:30:19,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:30:19,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:30:19,609 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:30:20,107 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:30:20,107 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:30:20,107 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:30:20,107 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:30:49,618 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:30:49,618 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:30:49,618 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:30:49,618 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:30:50,119 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:30:50,119 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:30:50,119 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:30:50,119 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:31:19,625 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:31:19,625 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:31:19,626 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:31:19,626 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:31:20,124 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:31:20,124 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:31:20,125 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:31:20,125 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:31:49,634 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:31:49,634 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:31:49,634 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:31:49,634 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:31:50,131 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:31:50,131 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:31:50,131 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:31:50,131 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:32:19,638 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:32:19,638 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:32:19,638 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:32:19,638 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:32:20,141 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:32:20,141 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:32:20,141 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:32:20,141 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:32:49,648 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:32:49,648 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:32:49,648 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:32:49,648 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:32:50,148 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:32:50,148 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:32:50,150 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:32:50,150 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:33:19,656 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:33:19,656 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:33:19,657 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:33:19,657 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:33:20,155 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:33:20,155 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:33:20,155 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:33:20,155 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:33:49,662 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:33:49,662 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:33:49,662 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:33:49,662 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:33:50,164 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:33:50,164 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:33:50,164 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:33:50,164 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:34:19,674 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:34:19,674 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:34:19,674 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:34:19,674 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:34:20,172 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:34:20,172 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:34:20,172 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:34:20,172 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:34:49,679 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:34:49,679 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:34:49,680 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:34:49,680 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:34:50,181 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:34:50,181 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:34:50,183 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:34:50,183 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:35:19,687 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:35:19,687 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:35:19,688 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:35:19,688 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:35:20,187 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:35:20,187 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:35:20,187 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:35:20,187 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:35:49,697 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:35:49,697 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:35:49,697 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:35:49,697 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:35:50,195 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:35:50,195 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:35:50,196 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:35:50,196 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:36:19,705 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:36:19,705 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:36:19,705 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:36:19,705 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:36:20,204 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:36:20,204 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:36:20,204 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:36:20,204 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:36:49,711 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:36:49,711 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:36:49,711 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:36:49,711 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:36:50,212 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:36:50,212 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:36:50,212 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:36:50,212 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:37:19,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:37:19,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:37:19,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:37:19,712 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:37:20,214 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:37:20,214 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:37:20,214 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:37:20,214 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][AbstractHandlerMapping.java:415] - Mapped to com.physicaleducation.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][AbstractHandlerMapping.java:415] - Mapped to com.physicaleducation.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Creating a new SqlSession
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2000c8bf] was not registered for synchronization because synchronization is not active
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2000c8bf] was not registered for synchronization because synchronization is not active
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-11-22 21:37:25,820 DEBUG [http-nio-63040-exec-3][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@24fb4a44 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@24fb4a44 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@24fb4a44: (connection is dead)
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@24fb4a44: (connection is dead)
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65c6407f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@65c6407f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@65c6407f: (connection is dead)
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@65c6407f: (connection is dead)
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@54e984f4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@54e984f4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54e984f4: (connection is dead)
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5e9bf30 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54e984f4: (connection is dead)
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5e9bf30 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e9bf30: (connection is dead)
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5e9bf30: (connection is dead)
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@45cdce49 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@45cdce49 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@45cdce49: (connection is dead)
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@45cdce49: (connection is dead)
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a74670 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a74670 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a74670: (connection is dead)
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a74670: (connection is dead)
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ed5f266 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ed5f266 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ed5f266: (connection is dead)
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2ed5f266: (connection is dead)
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27b5ab29 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@27b5ab29 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@27b5ab29: (connection is dead)
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@27b5ab29: (connection is dead)
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2de074bd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2de074bd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2de074bd: (connection is dead)
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2de074bd: (connection is dead)
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6c87b211 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 WARN [http-nio-63040-exec-3][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6c87b211 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-22 21:37:25,836 DEBUG [http-nio-63040-exec-3][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 1, queue 9
+2024-11-22 21:37:25,836 DEBUG [http-nio-63040-exec-3][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 1, queue 9
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6c87b211: (connection is dead)
+2024-11-22 21:37:25,836 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6c87b211: (connection is dead)
+2024-11-22 21:37:25,870 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70637033
+2024-11-22 21:37:25,870 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=1, active=0, idle=1, waiting=1)
+2024-11-22 21:37:25,870 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70637033
+2024-11-22 21:37:25,870 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=1, active=0, idle=1, waiting=1)
+2024-11-22 21:37:25,870 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@34416735 wrapping com.mysql.cj.jdbc.ConnectionImpl@70637033] will not be managed by Spring
+2024-11-22 21:37:25,870 DEBUG [http-nio-63040-exec-3][Logger.java:49] - JDBC Connection [HikariProxyConnection@34416735 wrapping com.mysql.cj.jdbc.ConnectionImpl@70637033] will not be managed by Spring
+2024-11-22 21:37:25,870 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2024-11-22 21:37:25,870 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2024-11-22 21:37:25,870 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 
+2024-11-22 21:37:25,870 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 
+2024-11-22 21:37:25,887 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-11-22 21:37:25,887 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-11-22 21:37:25,887 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2024-11-22 21:37:25,887 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2024-11-22 21:37:25,887 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2024-11-22 21:37:25,887 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2024-11-22 21:37:25,904 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 10
+2024-11-22 21:37:25,904 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2000c8bf]
+2024-11-22 21:37:25,904 DEBUG [http-nio-63040-exec-3][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-11-22 21:37:25,904 DEBUG [http-nio-63040-exec-3][BaseJdbcLogger.java:137] - <==      Total: 10
+2024-11-22 21:37:25,904 DEBUG [http-nio-63040-exec-3][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2000c8bf]
+2024-11-22 21:37:25,904 DEBUG [http-nio-63040-exec-3][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-11-22 21:37:25,904 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2024-11-22 21:37:25,904 DEBUG [http-nio-63040-exec-3][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2024-11-22 21:37:25,904 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
+2024-11-22 21:37:25,904 DEBUG [http-nio-63040-exec-3][FrameworkServlet.java:1131] - Completed 200 OK
+2024-11-22 21:37:25,922 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@315e7a08
+2024-11-22 21:37:25,922 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@315e7a08
+2024-11-22 21:37:25,970 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@256a33
+2024-11-22 21:37:25,970 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@256a33
+2024-11-22 21:37:25,970 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-11-22 21:37:25,970 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-11-22 21:37:26,023 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51718547
+2024-11-22 21:37:26,023 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51718547
+2024-11-22 21:37:26,023 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-11-22 21:37:26,023 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-11-22 21:37:26,073 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7266c797
+2024-11-22 21:37:26,073 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7266c797
+2024-11-22 21:37:26,073 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-11-22 21:37:26,073 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-11-22 21:37:26,121 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@553f3897
+2024-11-22 21:37:26,121 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@553f3897
+2024-11-22 21:37:26,121 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-11-22 21:37:26,121 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-11-22 21:37:26,171 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d8a733
+2024-11-22 21:37:26,171 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d8a733
+2024-11-22 21:37:26,171 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-11-22 21:37:26,171 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-11-22 21:37:26,222 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@688b8901
+2024-11-22 21:37:26,222 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@688b8901
+2024-11-22 21:37:26,222 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-11-22 21:37:26,222 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-11-22 21:37:26,276 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dc9dd50
+2024-11-22 21:37:26,276 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5dc9dd50
+2024-11-22 21:37:26,276 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-11-22 21:37:26,276 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-11-22 21:37:26,319 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a9591aa
+2024-11-22 21:37:26,319 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a9591aa
+2024-11-22 21:37:26,319 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:37:26,319 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][AbstractHandlerMapping.java:415] - Mapped to com.physicaleducation.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][AbstractHandlerMapping.java:415] - Mapped to com.physicaleducation.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][Logger.java:49] - Creating a new SqlSession
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][Logger.java:49] - Creating a new SqlSession
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40f245b2] was not registered for synchronization because synchronization is not active
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40f245b2] was not registered for synchronization because synchronization is not active
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-11-22 21:37:26,469 DEBUG [http-nio-63040-exec-4][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-11-22 21:37:26,484 DEBUG [http-nio-63040-exec-4][Logger.java:49] - JDBC Connection [HikariProxyConnection@1312138204 wrapping com.mysql.cj.jdbc.ConnectionImpl@70637033] will not be managed by Spring
+2024-11-22 21:37:26,484 DEBUG [http-nio-63040-exec-4][Logger.java:49] - JDBC Connection [HikariProxyConnection@1312138204 wrapping com.mysql.cj.jdbc.ConnectionImpl@70637033] will not be managed by Spring
+2024-11-22 21:37:26,484 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2024-11-22 21:37:26,484 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2024-11-22 21:37:26,485 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 
+2024-11-22 21:37:26,485 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 
+2024-11-22 21:37:26,486 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-11-22 21:37:26,486 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-11-22 21:37:26,486 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2024-11-22 21:37:26,486 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2024-11-22 21:37:26,486 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2024-11-22 21:37:26,486 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2024-11-22 21:37:26,500 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 10
+2024-11-22 21:37:26,500 DEBUG [http-nio-63040-exec-4][BaseJdbcLogger.java:137] - <==      Total: 10
+2024-11-22 21:37:26,500 DEBUG [http-nio-63040-exec-4][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40f245b2]
+2024-11-22 21:37:26,500 DEBUG [http-nio-63040-exec-4][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@40f245b2]
+2024-11-22 21:37:26,500 DEBUG [http-nio-63040-exec-4][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-11-22 21:37:26,500 DEBUG [http-nio-63040-exec-4][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-11-22 21:37:26,500 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2024-11-22 21:37:26,500 DEBUG [http-nio-63040-exec-4][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2024-11-22 21:37:26,503 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 200 OK
+2024-11-22 21:37:26,503 DEBUG [http-nio-63040-exec-4][FrameworkServlet.java:1131] - Completed 200 OK
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=2&pageSize=10", parameters={masked}
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=2&pageSize=10", parameters={masked}
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to com.physicaleducation.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][AbstractHandlerMapping.java:415] - Mapped to com.physicaleducation.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fa85051] was not registered for synchronization because synchronization is not active
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Creating a new SqlSession
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fa85051] was not registered for synchronization because synchronization is not active
+2024-11-22 21:37:39,135 DEBUG [http-nio-63040-exec-5][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-11-22 21:37:39,152 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@626015009 wrapping com.mysql.cj.jdbc.ConnectionImpl@70637033] will not be managed by Spring
+2024-11-22 21:37:39,152 DEBUG [http-nio-63040-exec-5][Logger.java:49] - JDBC Connection [HikariProxyConnection@626015009 wrapping com.mysql.cj.jdbc.ConnectionImpl@70637033] will not be managed by Spring
+2024-11-22 21:37:39,166 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2024-11-22 21:37:39,166 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2024-11-22 21:37:39,167 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 
+2024-11-22 21:37:39,167 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 
+2024-11-22 21:37:39,169 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-11-22 21:37:39,169 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-11-22 21:37:39,169 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?,?
+2024-11-22 21:37:39,169 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?,?
+2024-11-22 21:37:39,169 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long), 10(Long)
+2024-11-22 21:37:39,169 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long), 10(Long)
+2024-11-22 21:37:39,185 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 10
+2024-11-22 21:37:39,185 DEBUG [http-nio-63040-exec-5][BaseJdbcLogger.java:137] - <==      Total: 10
+2024-11-22 21:37:39,185 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fa85051]
+2024-11-22 21:37:39,185 DEBUG [http-nio-63040-exec-5][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@2fa85051]
+2024-11-22 21:37:39,185 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-11-22 21:37:39,185 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=39, companyId=1, companyName=null, name=SpringBoot核心11111, users=Spr (truncated)...]
+2024-11-22 21:37:39,185 DEBUG [http-nio-63040-exec-5][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-11-22 21:37:39,185 DEBUG [http-nio-63040-exec-5][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=39, companyId=1, companyName=null, name=SpringBoot核心11111, users=Spr (truncated)...]
+2024-11-22 21:37:39,185 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
+2024-11-22 21:37:39,185 DEBUG [http-nio-63040-exec-5][FrameworkServlet.java:1131] - Completed 200 OK
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - POST "/content/course/list?pageNo=1&pageSize=10", parameters={masked}
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to com.physicaleducation.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][AbstractHandlerMapping.java:415] - Mapped to com.physicaleducation.content.api.CourseBaseInfoController#list(PageParams, QueryCourseParamsDto)
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Read "application/json;charset=UTF-8" to [QueryCourseParamsDto(auditStatus=, courseName=, publishStatus=null)]
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][Logger.java:49] - Creating a new SqlSession
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][Logger.java:49] - Creating a new SqlSession
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e754fa8] was not registered for synchronization because synchronization is not active
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][Logger.java:49] - SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e754fa8] was not registered for synchronization because synchronization is not active
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-11-22 21:37:42,770 DEBUG [http-nio-63040-exec-6][DataSourceUtils.java:115] - Fetching JDBC Connection from DataSource
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][Logger.java:49] - JDBC Connection [HikariProxyConnection@280142358 wrapping com.mysql.cj.jdbc.ConnectionImpl@70637033] will not be managed by Spring
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][Logger.java:49] - JDBC Connection [HikariProxyConnection@280142358 wrapping com.mysql.cj.jdbc.ConnectionImpl@70637033] will not be managed by Spring
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT COUNT(*) FROM course_base
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 1
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,company_id,company_name,name,users,tags,mt,st,grade,teachmode,description,pic,create_date,change_date,create_people,change_people,audit_status,status FROM course_base LIMIT ?
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2024-11-22 21:37:42,782 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - ==> Parameters: 10(Long)
+2024-11-22 21:37:42,799 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 10
+2024-11-22 21:37:42,799 DEBUG [http-nio-63040-exec-6][BaseJdbcLogger.java:137] - <==      Total: 10
+2024-11-22 21:37:42,799 DEBUG [http-nio-63040-exec-6][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e754fa8]
+2024-11-22 21:37:42,799 DEBUG [http-nio-63040-exec-6][Logger.java:49] - Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1e754fa8]
+2024-11-22 21:37:42,799 DEBUG [http-nio-63040-exec-6][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-11-22 21:37:42,799 DEBUG [http-nio-63040-exec-6][AbstractMessageConverterMethodProcessor.java:255] - Using 'application/json', given [application/json, text/plain, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+2024-11-22 21:37:42,799 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2024-11-22 21:37:42,799 DEBUG [http-nio-63040-exec-6][LogFormatUtils.java:91] - Writing [PageResult(items=[CourseBase(id=1, companyId=1232141425, companyName=, name=JAVA8/9/10新特性讲解, users=j (truncated)...]
+2024-11-22 21:37:42,799 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
+2024-11-22 21:37:42,799 DEBUG [http-nio-63040-exec-6][FrameworkServlet.java:1131] - Completed 200 OK
+2024-11-22 21:37:49,714 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:37:49,714 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:37:49,714 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:37:49,714 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:37:50,214 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:37:50,214 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:37:50,215 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:37:50,215 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:38:19,722 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:38:19,722 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:38:19,722 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:38:19,722 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:38:20,221 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:38:20,221 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:38:20,222 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:38:20,222 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:38:49,724 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:38:49,724 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:38:49,724 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:38:49,724 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:38:50,223 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:38:50,223 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:38:50,224 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:38:50,224 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:39:19,735 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:39:19,735 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:39:19,735 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:39:19,735 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:39:20,231 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:39:20,231 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:39:20,232 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:39:20,232 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:39:49,748 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:39:49,748 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:39:49,748 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:39:49,748 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:39:50,244 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:39:50,244 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:39:50,244 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:39:50,244 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:40:19,753 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:40:19,753 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:40:19,753 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:40:19,753 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:40:20,253 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:40:20,253 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:40:20,253 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:40:20,253 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:40:49,762 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:40:49,762 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:40:49,762 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:40:49,762 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:40:50,261 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:40:50,261 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:40:50,262 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:40:50,262 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:41:05,241 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13b05f31: (connection has passed maxLifetime)
+2024-11-22 21:41:05,241 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13b05f31: (connection has passed maxLifetime)
+2024-11-22 21:41:05,287 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16291d1
+2024-11-22 21:41:05,287 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16291d1
+2024-11-22 21:41:07,287 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@42f72561: (connection has passed maxLifetime)
+2024-11-22 21:41:07,287 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@42f72561: (connection has passed maxLifetime)
+2024-11-22 21:41:07,322 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@405f9bea
+2024-11-22 21:41:07,322 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@405f9bea
+2024-11-22 21:41:11,371 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57496436: (connection has passed maxLifetime)
+2024-11-22 21:41:11,371 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@57496436: (connection has passed maxLifetime)
+2024-11-22 21:41:11,437 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7155fb3f
+2024-11-22 21:41:11,437 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7155fb3f
+2024-11-22 21:41:15,169 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@131de380: (connection has passed maxLifetime)
+2024-11-22 21:41:15,169 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@131de380: (connection has passed maxLifetime)
+2024-11-22 21:41:15,226 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@207064a5
+2024-11-22 21:41:15,226 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@207064a5
+2024-11-22 21:41:19,770 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:41:19,770 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:41:19,770 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:41:19,770 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:41:20,083 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22d8da2e: (connection has passed maxLifetime)
+2024-11-22 21:41:20,083 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@22d8da2e: (connection has passed maxLifetime)
+2024-11-22 21:41:20,137 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a19c66e
+2024-11-22 21:41:20,137 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a19c66e
+2024-11-22 21:41:20,266 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:41:20,266 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:41:20,266 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:41:20,266 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:41:26,702 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c400fba: (connection has passed maxLifetime)
+2024-11-22 21:41:26,702 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c400fba: (connection has passed maxLifetime)
+2024-11-22 21:41:26,734 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6efb526
+2024-11-22 21:41:26,734 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6efb526
+2024-11-22 21:41:29,150 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63e5d015: (connection has passed maxLifetime)
+2024-11-22 21:41:29,150 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@63e5d015: (connection has passed maxLifetime)
+2024-11-22 21:41:29,199 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47d2bf1d
+2024-11-22 21:41:29,199 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47d2bf1d
+2024-11-22 21:41:45,962 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@46b99b27: (connection has passed maxLifetime)
+2024-11-22 21:41:45,962 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@46b99b27: (connection has passed maxLifetime)
+2024-11-22 21:41:46,012 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3384ab00
+2024-11-22 21:41:46,012 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3384ab00
+2024-11-22 21:41:46,376 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4fe7cda0: (connection has passed maxLifetime)
+2024-11-22 21:41:46,376 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4fe7cda0: (connection has passed maxLifetime)
+2024-11-22 21:41:46,416 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72b9a13b
+2024-11-22 21:41:46,416 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:41:46,416 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72b9a13b
+2024-11-22 21:41:46,416 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:41:47,926 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2037e4d2: (connection has passed maxLifetime)
+2024-11-22 21:41:47,926 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2037e4d2: (connection has passed maxLifetime)
+2024-11-22 21:41:47,978 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43019524
+2024-11-22 21:41:47,978 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43019524
+2024-11-22 21:41:49,773 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:41:49,773 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:41:49,773 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:41:49,773 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:41:50,276 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:41:50,276 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:41:50,276 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:41:50,276 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:42:19,784 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:42:19,784 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:42:19,784 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:42:19,784 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:42:20,284 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:42:20,284 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:42:20,285 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:42:20,285 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:42:49,789 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:42:49,789 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:42:49,789 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:42:49,789 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:42:50,288 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:42:50,288 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:42:50,288 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:42:50,288 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:43:19,800 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:43:19,800 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:43:19,800 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:43:19,800 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:43:20,304 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:43:20,304 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:43:20,304 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:43:20,304 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:43:49,808 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:43:49,808 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:43:49,808 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:43:49,808 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:43:50,309 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:43:50,309 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:43:50,309 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:43:50,309 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:44:19,817 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:44:19,817 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:44:19,818 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:44:19,818 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:44:20,317 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:44:20,317 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:44:20,317 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:44:20,317 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:44:49,823 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:44:49,823 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:44:49,823 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:44:49,823 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:44:50,322 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:44:50,322 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:44:50,322 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:44:50,322 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:45:19,832 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:45:19,832 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:45:19,834 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:45:19,834 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:45:20,332 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:45:20,332 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:45:20,333 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:45:20,333 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:45:49,848 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:45:49,848 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:45:49,848 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:45:49,848 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:45:50,344 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:45:50,344 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:45:50,344 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:45:50,344 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:46:19,856 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:46:19,856 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:46:19,857 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:46:19,857 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:46:20,352 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:46:20,352 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:46:20,352 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:46:20,352 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-22 21:46:22,953 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f6e28bc, started on Fri Nov 22 18:26:46 CST 2024, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7c3fdb62
+2024-11-22 21:46:22,953 DEBUG [SpringContextShutdownHook][AbstractApplicationContext.java:1006] - Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2f6e28bc, started on Fri Nov 22 18:26:46 CST 2024, parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@7c3fdb62
+2024-11-22 21:46:22,956 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483647
+2024-11-22 21:46:22,956 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483647
+2024-11-22 21:46:22,957 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2024-11-22 21:46:22,957 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'documentationPluginsBootstrapper' completed its stop procedure
+2024-11-22 21:46:22,958 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-11-22 21:46:22,958 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483646
+2024-11-22 21:46:22,958 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerGracefulShutdown' completed its stop procedure
+2024-11-22 21:46:22,958 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:369] - Stopping beans in phase 2147483646
+2024-11-22 21:46:23,053 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2024-11-22 21:46:23,053 DEBUG [SpringContextShutdownHook][DefaultLifecycleProcessor.java:242] - Bean 'webServerStartStop' completed its stop procedure
+2024-11-22 21:46:23,054 DEBUG [SpringContextShutdownHook][MBeanExporter.java:452] - Unregistering JMX-exposed beans on shutdown
+2024-11-22 21:46:23,054 DEBUG [SpringContextShutdownHook][MBeanExporter.java:452] - Unregistering JMX-exposed beans on shutdown
+2024-11-22 21:46:23,054 DEBUG [SpringContextShutdownHook][MBeanRegistrationSupport.java:186] - Unregistering JMX-exposed beans
+2024-11-22 21:46:23,054 DEBUG [SpringContextShutdownHook][MBeanRegistrationSupport.java:186] - Unregistering JMX-exposed beans
+2024-11-22 21:46:23,054 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-22 21:46:23,054 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-22 21:46:23,056 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-22 21:46:23,056 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-22 21:46:23,056 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:46:23,056 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:46:23,057 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70637033: (connection evicted)
+2024-11-22 21:46:23,057 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@70637033: (connection evicted)
+2024-11-22 21:46:23,057 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@315e7a08: (connection evicted)
+2024-11-22 21:46:23,057 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@315e7a08: (connection evicted)
+2024-11-22 21:46:23,057 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@256a33: (connection evicted)
+2024-11-22 21:46:23,057 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@256a33: (connection evicted)
+2024-11-22 21:46:23,058 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51718547: (connection evicted)
+2024-11-22 21:46:23,058 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@51718547: (connection evicted)
+2024-11-22 21:46:23,058 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7266c797: (connection evicted)
+2024-11-22 21:46:23,058 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7266c797: (connection evicted)
+2024-11-22 21:46:23,058 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@553f3897: (connection evicted)
+2024-11-22 21:46:23,058 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@553f3897: (connection evicted)
+2024-11-22 21:46:23,059 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d8a733: (connection evicted)
+2024-11-22 21:46:23,059 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2d8a733: (connection evicted)
+2024-11-22 21:46:23,059 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@688b8901: (connection evicted)
+2024-11-22 21:46:23,059 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@688b8901: (connection evicted)
+2024-11-22 21:46:23,059 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5dc9dd50: (connection evicted)
+2024-11-22 21:46:23,059 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5dc9dd50: (connection evicted)
+2024-11-22 21:46:23,059 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a9591aa: (connection evicted)
+2024-11-22 21:46:23,059 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a9591aa: (connection evicted)
+2024-11-22 21:46:23,059 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-11-22 21:46:23,059 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-11-22 21:46:23,059 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-22 21:46:23,059 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-22 21:46:23,730 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2024-11-22 21:46:23,730 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2024-11-22 21:46:23,731 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-22 21:46:23,731 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-22 21:46:23,733 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-22 21:46:23,733 INFO [SpringContextShutdownHook][HikariDataSource.java:350] - HikariPool-1 - Shutdown initiated...
+2024-11-22 21:46:23,733 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:46:23,733 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-11-22 21:46:23,733 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16291d1: (connection evicted)
+2024-11-22 21:46:23,733 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16291d1: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@405f9bea: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@405f9bea: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7155fb3f: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7155fb3f: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@207064a5: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@207064a5: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a19c66e: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a19c66e: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6efb526: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6efb526: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@47d2bf1d: (connection evicted)
+2024-11-22 21:46:23,734 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@47d2bf1d: (connection evicted)
+2024-11-22 21:46:23,735 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3384ab00: (connection evicted)
+2024-11-22 21:46:23,735 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3384ab00: (connection evicted)
+2024-11-22 21:46:23,735 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@72b9a13b: (connection evicted)
+2024-11-22 21:46:23,735 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@72b9a13b: (connection evicted)
+2024-11-22 21:46:23,735 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@43019524: (connection evicted)
+2024-11-22 21:46:23,735 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@43019524: (connection evicted)
+2024-11-22 21:46:23,735 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-11-22 21:46:23,735 DEBUG [SpringContextShutdownHook][HikariPool.java:421] - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-11-22 21:46:23,735 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.
+2024-11-22 21:46:23,735 INFO [SpringContextShutdownHook][HikariDataSource.java:352] - HikariPool-1 - Shutdown completed.

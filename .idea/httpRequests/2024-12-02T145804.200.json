@@ -1,0 +1,24 @@
+{
+  "aud": [
+    "xuecheng-plus"
+  ],
+  "user_name": "{\"companyId\":\"1232141425\",\"createTime\":\"2022-09-28T08:32:03\",\"id\":\"52\",\"name\":\"M老师\",\"permissions\":[\"xc_teachmanager\",\"xc_teachmanager_course\",\"xc_teachmanager_course_add\",\"xc_teachmanager_course_del\",\"xc_teachmanager_course_market\",\"xc_teachmanager_course_base\",\"xc_teachmanager_course_plan\",\"xc_teachmanager_course_publish\",\"xc_teachmanager_course_list\"],\"sex\":\"1\",\"status\":\"\",\"username\":\"t1\",\"utype\":\"101002\"}",
+  "scope": [
+    "all"
+  ],
+  "active": true,
+  "exp": 1733129716,
+  "authorities": [
+    "xc_teachmanager_course_base",
+    "xc_teachmanager_course_del",
+    "xc_teachmanager_course_list",
+    "xc_teachmanager_course_plan",
+    "xc_teachmanager_course",
+    "xc_teachmanager",
+    "xc_teachmanager_course_market",
+    "xc_teachmanager_course_publish",
+    "xc_teachmanager_course_add"
+  ],
+  "jti": "979cb80e-9e9d-4973-9fe1-098e66980536",
+  "client_id": "XcWebApp"
+}

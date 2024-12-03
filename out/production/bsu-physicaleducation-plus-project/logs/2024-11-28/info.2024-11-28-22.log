@@ -1,0 +1,64 @@
+2024-11-28 22:59:20,675 WARN [Thread-23][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-28 22:59:20,675 WARN [Thread-23][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-28 22:59:20,675 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-28 22:59:20,675 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-28 22:59:20,684 WARN [Thread-23][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-28 22:59:20,684 WARN [Thread-23][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-28 22:59:20,684 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-28 22:59:20,684 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-28 22:59:20,784 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-28 22:59:20,784 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-28 22:59:20,787 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-28 22:59:20,787 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-28 22:59:20,787 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@media-api:172.18.210.246:63050 from beat map.
+2024-11-28 22:59:20,787 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@media-api:172.18.210.246:63050 from beat map.
+2024-11-28 22:59:20,787 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@media-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-28 22:59:20,787 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@media-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-28 22:59:20,795 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-28 22:59:20,795 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-28 22:59:20,795 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-28 22:59:20,795 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-28 22:59:20,951 WARN [Thread-12][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-28 22:59:20,951 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-28 22:59:20,951 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-28 22:59:20,951 WARN [Thread-12][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-28 22:59:20,951 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-28 22:59:20,951 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-28 22:59:20,952 WARN [Thread-12][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-28 22:59:20,952 WARN [Thread-12][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-28 22:59:21,059 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-28 22:59:21,059 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@content-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63040#DEFAULT#physicaleducation-plus-project@@content-api","ip":"172.18.210.246","port":63040,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@content-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-28 22:59:21,064 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api@@DEFAULT -> []
+2024-11-28 22:59:21,064 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@content-api@@DEFAULT -> []
+2024-11-28 22:59:21,066 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-28 22:59:21,066 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-28 22:59:21,068 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-28 22:59:21,068 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-28 22:59:21,069 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2024-11-28 22:59:21,069 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'taskScheduler'
+2024-11-28 22:59:21,070 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-28 22:59:21,070 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-28 22:59:21,078 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-28 22:59:21,078 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-28 22:59:21,208 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-28 22:59:21,208 INFO [Thread-50][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2024-11-28 22:59:21,208 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-28 22:59:21,208 WARN [Thread-18][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-28 22:59:21,208 WARN [Thread-2][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-28 22:59:21,208 INFO [Thread-50][PollingServerListUpdater.java:53] - Shutting down the Executor Pool for PollingServerListUpdater
+2024-11-28 22:59:21,208 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-28 22:59:21,208 WARN [Thread-18][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-28 22:59:21,209 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-28 22:59:21,209 WARN [Thread-2][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-28 22:59:21,218 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-28 22:59:21,218 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-28 22:59:21,220 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-28 22:59:21,220 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-28 22:59:21,220 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@gateway:172.18.210.246:63010 from beat map.
+2024-11-28 22:59:21,220 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@gateway:172.18.210.246:63010 from beat map.
+2024-11-28 22:59:21,221 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@gateway with instance: Instance{instanceId='null', ip='172.18.210.246', port=63010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-28 22:59:21,221 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@gateway with instance: Instance{instanceId='null', ip='172.18.210.246', port=63010, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-28 22:59:21,226 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-28 22:59:21,226 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-28 22:59:21,227 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-28 22:59:21,227 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin

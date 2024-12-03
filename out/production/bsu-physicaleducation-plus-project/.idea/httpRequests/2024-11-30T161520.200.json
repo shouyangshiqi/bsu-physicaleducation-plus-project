@@ -1,0 +1,16 @@
+{
+  "aud": [
+    "xuecheng-plus"
+  ],
+  "user_name": "{\"birthday\":\"2022-09-28T19:28:46\",\"createTime\":\"2022-09-28T08:32:03\",\"id\":\"50\",\"name\":\"学生1\",\"nickname\":\"大水牛\",\"password\":\"$2a$10$0pt7WlfTbnPDTcWtp/.2Mu5CTXvohnNQhR628qq4RoKSc0dGAdEgm\",\"sex\":\"1\",\"status\":\"1\",\"username\":\"stu1\",\"userpic\":\"http://file.51xuecheng.cn/dddf\",\"utype\":\"101001\"}",
+  "scope": [
+    "all"
+  ],
+  "active": true,
+  "exp": 1732961691,
+  "authorities": [
+    "test"
+  ],
+  "jti": "5a39f74a-38a5-4db9-bd9e-e71f1a4c8fbf",
+  "client_id": "XcWebApp"
+}

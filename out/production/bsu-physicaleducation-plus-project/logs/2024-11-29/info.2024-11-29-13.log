@@ -1,0 +1,668 @@
+2024-11-29 14:00:21,229 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:00:21,229 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:00:21,237 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:00:21,237 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:00:41,723 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:00:41,723 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:00:41,724 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:00:41,725 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:00:41,725 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:00:41,725 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:00:41,725 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:00:41,725 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:00:41,725 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:00:41,725 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:00:41,725 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:00:51,241 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:00:51,241 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:00:51,241 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:00:51,241 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:01:11,736 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:01:11,736 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:01:11,738 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:01:11,738 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:01:11,739 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:01:11,739 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:01:11,740 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:01:11,740 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:01:11,740 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:01:11,740 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:01:11,742 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:01:11,742 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:01:11,742 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:01:11,742 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:01:11,743 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:01:11,743 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:01:11,743 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:01:11,743 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:01:11,743 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:01:11,743 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:01:11,744 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:01:11,744 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:01:11,744 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:01:11,744 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:01:11,744 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:01:11,744 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:01:11,745 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:01:11,745 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:01:11,745 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:01:11,745 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:01:11,746 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:01:11,746 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:01:21,241 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:01:21,241 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:01:21,242 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:01:21,242 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:01:41,762 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:01:41,762 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:01:41,764 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:01:41,764 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:01:41,764 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:01:41,764 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:01:41,765 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:01:41,765 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:01:41,765 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:01:41,765 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:01:41,766 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:01:41,766 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:01:41,766 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:01:41,766 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:01:41,767 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:01:41,767 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:01:41,767 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:01:41,767 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:01:41,767 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:01:41,767 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:01:41,768 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:01:41,768 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:01:41,768 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:01:41,768 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:01:41,769 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:01:41,769 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:01:41,770 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:01:41,770 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:01:41,770 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:01:41,770 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:01:41,770 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:01:41,770 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:01:51,245 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:01:51,245 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:01:51,245 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:01:51,245 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:02:11,783 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:02:11,783 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:02:11,784 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:02:11,784 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:02:11,784 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:02:11,784 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:02:11,786 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:02:11,786 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:02:11,786 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:02:11,786 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:02:11,787 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:02:11,787 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:02:11,787 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:02:11,787 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:02:11,788 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:02:11,788 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:02:11,788 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:02:11,788 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:02:11,789 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:02:11,789 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:02:11,789 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:02:11,789 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:02:11,790 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:02:11,790 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:02:11,790 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:02:11,790 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:02:11,790 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:02:11,790 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:02:11,790 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:02:11,790 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:02:11,791 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:02:11,791 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:02:21,257 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:02:21,257 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:02:21,257 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:02:21,257 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:02:41,802 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:02:41,802 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:02:41,804 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:02:41,804 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:02:41,804 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:02:41,804 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:02:41,805 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:02:41,805 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:02:41,805 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:02:41,805 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:02:41,806 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:02:41,806 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:02:41,806 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:02:41,806 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:02:41,807 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:02:41,807 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:02:41,807 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:02:41,807 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:02:41,808 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:02:41,808 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:02:41,808 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:02:41,808 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:02:41,809 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:02:41,809 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:02:41,809 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:02:41,809 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:02:41,809 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:02:41,809 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:02:41,810 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:02:41,810 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:02:41,810 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:02:41,810 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:02:51,269 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:02:51,269 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:02:51,270 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:02:51,270 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:03:11,826 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:03:11,826 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:03:11,827 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:03:11,827 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:03:11,828 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:03:11,828 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:03:11,828 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:03:11,828 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:03:11,828 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:03:11,828 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:03:11,829 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:03:11,829 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:03:11,829 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:03:11,829 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:03:11,830 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:03:11,830 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:03:11,830 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:03:11,830 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:03:11,831 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:03:11,831 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:03:11,831 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:03:11,831 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:03:11,832 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:03:11,832 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:03:11,832 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:03:11,832 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:03:11,832 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:03:11,832 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:03:11,833 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:03:11,833 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:03:11,833 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:03:11,833 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:03:21,280 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:03:21,280 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:03:21,282 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:03:21,282 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:03:41,845 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:03:41,845 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:03:41,846 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:03:41,846 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:03:41,847 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:03:41,847 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:03:41,848 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:03:41,848 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:03:41,849 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:03:41,849 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:03:41,849 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:03:41,849 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:03:41,850 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:03:41,850 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:03:41,850 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:03:41,850 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:03:41,850 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:03:41,850 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:03:41,851 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:03:41,851 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:03:41,851 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:03:41,851 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:03:41,852 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:03:41,852 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:03:41,852 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:03:41,852 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:03:41,853 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:03:41,853 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:03:41,853 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:03:41,853 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:03:41,853 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:03:41,853 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:03:51,296 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:03:51,296 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:03:51,296 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:03:51,296 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:04:11,865 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:04:11,865 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:04:11,867 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:04:11,867 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:04:11,867 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:04:11,867 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:04:11,868 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:04:11,868 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:04:11,868 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:04:11,868 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:04:11,869 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:04:11,869 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:04:11,870 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:04:11,870 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:04:11,871 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:04:11,871 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:04:11,871 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:04:11,871 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:04:11,871 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:04:11,871 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:04:11,872 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:04:11,872 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:04:11,872 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:04:11,872 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:04:11,872 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:04:11,872 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:04:11,873 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:04:11,873 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:04:11,873 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:04:11,873 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:04:11,873 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:04:11,873 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:04:21,311 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:04:21,311 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:04:21,311 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:04:21,311 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:04:41,880 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:04:41,880 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:04:41,881 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:04:41,881 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:04:41,881 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:04:41,881 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:04:41,882 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:04:41,882 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:04:41,883 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:04:41,883 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:04:41,884 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:04:41,884 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:04:41,884 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:04:41,884 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:04:41,885 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:04:41,885 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:04:41,885 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:04:41,885 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:04:41,886 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:04:41,886 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:04:41,886 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:04:41,886 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:04:41,887 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:04:41,887 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:04:41,887 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:04:41,887 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:04:41,888 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:04:41,888 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:04:41,888 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:04:41,888 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:04:41,888 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:04:41,888 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:04:51,318 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:04:51,318 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:04:51,318 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:04:51,318 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:05:11,901 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:05:11,901 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:05:11,902 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:05:11,902 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:05:11,902 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:05:11,902 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:05:11,903 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:05:11,903 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:05:11,903 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:05:11,903 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:05:11,904 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:05:11,904 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:05:11,904 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:05:11,904 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:05:11,905 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:05:11,905 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:05:11,905 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:05:11,905 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:05:11,905 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:05:11,905 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:05:11,906 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:05:11,906 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:05:11,906 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:05:11,906 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:05:11,906 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:05:11,906 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:05:11,907 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:05:11,907 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:05:11,907 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:05:11,907 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:05:11,908 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:05:11,908 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:05:21,333 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:05:21,334 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:05:21,333 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:05:21,334 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:05:41,909 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:05:41,909 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:05:41,910 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:05:41,910 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:05:41,910 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:05:41,910 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:05:41,911 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:05:41,911 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:05:41,911 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:05:41,911 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:05:41,911 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:05:41,912 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:05:41,911 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:05:41,912 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:05:41,912 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:05:41,912 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:05:41,912 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:05:41,912 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:05:41,913 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:05:41,913 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:05:41,913 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:05:41,913 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:05:41,913 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:05:41,914 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:05:41,913 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:05:41,914 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:05:41,914 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:05:41,914 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:05:41,914 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:05:41,914 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:05:41,915 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:05:41,915 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:05:51,342 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:05:51,342 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:05:51,343 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:05:51,343 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:06:11,918 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:06:11,918 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:06:11,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:06:11,921 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:06:21,347 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:06:21,347 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:06:21,348 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:06:21,348 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:06:41,933 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:06:41,933 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:06:41,934 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:06:41,934 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:06:41,934 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:06:41,934 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:06:41,935 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:06:41,935 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:06:41,935 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:06:41,935 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:06:41,936 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:06:41,936 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:06:41,937 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:06:41,937 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:06:41,938 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:06:41,938 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:06:41,938 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:06:41,938 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:06:41,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:06:41,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:06:41,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:06:41,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:06:41,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:06:41,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:06:41,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:06:41,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:06:41,940 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:06:41,940 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:06:41,940 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:06:41,940 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:06:41,941 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:06:41,941 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:06:51,359 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:06:51,359 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:06:51,359 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:06:51,359 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:07:11,954 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:07:11,954 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:07:11,955 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:07:11,955 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:07:11,955 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:07:11,955 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:07:11,956 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:07:11,956 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:07:11,956 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:07:11,956 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:07:11,956 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:07:11,956 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:07:11,956 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:07:11,956 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:07:11,957 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:07:11,957 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:07:11,957 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:07:11,957 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:07:11,957 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:07:11,957 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:07:11,957 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:07:11,957 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:07:11,958 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:07:11,958 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:07:11,958 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:07:11,958 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:07:11,958 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:07:11,958 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:07:11,958 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:07:11,958 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:07:11,959 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:07:11,959 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:07:21,360 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:07:21,360 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:07:21,360 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:07:21,360 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:07:41,965 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:07:41,965 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:07:41,966 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:07:41,966 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:07:41,966 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:07:41,966 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:07:41,967 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:07:41,968 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:07:51,371 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:07:51,371 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:07:51,371 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:07:51,371 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:08:11,971 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:08:11,971 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:08:11,971 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:08:11,971 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:08:11,971 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:08:11,971 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:08:11,972 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:08:11,973 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:08:11,973 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:08:11,973 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:08:11,973 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:08:11,973 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:08:11,973 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:08:11,973 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:08:11,973 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:08:11,974 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:08:11,974 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:08:11,974 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:08:11,974 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:08:11,974 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:08:11,974 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:08:21,383 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:08:21,383 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:08:21,383 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:08:21,383 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:08:41,978 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:08:41,978 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:08:41,979 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:08:41,980 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:08:51,393 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:08:51,393 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:08:51,393 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:08:51,393 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:09:07,088 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1000a70d: (connection has passed maxLifetime)
+2024-11-29 14:09:07,088 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1000a70d: (connection has passed maxLifetime)
+2024-11-29 14:09:07,237 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d90205d
+2024-11-29 14:09:07,237 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2d90205d
+2024-11-29 14:09:09,461 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4c6fb7b8: (connection has passed maxLifetime)
+2024-11-29 14:09:09,461 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4c6fb7b8: (connection has passed maxLifetime)
+2024-11-29 14:09:09,531 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cad2a66
+2024-11-29 14:09:09,531 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6cad2a66
+2024-11-29 14:09:10,083 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@d52bd83: (connection has passed maxLifetime)
+2024-11-29 14:09:10,083 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@d52bd83: (connection has passed maxLifetime)
+2024-11-29 14:09:10,128 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d8b84e5
+2024-11-29 14:09:10,128 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d8b84e5
+2024-11-29 14:09:11,989 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:09:11,989 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-29 14:09:11,989 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:09:11,989 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:09:11,990 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:09:11,991 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-29 14:09:17,133 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7de97b70: (connection has passed maxLifetime)
+2024-11-29 14:09:17,133 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7de97b70: (connection has passed maxLifetime)
+2024-11-29 14:09:17,171 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3896dac8
+2024-11-29 14:09:17,171 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3896dac8
+2024-11-29 14:09:21,404 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:09:21,404 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-29 14:09:21,404 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-29 14:09:21,404 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.

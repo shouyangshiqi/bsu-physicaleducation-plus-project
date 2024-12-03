@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-233.15325.26">
+    <data-source name="@81.70.63.156" uuid="9ca46317-ad26-4ee7-814f-bd7df8e7e5a3">
+      <database-info product="MySQL" version="8.0.40" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-j-8.2.0 (Revision: 06a1f724497fd81c6a659131fda822c9e5085b6c)" dbms="MYSQL" exact-version="8.0.40" exact-driver-version="8.2">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="nacos" />
+            <name qname="xc402_content" />
+            <name qname="xc402_media" />
+            <name qname="xc402_system" />
+            <name qname="xxl_job" />
+            <name qname="xxl_job_2.3.1" />
+            <name qname="xc402_users" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

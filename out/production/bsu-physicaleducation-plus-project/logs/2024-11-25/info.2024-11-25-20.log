@@ -1,0 +1,318 @@
+2024-11-25 21:15:22,375 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-25 21:15:22,375 WARN [Thread-55][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-25 21:15:22,375 WARN [Thread-55][NotifyCenter.java:145] - [NotifyCenter] Start destroying Publisher
+2024-11-25 21:15:22,375 WARN [Thread-3][HttpClientBeanHolder.java:108] - [HttpClientBeanHolder] Start destroying common HttpClient
+2024-11-25 21:15:22,392 WARN [Thread-55][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-25 21:15:22,392 WARN [Thread-55][NotifyCenter.java:162] - [NotifyCenter] Destruction of the end
+2024-11-25 21:15:22,393 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-25 21:15:22,393 WARN [Thread-3][HttpClientBeanHolder.java:114] - [HttpClientBeanHolder] Destruction of the end
+2024-11-25 21:15:22,501 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-25 21:15:22,501 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-25 21:15:22,503 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-25 21:15:22,503 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:94] - De-registering from Nacos Server now...
+2024-11-25 21:15:22,503 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@media-api:172.18.210.246:63050 from beat map.
+2024-11-25 21:15:22,503 INFO [SpringContextShutdownHook][BeatReactor.java:101] - [BEAT] removing beat: physicaleducation-plus-project@@media-api:172.18.210.246:63050 from beat map.
+2024-11-25 21:15:22,503 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@media-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-25 21:15:22,503 INFO [SpringContextShutdownHook][NamingProxy.java:260] - [DEREGISTER-SERVICE] dev deregistering service physicaleducation-plus-project@@media-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={}}
+2024-11-25 21:15:22,520 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-25 21:15:22,520 INFO [SpringContextShutdownHook][NacosServiceRegistry.java:114] - De-registration finished.
+2024-11-25 21:15:22,520 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-25 21:15:22,520 INFO [SpringContextShutdownHook][BeatReactor.java:147] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown begin
+2024-11-25 21:15:25,100 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-25 21:15:25,100 INFO [SpringContextShutdownHook][BeatReactor.java:149] - com.alibaba.nacos.client.naming.beat.BeatReactor do shutdown stop
+2024-11-25 21:15:25,100 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-25 21:15:25,100 INFO [SpringContextShutdownHook][HostReactor.java:413] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown begin
+2024-11-25 21:15:28,020 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@media-api -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2024-11-25 21:15:28,020 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@media-api -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2024-11-25 21:15:28,021 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@media-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-25 21:15:28,021 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:238] - removed ips(1) service: physicaleducation-plus-project@@media-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000}]
+2024-11-25 21:15:28,031 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@media-api -> []
+2024-11-25 21:15:28,031 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@media-api -> []
+2024-11-25 21:15:28,031 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@media-api@@DEFAULT -> []
+2024-11-25 21:15:28,031 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(0) service: physicaleducation-plus-project@@media-api@@DEFAULT -> []
+2024-11-25 21:15:28,033 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-25 21:15:28,033 INFO [SpringContextShutdownHook][PushReceiver.java:132] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown begin
+2024-11-25 21:15:31,054 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-25 21:15:31,054 INFO [SpringContextShutdownHook][PushReceiver.java:136] - com.alibaba.nacos.client.naming.core.PushReceiver do shutdown stop
+2024-11-25 21:15:31,054 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-25 21:15:31,054 INFO [SpringContextShutdownHook][FailoverReactor.java:132] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown begin
+2024-11-25 21:15:31,055 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-25 21:15:31,055 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-25 21:15:31,055 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-25 21:15:31,055 INFO [SpringContextShutdownHook][FailoverReactor.java:134] - com.alibaba.nacos.client.naming.backups.FailoverReactor do shutdown stop
+2024-11-25 21:15:31,055 INFO [SpringContextShutdownHook][HostReactor.java:418] - com.alibaba.nacos.client.naming.core.HostReactor do shutdown stop
+2024-11-25 21:15:31,055 INFO [SpringContextShutdownHook][NamingProxy.java:719] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown begin
+2024-11-25 21:15:31,058 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-25 21:15:31,058 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-25 21:15:31,058 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:72] - [NamingHttpClientManager] Start destroying NacosRestTemplate
+2024-11-25 21:15:31,058 WARN [SpringContextShutdownHook][NamingHttpClientManager.java:79] - [NamingHttpClientManager] Destruction of the end
+2024-11-25 21:15:31,058 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-25 21:15:31,058 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-25 21:15:31,058 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-25 21:15:31,059 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-11-25 21:15:31,058 INFO [SpringContextShutdownHook][CredentialWatcher.java:105] - [null] CredentialWatcher is stopped
+2024-11-25 21:15:31,058 INFO [SpringContextShutdownHook][CredentialService.java:98] - [null] CredentialService is freed
+2024-11-25 21:15:31,058 INFO [SpringContextShutdownHook][NamingProxy.java:723] - com.alibaba.nacos.client.naming.net.NamingProxy do shutdown stop
+2024-11-25 21:15:31,059 WARN [SpringContextShutdownHook][DisposableBeanAdapter.java:349] - Destroy method 'close' on bean with name 'nacosServiceRegistry' threw an exception: java.lang.NullPointerException
+2024-11-25 21:15:31,060 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-25 21:15:31,060 INFO [SpringContextShutdownHook][ExecutorConfigurationSupport.java:218] - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-25 21:15:35,918 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-25 21:15:35,918 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-25 21:15:35,918 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-25 21:15:35,918 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-25 21:15:35,918 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-25 21:15:35,918 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-25 21:15:35,919 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-25 21:15:35,920 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-25 21:15:35,920 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-25 21:15:35,920 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-25 21:15:35,920 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-25 21:15:35,920 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-25 21:15:35,920 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-25 21:15:35,920 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-25 21:15:35,920 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-25 21:15:35,920 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-25 21:15:35,920 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-25 21:15:36,872 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-25 21:15:36,872 INFO [main][SpringApplication.java:655] - The following profiles are active: dev
+2024-11-25 21:15:37,390 INFO [main][GenericScope.java:295] - BeanFactory id=983b86c3-4b03-36b4-856c-69795c969a9f
+2024-11-25 21:15:37,390 INFO [main][GenericScope.java:295] - BeanFactory id=983b86c3-4b03-36b4-856c-69795c969a9f
+2024-11-25 21:15:37,589 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2024-11-25 21:15:37,589 INFO [main][TomcatWebServer.java:108] - Tomcat initialized with port(s): 63050 (http)
+2024-11-25 21:15:37,595 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2024-11-25 21:15:37,595 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-63050"]
+2024-11-25 21:15:37,595 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-11-25 21:15:37,595 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+2024-11-25 21:15:37,596 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-11-25 21:15:37,596 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2024-11-25 21:15:37,653 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-11-25 21:15:37,653 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+2024-11-25 21:15:37,654 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 773 ms
+2024-11-25 21:15:37,654 INFO [main][ServletWebServerApplicationContext.java:285] - Root WebApplicationContext: initialization completed in 773 ms
+2024-11-25 21:15:38,538 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-25 21:15:38,538 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-11-25 21:15:38,554 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-25 21:15:38,554 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-25 21:15:38,554 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-25 21:15:38,554 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-25 21:15:38,556 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-25 21:15:38,556 WARN [main][URLConfigurationSource.java:121] - No URLs will be polled as dynamic configuration sources.
+2024-11-25 21:15:38,556 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-25 21:15:38,556 INFO [main][URLConfigurationSource.java:122] - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2024-11-25 21:15:38,604 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-25 21:15:38,604 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'applicationTaskExecutor'
+2024-11-25 21:15:38,807 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-25 21:15:38,807 INFO [main][ExecutorConfigurationSupport.java:181] - Initializing ExecutorService 'Nacos-Watch-Task-Scheduler'
+2024-11-25 21:15:39,099 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-25 21:15:39,099 INFO [main][InitUtils.java:65] - initializer namespace from System Property :null
+2024-11-25 21:15:39,099 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-25 21:15:39,099 INFO [main][InitUtils.java:74] - initializer namespace from System Environment :null
+2024-11-25 21:15:39,099 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-25 21:15:39,099 INFO [main][InitUtils.java:84] - initializer namespace from System Property :null
+2024-11-25 21:15:39,108 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-25 21:15:39,108 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-25 21:15:39,108 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-25 21:15:39,108 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-25 21:15:39,146 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2024-11-25 21:15:39,146 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-63050"]
+2024-11-25 21:15:39,158 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2024-11-25 21:15:39,158 INFO [main][TomcatWebServer.java:220] - Tomcat started on port(s): 63050 (http) with context path '/media'
+2024-11-25 21:15:39,161 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='172.18.210.246', weight=1.0, serviceName='physicaleducation-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-11-25 21:15:39,161 INFO [main][BeatReactor.java:81] - [BEAT] adding beat: BeatInfo{port=63050, ip='172.18.210.246', weight=1.0, serviceName='physicaleducation-plus-project@@media-api', cluster='DEFAULT', metadata={preserved.register.source=SPRING_CLOUD}, scheduled=false, period=5000, stopped=false} to beat map.
+2024-11-25 21:15:39,161 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service physicaleducation-plus-project@@media-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-11-25 21:15:39,161 INFO [main][NamingProxy.java:230] - [REGISTER-SERVICE] dev registering service physicaleducation-plus-project@@media-api with instance: Instance{instanceId='null', ip='172.18.210.246', port=63050, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2024-11-25 21:15:39,176 INFO [main][NacosServiceRegistry.java:75] - nacos registry, physicaleducation-plus-project media-api 172.18.210.246:63050 register finished
+2024-11-25 21:15:39,176 INFO [main][NacosServiceRegistry.java:75] - nacos registry, physicaleducation-plus-project media-api 172.18.210.246:63050 register finished
+2024-11-25 21:15:39,330 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-11-25 21:15:39,330 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+2024-11-25 21:15:39,336 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-11-25 21:15:39,336 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+2024-11-25 21:15:39,353 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-11-25 21:15:39,353 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+2024-11-25 21:15:39,365 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 3.575 seconds (JVM running for 4.155)
+2024-11-25 21:15:39,365 INFO [main][StartupInfoLogger.java:61] - Started MediaApplication in 3.575 seconds (JVM running for 4.155)
+2024-11-25 21:15:39,368 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2024-11-25 21:15:39,368 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] swagger-dev.yaml+xuecheng-plus-common+dev
+2024-11-25 21:15:39,369 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-25 21:15:39,369 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=swagger-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-25 21:15:39,369 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-11-25 21:15:39,369 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] media-api.yaml+xuecheng-plus-project+dev
+2024-11-25 21:15:39,369 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-25 21:15:39,369 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-25 21:15:39,370 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-11-25 21:15:39,370 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-25 21:15:39,370 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] media-api-dev.yaml+xuecheng-plus-project+dev
+2024-11-25 21:15:39,370 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-25 21:15:39,385 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-11-25 21:15:39,385 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] media-service-dev.yaml+xuecheng-plus-project+dev
+2024-11-25 21:15:39,385 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-25 21:15:39,385 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=media-service-dev.yaml, group=xuecheng-plus-project, cnt=1
+2024-11-25 21:15:39,386 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-11-25 21:15:39,386 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] logging-dev.yaml+xuecheng-plus-common+dev
+2024-11-25 21:15:39,387 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-25 21:15:39,387 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=logging-dev.yaml, group=xuecheng-plus-common, cnt=1
+2024-11-25 21:15:39,387 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-11-25 21:15:39,387 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-11-25 21:15:39,387 INFO [main][ClientWorker.java:169] - [fixed-81.70.63.156_8848-dev] [subscribe] media-api+xuecheng-plus-project+dev
+2024-11-25 21:15:39,387 INFO [main][CacheData.java:92] - [fixed-81.70.63.156_8848-dev] [add-listener] ok, tenant=dev, dataId=media-api, group=xuecheng-plus-project, cnt=1
+2024-11-25 21:15:40,178 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@media-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-25 21:15:40,178 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@media-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-25 21:15:40,184 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@media-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-25 21:15:40,184 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@media-api@@DEFAULT -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000,"instanceHeartBeatInterval":5000}]
+2024-11-25 21:15:42,070 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@media-api -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2024-11-25 21:15:42,070 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:232] - new ips(1) service: physicaleducation-plus-project@@media-api -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2024-11-25 21:15:42,080 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@media-api -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2024-11-25 21:15:42,080 INFO [com.alibaba.nacos.client.naming.updater][HostReactor.java:271] - current ips:(1) service: physicaleducation-plus-project@@media-api -> [{"instanceId":"172.18.210.246#63050#DEFAULT#physicaleducation-plus-project@@media-api","ip":"172.18.210.246","port":63050,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"physicaleducation-plus-project@@media-api","metadata":{"preserved.register.source":"SPRING_CLOUD"},"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]
+2024-11-25 21:15:57,342 DEBUG [reactor-http-nio-22][RoutePredicateHandlerMapping.java:149] - Route matched: media-api
+2024-11-25 21:15:57,342 DEBUG [reactor-http-nio-22][RoutePredicateHandlerMapping.java:149] - Route matched: media-api
+2024-11-25 21:15:57,342 DEBUG [reactor-http-nio-22][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://localhost:63010/media/files?pageNo=1&pageSize=10] to Route{id='media-api', uri=lb://media-api, order=0, predicate=Paths: [/media/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-25 21:15:57,342 DEBUG [reactor-http-nio-22][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://localhost:63010/media/files?pageNo=1&pageSize=10] to Route{id='media-api', uri=lb://media-api, order=0, predicate=Paths: [/media/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-25 21:15:57,342 DEBUG [reactor-http-nio-22][AbstractHandlerMapping.java:183] - [9cf77f9d-139] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@2a4280ed
+2024-11-25 21:15:57,342 DEBUG [reactor-http-nio-22][AbstractHandlerMapping.java:183] - [9cf77f9d-139] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@2a4280ed
+2024-11-25 21:15:57,343 DEBUG [reactor-http-nio-22][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@f88bfbe}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@44032fde}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@77049094}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@ed91d8d}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@59bbe88a}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@6fa13e6}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@446626a7}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@3af7d855}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@5d8ab698}, order = 2147483647]]
+2024-11-25 21:15:57,343 DEBUG [reactor-http-nio-22][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@f88bfbe}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@44032fde}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@77049094}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@ed91d8d}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@59bbe88a}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@6fa13e6}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@446626a7}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@3af7d855}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@5d8ab698}, order = 2147483647]]
+2024-11-25 21:15:59,259 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@326cdb8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,259 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@326cdb8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,260 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@326cdb8: (connection is dead)
+2024-11-25 21:15:59,260 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@326cdb8: (connection is dead)
+2024-11-25 21:15:59,261 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3fe4156d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,261 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3fe4156d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,262 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3fe4156d: (connection is dead)
+2024-11-25 21:15:59,262 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3fe4156d: (connection is dead)
+2024-11-25 21:15:59,262 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ed91f56 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,262 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ed91f56 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,263 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ed91f56: (connection is dead)
+2024-11-25 21:15:59,263 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ed91f56: (connection is dead)
+2024-11-25 21:15:59,264 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4fedc786 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,264 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4fedc786 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,264 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4fedc786: (connection is dead)
+2024-11-25 21:15:59,264 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4fedc786: (connection is dead)
+2024-11-25 21:15:59,265 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1933e66d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,265 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1933e66d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,265 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1933e66d: (connection is dead)
+2024-11-25 21:15:59,265 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1933e66d: (connection is dead)
+2024-11-25 21:15:59,265 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@580eec56 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,265 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@580eec56 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,266 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@580eec56: (connection is dead)
+2024-11-25 21:15:59,266 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@580eec56: (connection is dead)
+2024-11-25 21:15:59,266 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@691cd5b6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,266 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@691cd5b6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,266 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@691cd5b6: (connection is dead)
+2024-11-25 21:15:59,266 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@691cd5b6: (connection is dead)
+2024-11-25 21:15:59,267 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3bfc9a08 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,267 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3bfc9a08 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,267 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3bfc9a08: (connection is dead)
+2024-11-25 21:15:59,267 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3bfc9a08: (connection is dead)
+2024-11-25 21:15:59,268 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ac19033 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,268 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7ac19033 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,268 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ac19033: (connection is dead)
+2024-11-25 21:15:59,268 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ac19033: (connection is dead)
+2024-11-25 21:15:59,269 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4de1a705 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,269 WARN [http-nio-63110-exec-1][PoolBase.java:184] - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4de1a705 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2024-11-25 21:15:59,269 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4de1a705: (connection is dead)
+2024-11-25 21:15:59,269 DEBUG [HikariPool-1 connection closer][PoolBase.java:134] - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4de1a705: (connection is dead)
+2024-11-25 21:15:59,269 DEBUG [http-nio-63110-exec-1][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 1, queue 9
+2024-11-25 21:15:59,269 DEBUG [http-nio-63110-exec-1][HikariPool.java:342] - HikariPool-1 - Add connection elided, waiting 1, queue 9
+2024-11-25 21:15:59,370 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74b88ab4
+2024-11-25 21:15:59,370 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74b88ab4
+2024-11-25 21:15:59,371 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=1, active=1, idle=0, waiting=0)
+2024-11-25 21:15:59,371 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=1, active=1, idle=0, waiting=0)
+2024-11-25 21:15:59,371 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2024-11-25 21:15:59,371 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==>  Preparing: SELECT id,name,code,item_values FROM dictionary
+2024-11-25 21:15:59,371 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2024-11-25 21:15:59,371 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - ==> Parameters: 
+2024-11-25 21:15:59,379 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - <==      Total: 17
+2024-11-25 21:15:59,379 DEBUG [http-nio-63110-exec-1][BaseJdbcLogger.java:137] - <==      Total: 17
+2024-11-25 21:15:59,422 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3585808f
+2024-11-25 21:15:59,422 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3585808f
+2024-11-25 21:15:59,464 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47ad79d
+2024-11-25 21:15:59,464 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47ad79d
+2024-11-25 21:15:59,464 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-11-25 21:15:59,464 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-11-25 21:15:59,501 DEBUG [reactor-http-nio-23][RoutePredicateHandlerMapping.java:149] - Route matched: media-api
+2024-11-25 21:15:59,501 DEBUG [reactor-http-nio-23][RoutePredicateHandlerMapping.java:149] - Route matched: media-api
+2024-11-25 21:15:59,502 DEBUG [reactor-http-nio-23][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://localhost:63010/media/files?pageNo=1&pageSize=10] to Route{id='media-api', uri=lb://media-api, order=0, predicate=Paths: [/media/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-25 21:15:59,502 DEBUG [reactor-http-nio-23][RoutePredicateHandlerMapping.java:92] - Mapping [Exchange: POST http://localhost:63010/media/files?pageNo=1&pageSize=10] to Route{id='media-api', uri=lb://media-api, order=0, predicate=Paths: [/media/**], match trailing slash: true, gatewayFilters=[], metadata={}}
+2024-11-25 21:15:59,502 DEBUG [reactor-http-nio-23][AbstractHandlerMapping.java:183] - [c421ca91-140] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@2a4280ed
+2024-11-25 21:15:59,502 DEBUG [reactor-http-nio-23][AbstractHandlerMapping.java:183] - [c421ca91-140] Mapped to org.springframework.cloud.gateway.handler.FilteringWebHandler@2a4280ed
+2024-11-25 21:15:59,502 DEBUG [reactor-http-nio-23][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@f88bfbe}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@44032fde}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@77049094}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@ed91d8d}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@59bbe88a}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@6fa13e6}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@446626a7}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@3af7d855}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@5d8ab698}, order = 2147483647]]
+2024-11-25 21:15:59,502 DEBUG [reactor-http-nio-23][FilteringWebHandler.java:85] - Sorted gatewayFilterFactories: [[GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RemoveCachedBodyFilter@f88bfbe}, order = -2147483648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilter@44032fde}, order = -2147482648], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyWriteResponseFilter@77049094}, order = -1], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardPathFilter@ed91d8d}, order = 0], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.RouteToRequestUrlFilter@59bbe88a}, order = 10000], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.LoadBalancerClientFilter@6fa13e6}, order = 10100], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.WebsocketRoutingFilter@446626a7}, order = 2147483646], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.NettyRoutingFilter@3af7d855}, order = 2147483647], [GatewayFilterAdapter{delegate=org.springframework.cloud.gateway.filter.ForwardRoutingFilter@5d8ab698}, order = 2147483647]]
+2024-11-25 21:15:59,512 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55aa7fc0
+2024-11-25 21:15:59,512 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55aa7fc0
+2024-11-25 21:15:59,512 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-11-25 21:15:59,512 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-11-25 21:15:59,567 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ba13ad8
+2024-11-25 21:15:59,567 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ba13ad8
+2024-11-25 21:15:59,568 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-11-25 21:15:59,568 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-11-25 21:15:59,615 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51e446d3
+2024-11-25 21:15:59,615 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51e446d3
+2024-11-25 21:15:59,615 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-11-25 21:15:59,615 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-11-25 21:15:59,662 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24118af5
+2024-11-25 21:15:59,662 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24118af5
+2024-11-25 21:15:59,662 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-11-25 21:15:59,662 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-11-25 21:15:59,705 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@335e2748
+2024-11-25 21:15:59,705 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@335e2748
+2024-11-25 21:15:59,705 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-11-25 21:15:59,705 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-11-25 21:15:59,746 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1dcae410
+2024-11-25 21:15:59,746 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1dcae410
+2024-11-25 21:15:59,746 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-11-25 21:15:59,746 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-11-25 21:15:59,794 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66b0662d
+2024-11-25 21:15:59,794 DEBUG [HikariPool-1 connection adder][HikariPool.java:728] - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@66b0662d
+2024-11-25 21:15:59,795 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-11-25 21:15:59,795 DEBUG [HikariPool-1 connection adder][HikariPool.java:421] - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-11-25 21:16:05,935 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-25 21:16:05,935 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition content-api applying {_genkey_0=/content/**} to Path
+2024-11-25 21:16:05,936 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-25 21:16:05,936 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: content-api
+2024-11-25 21:16:05,936 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-25 21:16:05,936 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition system-api applying {_genkey_0=/system/**} to Path
+2024-11-25 21:16:05,937 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-25 21:16:05,937 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: system-api
+2024-11-25 21:16:05,937 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-25 21:16:05,937 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition media-api applying {_genkey_0=/media/**} to Path
+2024-11-25 21:16:05,937 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-25 21:16:05,937 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: media-api
+2024-11-25 21:16:05,938 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-25 21:16:05,938 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition search-service applying {_genkey_0=/search/**} to Path
+2024-11-25 21:16:05,938 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-25 21:16:05,938 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: search-service
+2024-11-25 21:16:05,938 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-25 21:16:05,938 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition auth-service applying {_genkey_0=/auth/**} to Path
+2024-11-25 21:16:05,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-25 21:16:05,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: auth-service
+2024-11-25 21:16:05,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-25 21:16:05,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition checkcode applying {_genkey_0=/checkcode/**} to Path
+2024-11-25 21:16:05,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-25 21:16:05,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: checkcode
+2024-11-25 21:16:05,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-25 21:16:05,939 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition learning-api applying {_genkey_0=/learning/**} to Path
+2024-11-25 21:16:05,940 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-25 21:16:05,940 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: learning-api
+2024-11-25 21:16:05,940 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-25 21:16:05,940 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:271] - RouteDefinition orders-api applying {_genkey_0=/orders/**} to Path
+2024-11-25 21:16:05,940 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-25 21:16:05,940 DEBUG [Nacos-Watch-Task-Scheduler-1][RouteDefinitionRouteLocator.java:162] - RouteDefinition matched: orders-api
+2024-11-25 21:16:09,118 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-25 21:16:09,118 DEBUG [HikariPool-1 housekeeper][HikariPool.java:421] - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-11-25 21:16:09,118 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+2024-11-25 21:16:09,118 DEBUG [HikariPool-1 housekeeper][HikariPool.java:517] - HikariPool-1 - Fill pool skipped, pool is at sufficient level.
