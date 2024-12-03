@@ -1,7 +1,10 @@
 package com.physicaleducation.learning.service;
 
+import com.physicaleducation.learning.model.dto.MyCourseTableParams;
 import com.physicaleducation.learning.model.dto.XcChooseCourseDto;
 import com.physicaleducation.learning.model.dto.XcCourseTablesDto;
+import com.physicaleducation.learning.model.po.XcCourseTables;
+import com.physicaleducation.model.PageResult;
 
 /**
  * @author khran
@@ -28,4 +31,10 @@ public interface MyCourseTablesService {
      */
     public XcCourseTablesDto getLearningStatus(String userId, Long courseId);
 
+    /**
+     * 查询我的课程表
+     * @param params
+     * @return
+     */
+    public PageResult<XcCourseTables> mycoursetables(MyCourseTableParams params);
 }

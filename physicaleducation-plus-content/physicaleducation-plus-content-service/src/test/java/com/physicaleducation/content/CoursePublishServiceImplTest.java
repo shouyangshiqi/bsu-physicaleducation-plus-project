@@ -18,6 +18,6 @@ public class CoursePublishServiceImplTest {
 
     @Test
     public void saveCoursePublishMessageAdd(){
-        coursePublishService.saveCoursePublishMessage(124L);
+        coursePublishService.saveCoursePublishMessage(127L);
     }
 }

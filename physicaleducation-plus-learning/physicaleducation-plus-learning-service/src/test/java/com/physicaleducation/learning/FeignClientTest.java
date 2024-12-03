@@ -1,6 +1,6 @@
 package com.physicaleducation.learning;
 
-import com.xuecheng.content.model.po.CoursePublish;
+import com.physicaleducation.content.model.po.CoursePublish;
 import com.physicaleducation.learning.feignclient.ContentServiceClient;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

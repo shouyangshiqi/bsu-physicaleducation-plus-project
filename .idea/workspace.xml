@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="添加选课板块，用户将课程加入到自己的课程计划中">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/LearningService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/impl/LearningServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/config/XxlJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/config/XxlJobConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-search/logs/2022-09-25/info.2022-09-25-07.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-search/logs/2022-09-25/info.2022-09-25-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-search/logs/error.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-search/logs/info.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CoursePublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CoursePublishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/CoursePublishServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/CoursePublishServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/GenerateCourseHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/GenerateCourseHtmlTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java/com/physicaleducation/learning/api/MyCourseTablesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java/com/physicaleducation/learning/api/MyCourseTablesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java/com/physicaleducation/learning/api/MyLearningController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java/com/physicaleducation/learning/api/MyLearningController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/MyCourseTablesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/MyCourseTablesService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/impl/MyCourseTablesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/impl/MyCourseTablesServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/test/java/com/physicaleducation/learning/FeignClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/test/java/com/physicaleducation/learning/FeignClientTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,12 +198,13 @@
     "Spring Boot.ContentApplication.executor": "Run",
     "Spring Boot.ContentApplication2.executor": "Run",
     "Spring Boot.LearningApiApplication (1).executor": "Debug",
-    "Spring Boot.LearningApiApplication.executor": "Run",
+    "Spring Boot.LearningApiApplication.executor": "Debug",
     "Spring Boot.MediaApplication.executor": "Run",
     "Spring Boot.PhysicalEducationGatewayApplication.executor": "Run",
     "Spring Boot.SearchApplication (1).executor": "Run",
     "Spring Boot.SearchApplication.executor": "Run",
     "Spring Boot.SystemApplication.executor": "Run",
+    "Spring Boot.gateway.executor": "Run",
     "git-widget-placeholder": "dev",
     "jdk.selected.JAVA_MODULE": "1.8",
     "kotlin-language-version-configured": "true",
@@ -266,11 +274,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LearningApiApplication">
-    <configuration name="sc-learning-api | 添加选课" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-learning-api.http" requestIdentifier="添加选课" runType="Run single request">
-      <method v="2" />
-    </configuration>
-    <configuration name="FreemarkerTest.testGenerateHtmlByTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GenerateCourseHtmlTest.testGenerate">
+    <configuration name="CoursePublishServiceImplTest.saveCoursePublishMessageAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="physicaleducation-plus-content-service" />
       <extension name="coverage">
         <pattern>
@@ -279,8 +284,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.physicaleducation.content" />
-      <option name="MAIN_CLASS_NAME" value="com.physicaleducation.content.FreemarkerTest" />
-      <option name="METHOD_NAME" value="testGenerateHtmlByTemplate" />
+      <option name="MAIN_CLASS_NAME" value="com.physicaleducation.content.CoursePublishServiceImplTest" />
+      <option name="METHOD_NAME" value="saveCoursePublishMessageAdd" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -316,9 +321,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="physicaleducation-plus-content-service" />
+    <configuration name="ContentApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="physicaleducation-plus-content-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.ContentApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.physicaleducation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -374,24 +385,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="HTTP Request.sc-learning-api | 添加选课" />
-      <item itemvalue="JUnit.FreemarkerTest.testGenerateHtmlByTemplate" />
+      <item itemvalue="JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd" />
       <item itemvalue="JUnit.GenerateCourseHtmlTest.testGenerate" />
-      <item itemvalue="Spring Boot.ContentApplication" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.CheckcodeApplication" />
       <item itemvalue="Spring Boot.gateway" />
       <item itemvalue="Spring Boot.LearningApiApplication" />
+      <item itemvalue="Spring Boot.ContentApplication (1)" />
       <item itemvalue="Spring Boot.MediaApplication" />
       <item itemvalue="Spring Boot.SystemApplication" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.GenerateCourseHtmlTest.testGenerate" />
-        <item itemvalue="JUnit.FreemarkerTest.testGenerateHtmlByTemplate" />
-        <item itemvalue="Spring Boot.MediaApplication" />
+        <item itemvalue="JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd" />
         <item itemvalue="Spring Boot.SystemApplication" />
-        <item itemvalue="HTTP Request.sc-learning-api | 添加选课" />
+        <item itemvalue="Spring Boot.MediaApplication" />
+        <item itemvalue="Spring Boot.ContentApplication (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +445,7 @@
       <workItem from="1733023869135" duration="11571000" />
       <workItem from="1733105488202" duration="19477000" />
       <workItem from="1733144256887" duration="5379000" />
-      <workItem from="1733191016222" duration="360000" />
+      <workItem from="1733191016222" duration="8353000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构">
       <option name="closed" value="true" />
@@ -645,7 +655,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733148581457</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="添加选课板块，用户将课程加入到自己的课程计划中">
+      <option name="closed" value="true" />
+      <created>1733191443710</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1733191443710</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -706,14 +724,14 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CourseBaseInfoController.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/physicaleducation-plus-checkcode/src/main/java/com/physicaleducation/checkcode/service/impl/RedisCheckCodeStore.java</url>
           <line>24</line>
           <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java/com/physicaleducation/learning/api/MyCourseTablesController.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
