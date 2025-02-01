@@ -19,4 +19,6 @@ public interface AuthService {
      * @return
      */
     XcUserExt execute(AuthParamsDto authParamsDto);
+
+
 }

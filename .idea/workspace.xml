@@ -4,22 +4,94 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="添加选课板块，用户将课程加入到自己的课程计划中">
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/LearningService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/impl/LearningServiceImpl.java" afterDir="false" />
+    <list default="true" id="352f6c73-316a-4f9a-9555-f1f6367c139d" name="Changes" comment="添加在线学习板块，包括获取视频以及查看我的课程内容">
+      <change afterPath="$PROJECT_DIR$/.idea/mybatisx/templates.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-api/src/main/java/com/dyds/OrdersApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-api/src/main/java/com/dyds/orders/api/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-api/src/main/java/com/dyds/orders/api/PaymentsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-api/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-api/src/main/resources/log4j2-dev.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-api/src/test/java/com/dyds/AliPayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-model/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-model/src/main/java/com/dyds/orders/dto/CallbackResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-model/src/main/java/com/dyds/orders/dto/CreateOrderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-model/src/main/java/com/dyds/orders/dto/CreateOrderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-model/src/main/java/com/dyds/orders/dto/CreatePaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-model/src/main/java/com/dyds/orders/dto/CreatePaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-model/src/main/java/com/dyds/orders/dto/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-model/src/main/java/com/dyds/orders/dto/OrderAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-model/src/main/java/com/dyds/orders/dto/OrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-model/src/main/java/com/dyds/orders/dto/PayStatusDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/config/AlipayConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/mapper/OmsOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/mapper/OmsOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/mapper/OmsPaymentInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/service/PaymentsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/service/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/service/impl/PaymentsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/utils/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/utils/OrderSnGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/utils/QRCodeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/utils/execption/CommonError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/utils/execption/DydsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/utils/execption/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds-orders-service/src/main/java/com/dyds/orders/utils/execption/RestErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/dyds_orders.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dyds-orders/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/controller/RegistController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/model/dto/FindPasswordParamsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/model/dto/RegistParamsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/RegistService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/impl/RegistServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/physicaleducation-plus-base/src/main/java/com/physicaleducation/utils/QRCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/nacos.9LI7Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/nacos.9LI7Bg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/sc402_learning.V-7VRw.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/sc402_learning.V-7VRw.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xc402_content.pQ78jQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xc402_content.pQ78jQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xc402_media.EOX82A.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xc402_media.EOX82A.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xc402_system.g6L9UQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xc402_system.g6L9UQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xc402_users.NAN02Q.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xc402_users.NAN02Q.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xxl_job.agbQng.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/storage_v2/_src_/schema/xxl_job.agbQng.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T143804.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T143808.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T150816.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T150822.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T150929.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T150956.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T151000.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T151037.401.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T160902.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T160908.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T160912.400.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T160917.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2024-11-30T161451.200.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-client.cookies" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_11_26_22_08_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_11_26_22_08__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_11_26_22_11_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2024_11_26_22_11__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-test/sc-auth-api.http" beforeDir="false" afterPath="$PROJECT_DIR$/api-test/sc-auth-api.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CoursePublishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-api/src/main/java/com/physicaleducation/content/api/CoursePublishController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/logs/info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/CoursePublishServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/CoursePublishServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/GenerateCourseHtmlTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/test/java/com/physicaleducation/content/GenerateCourseHtmlTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java/com/physicaleducation/learning/api/MyCourseTablesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java/com/physicaleducation/learning/api/MyCourseTablesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java/com/physicaleducation/learning/api/MyLearningController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java/com/physicaleducation/learning/api/MyLearningController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/MyCourseTablesService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/MyCourseTablesService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/impl/MyCourseTablesServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/main/java/com/physicaleducation/learning/service/impl/MyCourseTablesServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/test/java/com/physicaleducation/learning/FeignClientTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-service/src/test/java/com/physicaleducation/learning/FeignClientTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/ucenter/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/jobhandler/CoursePublishTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-content/physicaleducation-plus-content-service/src/main/java/com/physicaleducation/content/service/jobhandler/CoursePublishTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/physicaleducation-plus-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/physicaleducation-plus-parent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,156 +184,162 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ContentCodeGenerator.executor": "Run",
-    "Application.Test1.executor": "Run",
-    "Database Script.nacos.sql.executor": "Run",
-    "Database Script.tables_xxl_job.sql.executor": "Run",
-    "Database Script.xcplus_content.sql.executor": "Run",
-    "Database Script.xcplus_learning.sql.executor": "Run",
-    "Database Script.xcplus_media.sql.executor": "Run",
-    "Database Script.xcplus_system.sql.executor": "Run",
-    "Database Script.xcplus_users.sql.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "HTTP Request.generated-requests | #1.executor": "Run",
-    "HTTP Request.sc-auth-api | 密码模式#2.executor": "Run",
-    "HTTP Request.sc-auth-api | 密码模式.executor": "Run",
-    "HTTP Request.sc-auth-api | 扩展认证请求参数后############################################.executor": "Run",
-    "HTTP Request.sc-auth-api | 授权码模式.executor": "Run",
-    "HTTP Request.sc-auth-api | 校验jwt令牌#1.executor": "Run",
-    "HTTP Request.sc-auth-api | 校验jwt令牌#2.executor": "Run",
-    "HTTP Request.sc-auth-api | 校验jwt令牌.executor": "Run",
-    "HTTP Request.sc-checkcode-api | 校验验证码.executor": "Run",
-    "HTTP Request.sc-checkcode-api | 申请验证码.executor": "Run",
-    "HTTP Request.sc-content-api | #1.executor": "Run",
-    "HTTP Request.sc-content-api | 修改课程.executor": "Run",
-    "HTTP Request.sc-content-api | 创建课程.executor": "Run",
-    "HTTP Request.sc-content-api | 删除课程计划.executor": "Run",
-    "HTTP Request.sc-content-api | 查询某个课程的课程计划.executor": "Run",
-    "HTTP Request.sc-content-api | 查询课程信息.executor": "Run",
-    "HTTP Request.sc-content-api | 查询课程分类.executor": "Run",
-    "HTTP Request.sc-content-api | 查询课程发布信息.executor": "Run",
-    "HTTP Request.sc-content-api | 添加或修改老师#1.executor": "Run",
-    "HTTP Request.sc-content-api | 添加或修改老师#2.executor": "Run",
-    "HTTP Request.sc-content-api | 添加或修改老师.executor": "Run",
-    "HTTP Request.sc-content-api | 课程查询.executor": "Run",
-    "HTTP Request.sc-learning-api | 添加选课.executor": "Run",
-    "HTTP Request.sc-media-api | 上传文件.executor": "Run",
-    "JUnit.CourseBaseInfoServiceImplTests.testCourseBaseMapper.executor": "Debug",
-    "JUnit.CourseBaseMapperTests.testCourseBaseMapper.executor": "Run",
-    "JUnit.CourseCategoryServiceImplTests.testCourseBaseMapper.executor": "Run",
-    "JUnit.CourseCategoryServiceImplTests.testSql.executor": "Run",
-    "JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd.executor": "Run",
-    "JUnit.FeignUploadTest.test.executor": "Run",
-    "JUnit.FreemarkerTest.testGenerateHtmlByTemplate.executor": "Run",
-    "JUnit.GenerateCourseHtmlTest.testGenerate.executor": "Run",
-    "JUnit.MinioTest.getFile.executor": "Run",
-    "JUnit.MinioTest.testMd5.executor": "Run",
-    "JUnit.MinioTest.upload.executor": "Run",
-    "JUnit.MinioTest.upload2.executor": "Run",
-    "JUnit.XuechengPlusCheckcodeApplicationTests.contextLoads.executor": "Run",
-    "Maven.physicaleducation-plus-base [clean].executor": "Run",
-    "Maven.physicaleducation-plus-base [package].executor": "Run",
-    "Maven.physicaleducation-plus-checkcode [clean].executor": "Run",
-    "Maven.physicaleducation-plus-content [clean].executor": "Run",
-    "Maven.physicaleducation-plus-content [package].executor": "Run",
-    "Maven.physicaleducation-plus-content-service [clean].executor": "Run",
-    "Maven.physicaleducation-plus-content-service [compile].executor": "Run",
-    "Maven.physicaleducation-plus-content-service [package].executor": "Run",
-    "Maven.physicaleducation-plus-gateway [install].executor": "Run",
-    "Maven.physicaleducation-plus-learning [clean].executor": "Run",
-    "Maven.physicaleducation-plus-learning-api [clean].executor": "Run",
-    "Maven.physicaleducation-plus-learning-model [clean].executor": "Run",
-    "Maven.physicaleducation-plus-learning-service [clean].executor": "Run",
-    "Maven.physicaleducation-plus-media [clean].executor": "Run",
-    "Maven.physicaleducation-plus-parent [clean].executor": "Run",
-    "Maven.physicaleducation-plus-parent [compile].executor": "Run",
-    "Maven.physicaleducation-plus-parent [package].executor": "Run",
-    "Maven.physicaleducation-plus-search [clean].executor": "Run",
-    "Maven.physicaleducation-plus-search [install].executor": "Run",
-    "Maven.xuecheng-plus-generator [clean].executor": "Run",
-    "Maven.xuecheng-plus-media [clean].executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.AuthApplication.executor": "Run",
-    "Spring Boot.CheckcodeApplication.executor": "Run",
-    "Spring Boot.ContentApplication (1).executor": "Run",
-    "Spring Boot.ContentApplication.executor": "Run",
-    "Spring Boot.ContentApplication2.executor": "Run",
-    "Spring Boot.LearningApiApplication (1).executor": "Debug",
-    "Spring Boot.LearningApiApplication.executor": "Debug",
-    "Spring Boot.MediaApplication.executor": "Run",
-    "Spring Boot.PhysicalEducationGatewayApplication.executor": "Run",
-    "Spring Boot.SearchApplication (1).executor": "Run",
-    "Spring Boot.SearchApplication.executor": "Run",
-    "Spring Boot.SystemApplication.executor": "Run",
-    "Spring Boot.gateway.executor": "Run",
-    "git-widget-placeholder": "dev",
-    "jdk.selected.JAVA_MODULE": "1.8",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/java_learn/idea-program/bsu-physicaleducation-plus-project/physicaleducation-plus-gateway/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36666667",
-    "rest.client.default.execution.environment": "dev",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.runner",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ContentCodeGenerator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Test1.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.dyds_orders.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.nacos.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.tables_xxl_job.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.xcplus_content.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.xcplus_learning.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.xcplus_media.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.xcplus_system.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Database Script.xcplus_users.sql.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-auth-api | 增加用户.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-auth-api | 密码模式#2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-auth-api | 密码模式.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-auth-api | 扩展认证请求参数后############################################.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-auth-api | 授权码模式.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-auth-api | 校验jwt令牌#1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-auth-api | 校验jwt令牌#2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-auth-api | 校验jwt令牌.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-checkcode-api | 校验验证码.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-checkcode-api | 申请验证码.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 修改课程.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 创建课程.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 删除课程计划.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 查询某个课程的课程计划.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 查询课程信息.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 查询课程分类.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 查询课程发布信息.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 添加或修改老师#1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 添加或修改老师#2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 添加或修改老师.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-content-api | 课程查询.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-learning-api | 添加选课.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.sc-media-api | 上传文件.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AliPayTest.queryPayResult.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseBaseInfoServiceImplTests.testCourseBaseMapper.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.CourseBaseMapperTests.testCourseBaseMapper.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseCategoryServiceImplTests.testCourseBaseMapper.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseCategoryServiceImplTests.testSql.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FeignUploadTest.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FreemarkerTest.testGenerateHtmlByTemplate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GenerateCourseHtmlTest.testGenerate.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MinioTest.getFile.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MinioTest.testMd5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MinioTest.upload.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MinioTest.upload2.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.XuechengPlusCheckcodeApplicationTests.contextLoads.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-base [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-base [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-checkcode [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-content [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-content [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-content-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-content-service [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-content-service [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-gateway [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-learning [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-learning-api [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-learning-model [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-learning-service [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-media [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-parent [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-parent [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-parent [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-search [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.physicaleducation-plus-search [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.xuecheng-plus-generator [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.xuecheng-plus-media [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AuthApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.CheckcodeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ContentApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ContentApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.ContentApplication2.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.LearningApiApplication (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.LearningApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.MediaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.OrdersApiApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.PhysicalEducationGatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SearchApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SearchApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SystemApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.gateway.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/java_learn/dyds&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/java_learn/idea-program/bsu-physicaleducation-plus-project/dyds-orders/dyds-orders-service/src/main/java/com/dyds/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.36666667&quot;,
+    &quot;rest.client.default.execution.environment&quot;: &quot;dev&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3",
-      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xc402_media\"",
-      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xxl_job_2.3.1\"",
-      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"xc402_users\"",
-      "9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\"sc402_learning\""
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\&quot;xc402_media\&quot;&quot;,
+      &quot;9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\&quot;xxl_job_2.3.1\&quot;&quot;,
+      &quot;9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\&quot;xc402_users\&quot;&quot;,
+      &quot;9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\&quot;sc402_learning\&quot;&quot;,
+      &quot;9ca46317-ad26-4ee7-814f-bd7df8e7e5a3/schema/\&quot;dyds_orders\&quot;&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-base\src\main\java\com\physicaleducation\utils" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\dyds-orders\dyds-orders-service\src\main\java\com\dyds\orders\utils" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\dyds-orders\dyds-orders-service\src\main\java\com\dyds\orders\config" />
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\dyds-orders\dyds-orders-api\src\main\resources" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\api-test" />
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\sql" />
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-gateway\src\main\java\com\physicaleducation\gateway\config" />
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-api\src\main\java\com\physicaleducation\content\config" />
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-auth\src\main\java\com\physicaleducation\auth\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\dyds-orders\dyds-orders-model\src\main\java\com\dyds\orders\po" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-gateway\src\main\resources" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-media\physicaleducation-plus-media-service\src" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\sql" />
       <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-content\physicaleducation-plus-content-service\src\test" />
-      <recent name="D:\java_learn\idea-program\bsu-physicaleducation-plus-project\physicaleducation-plus-base\src\main\java\com\physicaleducation\base\config" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.physicaleducation" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.dyds.orders.dto" />
+      <recent name="com.dyds.orders.utils" />
+      <recent name="com.dyds.orders.mapper" />
+      <recent name="com.dyds.orders.config" />
       <recent name="com.physicaleducation.content.model.po" />
-      <recent name="com.physicaleducation.content.config" />
-      <recent name="com.physicaleducation.content" />
-      <recent name="com.physicaleducation.content.model" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -274,34 +352,30 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GenerateCourseHtmlTest.testGenerate">
-    <configuration name="CoursePublishServiceImplTest.saveCoursePublishMessageAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-content-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.physicaleducation.content.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.physicaleducation.content" />
-      <option name="MAIN_CLASS_NAME" value="com.physicaleducation.content.CoursePublishServiceImplTest" />
-      <option name="METHOD_NAME" value="saveCoursePublishMessageAdd" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+  <component name="RunManager" selected="JUnit.AliPayTest.queryPayResult">
+    <configuration name="dyds_orders.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/dyds-orders/dyds_orders.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="9ca46317-ad26-4ee7-814f-bd7df8e7e5a3" namespace="schema/&quot;dyds_orders&quot;" />
+      <method v="2" />
     </configuration>
-    <configuration name="GenerateCourseHtmlTest.testGenerate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-content-service" />
+    <configuration name="sc-auth-api | 增加用户" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-auth-api.http" index="7" requestIdentifier="增加用户" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="sc-content-api | 查询课程分类" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api-test/sc-content-api.http" index="2" requestIdentifier="查询课程分类" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AliPayTest.queryPayResult" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dyds-orders-api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.physicaleducation.content.*" />
+          <option name="PATTERN" value="com.dyds.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.physicaleducation.content" />
-      <option name="MAIN_CLASS_NAME" value="com.physicaleducation.content.GenerateCourseHtmlTest" />
-      <option name="METHOD_NAME" value="testGenerate" />
+      <option name="PACKAGE_NAME" value="com.dyds" />
+      <option name="MAIN_CLASS_NAME" value="com.dyds.AliPayTest" />
+      <option name="METHOD_NAME" value="queryPayResult" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -321,19 +395,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContentApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-content-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.ContentApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.physicaleducation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LearningApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="physicaleducation-plus-learning-api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.LearningApiApplication" />
@@ -341,25 +402,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MediaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-media-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.MediaApplication" />
+    <configuration name="OrdersApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="dyds-orders-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dyds.OrdersApiApplication" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.physicaleducation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="physicaleducation-plus-system-api" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.physicaleducation.system.SystemApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.physicaleducation.system.*" />
+          <option name="PATTERN" value="com.dyds.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -385,23 +433,23 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd" />
-      <item itemvalue="JUnit.GenerateCourseHtmlTest.testGenerate" />
+      <item itemvalue="Database Script.dyds_orders.sql" />
+      <item itemvalue="HTTP Request.sc-auth-api | 增加用户" />
+      <item itemvalue="HTTP Request.sc-content-api | 查询课程分类" />
+      <item itemvalue="JUnit.AliPayTest.queryPayResult" />
       <item itemvalue="Spring Boot.AuthApplication" />
       <item itemvalue="Spring Boot.CheckcodeApplication" />
       <item itemvalue="Spring Boot.gateway" />
       <item itemvalue="Spring Boot.LearningApiApplication" />
-      <item itemvalue="Spring Boot.ContentApplication (1)" />
-      <item itemvalue="Spring Boot.MediaApplication" />
-      <item itemvalue="Spring Boot.SystemApplication" />
+      <item itemvalue="Spring Boot.OrdersApiApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GenerateCourseHtmlTest.testGenerate" />
-        <item itemvalue="JUnit.CoursePublishServiceImplTest.saveCoursePublishMessageAdd" />
-        <item itemvalue="Spring Boot.SystemApplication" />
-        <item itemvalue="Spring Boot.MediaApplication" />
-        <item itemvalue="Spring Boot.ContentApplication (1)" />
+        <item itemvalue="Spring Boot.OrdersApiApplication" />
+        <item itemvalue="JUnit.AliPayTest.queryPayResult" />
+        <item itemvalue="Database Script.dyds_orders.sql" />
+        <item itemvalue="HTTP Request.sc-auth-api | 增加用户" />
+        <item itemvalue="HTTP Request.sc-content-api | 查询课程分类" />
       </list>
     </recent_temporary>
   </component>
@@ -446,6 +494,24 @@
       <workItem from="1733105488202" duration="19477000" />
       <workItem from="1733144256887" duration="5379000" />
       <workItem from="1733191016222" duration="8353000" />
+      <workItem from="1733280136919" duration="6143000" />
+      <workItem from="1733384028290" duration="105000" />
+      <workItem from="1733384458005" duration="2142000" />
+      <workItem from="1733450695238" duration="606000" />
+      <workItem from="1734854158311" duration="196000" />
+      <workItem from="1734855905477" duration="222000" />
+      <workItem from="1735814361281" duration="68000" />
+      <workItem from="1735822256619" duration="1296000" />
+      <workItem from="1736136076156" duration="1835000" />
+      <workItem from="1736219334464" duration="6000" />
+      <workItem from="1737428954715" duration="2412000" />
+      <workItem from="1737513379797" duration="13764000" />
+      <workItem from="1737705270696" duration="17177000" />
+      <workItem from="1737725565598" duration="663000" />
+      <workItem from="1737772180135" duration="26906000" />
+      <workItem from="1737815279197" duration="4737000" />
+      <workItem from="1737871449244" duration="273000" />
+      <workItem from="1738376742372" duration="1684000" />
     </task>
     <task id="LOCAL-00001" summary="项目结构">
       <option name="closed" value="true" />
@@ -719,11 +785,6 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/physicaleducation-plus-media/physicaleducation-plus-media-service/src/main/java/com/physicaleducation/media/service/impl/MediaFileServiceImpl.java</url>
-          <line>294</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/physicaleducation-plus-checkcode/src/main/java/com/physicaleducation/checkcode/service/impl/RedisCheckCodeStore.java</url>
           <line>24</line>
           <option name="timeStamp" value="28" />
@@ -732,6 +793,11 @@
           <url>file://$PROJECT_DIR$/physicaleducation-plus-learning/physicaleducation-plus-learning-api/src/main/java/com/physicaleducation/learning/api/MyCourseTablesController.java</url>
           <line>38</line>
           <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/physicaleducation-plus-auth/src/main/java/com/physicaleducation/auth/controller/WxLoginController.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

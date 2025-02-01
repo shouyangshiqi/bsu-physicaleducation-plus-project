@@ -1,13 +1,17 @@
 package com.physicaleducation.auth.controller;
 
+import com.physicaleducation.model.RestResponse;
 import com.physicaleducation.ucenter.mapper.XcUserMapper;
+import com.physicaleducation.ucenter.model.dto.RegistParamsDto;
 import com.physicaleducation.ucenter.model.po.XcUser;
+import com.physicaleducation.ucenter.service.AuthService;
+import com.physicaleducation.ucenter.service.RegistService;
+import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.*;
 
 /**
  * @author Mr.M
@@ -16,11 +20,14 @@ import org.springframework.web.bind.annotation.RestController;
  * @date 2022/9/27 17:25
  */
 @Slf4j
-@RestController
+@Controller
 public class LoginController {
 
     @Autowired
     XcUserMapper userMapper;
+
+    @Autowired()
+    private RegistService registService;
 
 
     @RequestMapping("/login-success")
@@ -47,7 +54,6 @@ public class LoginController {
     public String r2() {
         return "访问r2资源";
     }
-
 
 
 

@@ -1,0 +1,34 @@
+server:
+  port: 63040
+spring:
+  application:
+    name: orders-api
+  cloud:
+    nacos:
+      discovery:
+        enabled: false
+      config:
+        enabled: false
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://81.70.63.156:3306/dyds_orders?serverTimezone=UTC&userUnicode=true&useSSL=false&
+    username: root
+    password: 123
+
+# 日志文件配置路径
+logging:
+  config: classpath:log4j2-dev.xml
+swagger:
+  title: "抖音电商订单系统"
+  description: "抖音电商订单系统接口文档"
+  base-package: com.dyds.orders
+  enabled: true
+  version: 1.0.0
+
+# 支付相关参数
+pay:
+  qrcodeurl: http://192.168.0.103:63040/payments/requestpay?paymentId=%s
+  alipay:
+    APP_ID: 9021000143677879
+    APP_PRIVATE_KEY: MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCmwvxFCwgdAEhQWpJjUIYAWPGNR3JDR1psmCCrE6nZoRwMu4iPKzTotI/FzRsF5SU8UUZ26BUDqn9xsKaFacwpVrRC8eQwVm625hMlX90C/MBp3q9Ec1aVQYgNioC+vxEexbIYoYbMBBNM7liCFnf4ddW1XR5t9r1/6ErdZm1H4j7/sB3Wx2NtBrIu3qMeuoM7BN4i0hXGbS4dWIkiR/1tiOKkU+GEqZwg+1cSCKi00Sz9jK8GJM4MNAkYLifGgB989Uqdpo0XSrLUNzMht8HzxsJ54gLsFzIbsKw4u7bJl3Gw1D8lYN3Jo6/FdemKzfXDy230EQQAxrzXWrjbVeHZAgMBAAECggEAP83s3bHZ2dbI1E3DItKlYq6lRSvn8Qv08gXGwg4U95qn88sw9a5PYRXsyH6wbzH8bDagolAr8ioi9uni3LrdDZgKAm8worn/RGWFP9CM7F6udBNqteL3ZsYa+ytaFSFfuIllmfz7aUXJ6K5tGODl6B+Vs/277dDxMmY7driA6XZrRASgJYF2iAEfp4ieKS9uqnOctckaf69XN3KQ/Wuy2WlytUYktutl75t+YVn/wf5JN1crXgS3dEwHGWm5Q4D2X6yy89GqswSvApSeMgQOGcf7lvhWAPH3rl+Q4fzynbrwnUj6kuU04CoAALUlwkSPIlEnRehfNdDyr9JColKwgQKBgQD5PvmGzIyimAL0HMJ7aVElOtA+bI0sLSNThIQCNh487qyM9vTLPeft8WZZX1CTsIJ2Qp3g3yJwdPWG0m/YEneplXoAkZSl1NbriqlEiTDkZjRcB0UeH6uo3PEVfi2ykjBVqYLJS7EOoqWv7oDZFUGv0Sgt496VKgZkTU2SXimy6QKBgQCrR9Ch5sGEPrICfLvfpySeabTU3j2j+RhJ1IwJOZBC8Ide/bNGC59rUxsxfemOO5c9MQKvmAQTcKM7AatLaboYPKhbcucR2zYQAYf2OdexHQCjH1svvh31ezyErENrrnVzPBg3xLgM7OmO+mHcXeEehT3Iknji+pBwN5c/dIMBcQKBgQDSUDU1bXxt5l73pRzmDeQOyiXVxrsIv73DR1osk4XIXIz1FZ1Rshb2TG/Ukfzn4lTzfRrDGQVyZv6WmRMO++ZFDoA34p/Pnl0Lu6FA15KN5z/fN7M2y/qJLoWvYR0mRPzMC5D0Ug5BDzVH0rSeeLVIqfCBaHn029Uw5ZnDG/mLoQKBgBxqoMGLoEWJhU0GVsEnYNrrXLYIXR+sPwxYuBb7tuR0NXFcE/cmDH/o3NUcN7iCSHg9fl2Vke+Lu3kZsMqlMtu8jI4HhTCgNtr29hCyzgczcZyeoilMmHnWxVaZoeHmotPIf5gZChQS5jjzb3L5HFVM89AoBOhbe8UyY+SCNw3xAoGAZAozceJTQSgDawMGsUoDYo4In+LznPFNYQrnZkTQeeR37exlCEdhK0PJI5GXDPPi9QiYG/r30fd8hM12PNdbzIcpuy+DfDhYzFWqGFmPNdW9aH/iwzVK+sUCJvDuToKowmiO8ntO10vIK9LwU6uC0rT0YG5XWwjLGBNaSn/MjsQ=
+    ALIPAY_PUBLIC_KEY: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAl3fLdObD9KhicPmjPhiBegnMd1Q61F0LKPB7COfJX6hOgR+NIsk8rL+QiSOUxYO7paEkcNw5jUsFy3yj7hMjZT10MR20k472WeApdfIqo3Pd+zEKn0HcnjvLPXsvDHe+Si11onC97yjyHtF4Exc6yh/FAVelYuOViOhmnklGiTM84UkT9McykdUt98n40KDPSBg9lMionh3qCJW8L0KfWA6Q8nz/i2Ev8cHytXzHYLVg+EBY9Be/Om9p7NnDvO95xTsCMsFlXZN0HrmT3cVTq0e20Biu/0/QOQxAFsloDFDGsAJYT3o5bgkPla8WPfbPeyy7BcIz42++wyqzp3V8+QIDAQAB

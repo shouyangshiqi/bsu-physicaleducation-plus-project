@@ -19,3 +19,19 @@ POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&gr
 ################扩展认证请求参数后######################
 ###密码模式
 POST {{auth_host}}/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username={"username":"stu1","authType":"password","password":"111111"}
+
+
+### 增加用户
+POST {{auth_host}}/auth/register
+
+Content-Type: application/json
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}

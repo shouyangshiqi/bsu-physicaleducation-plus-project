@@ -81,9 +81,9 @@ public class CoursePublishTask extends MessageProcessAbstract {
         File htmlFile = coursePublishService.generateCourseHtml(courseId);
         if(htmlFile != null) {
             coursePublishService.uploadCourseHtml(courseId, htmlFile);
+            //保存第一阶段状态
+            mqMessageService.completedStageOne(id);
         }
-        //保存第一阶段状态
-        mqMessageService.completedStageOne(id);
     }
 
 

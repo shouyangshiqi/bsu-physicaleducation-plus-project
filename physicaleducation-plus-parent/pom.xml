@@ -9,6 +9,18 @@
     <description>physicaleducation-plus-parent</description>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>../physicaleducation-plus-base</module>
+        <module>../physicaleducation-plus-checkcode</module>
+        <module>../physicaleducation-plus-gateway</module>
+        <module>../physicaleducation-plus-auth</module>
+        <module>../physicaleducation-plus-content</module>
+        <module>../physicaleducation-plus-learning</module>
+        <module>../physicaleducation-plus-media</module>
+        <module>../physicaleducation-plus-message-sdk</module>
+        <module>../physicaleducation-plus-search</module>
+        <module>../physicaleducation-plus-system</module>
+    </modules>
 
     <properties>
 

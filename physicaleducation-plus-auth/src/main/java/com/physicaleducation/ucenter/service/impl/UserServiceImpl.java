@@ -11,6 +11,7 @@ import com.physicaleducation.ucenter.model.po.XcUser;
 import com.physicaleducation.ucenter.service.AuthService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.ApplicationContext;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -96,7 +97,7 @@ public class UserServiceImpl implements UserDetailsService {
         String userString = JSON.toJSONString(user);
         String[] authorities = permissions.toArray(new String[0]);
         //创建UserDetails对象
-        UserDetails userDetails = User.withUsername(userString).password(password ).authorities(authorities).build();
+        UserDetails userDetails = User.withUsername(userString).password(password).authorities(authorities).build();
         return userDetails;
     }
 }

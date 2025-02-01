@@ -1,3 +1,262 @@
+POST http://localhost:63070/auth/oauth/register
+Content-Length: 238
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=1AE32D518BAA13A51D9ABFDFEEB6A46B
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}
+
+###
+
+POST http://localhost:63070/auth/register
+Content-Length: 238
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=1AE32D518BAA13A51D9ABFDFEEB6A46B
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}
+
+###
+
+GET http://localhost:63040/content/course-category/tree-nodes
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-03T211935.200.json
+
+###
+
+POST http://localhost:63070/auth/oauth/check_token?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ7XCJiaXJ0aGRheVwiOlwiMjAyMi0wOS0yOFQxOToyODo0NlwiLFwiY3JlYXRlVGltZVwiOlwiMjAyMi0wOS0yOFQwODozMjowM1wiLFwiaWRcIjpcIjUwXCIsXCJuYW1lXCI6XCLlrabnlJ8xXCIsXCJuaWNrbmFtZVwiOlwi5aSn5rC054mbXCIsXCJwYXNzd29yZFwiOlwiJDJhJDEwJDBwdDdXbGZUYm5QRFRjV3RwLy4yTXU1Q1RYdm9obk5RaFI2MjhxcTRSb0tTYzBkR0FkRWdtXCIsXCJzZXhcIjpcIjFcIixcInN0YXR1c1wiOlwiMVwiLFwidXNlcm5hbWVcIjpcInN0dTFcIixcInVzZXJwaWNcIjpcImh0dHA6Ly9maWxlLjUxeHVlY2hlbmcuY24vZGRkZlwiLFwidXR5cGVcIjpcIjEwMTAwMVwifSIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NjE2OTEsImF1dGhvcml0aWVzIjpbInRlc3QiXSwianRpIjoiNWEzOWY3NGEtMzhhNS00ZGI5LWJkOWUtZTcxZjFhNGM4ZmJmIiwiY2xpZW50X2lkIjoiWGNXZWJBcHAifQ.pL2KjZQV-ELv0FQRU8fmT4eu_0xsEN2e_NVegLyY9L8
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=1AE32D518BAA13A51D9ABFDFEEB6A46B
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-03T211922.400.json
+
+###
+
+POST http://localhost:63070/auth/register
+Content-Length: 238
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=1AE32D518BAA13A51D9ABFDFEEB6A46B
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}
+
+###
+
+POST http://localhost:63010/auth/register
+Content-Length: 238
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=1AE32D518BAA13A51D9ABFDFEEB6A46B
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}
+
+###
+
+POST http://localhost:63010/auth/register
+Content-Length: 238
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=1AE32D518BAA13A51D9ABFDFEEB6A46B
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}
+
+###
+
+POST http://localhost:63010/auth/register
+Content-Length: 238
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=1AE32D518BAA13A51D9ABFDFEEB6A46B
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}
+
+###
+
+POST http://localhost:63070/auth/register
+Content-Length: 238
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=4EC627D87000BE102C58904F703B118C
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}
+
+###
+
+POST http://localhost:63070/auth/register
+Content-Length: 238
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=4EC627D87000BE102C58904F703B118C
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+Content-Type: application/json
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}
+
+###
+
+POST http://localhost:63070/auth/register
+Content-Type: application/json
+{:
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}:
+Content-Length: 0
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=4EC627D87000BE102C58904F703B118C
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-12-03T210658.400.html
+
+###
+
+POST http://localhost:63070/auth/register
+Content-Type: application/json
+Content-Length: 207
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Cookie: JSESSIONID=4EC627D87000BE102C58904F703B118C
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}
+
+###
+
+POST http://localhost:63070/auth/register
+Content-Type: application/json
+Content-Length: 207
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+  "cellphone": "18623454115",
+  "username": "shiqi",
+  "email": "18623454115@183.com",
+  "nickname": "十七",
+  "password": "111111",
+  "confirmpwd": "111111",
+  "checkcodekey": "",
+  "checkcode": "123"
+}
+
+###
+
 POST http://localhost:63020/learning/choosecourse/2
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ7XCJjb21wYW55SWRcIjpcIjEyMzIxNDE0MjVcIixcImNyZWF0ZVRpbWVcIjpcIjIwMjItMDktMjhUMDg6MzI6MDNcIixcImlkXCI6XCI1MlwiLFwibmFtZVwiOlwiTeiAgeW4iFwiLFwicGVybWlzc2lvbnNcIjpbXCJ4Y190ZWFjaG1hbmFnZXJcIixcInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VcIixcInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfYWRkXCIsXCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX2RlbFwiLFwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9tYXJrZXRcIixcInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfYmFzZVwiLFwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9wbGFuXCIsXCJ4Y190ZWFjaG1hbmFnZXJfY291cnNlX3B1Ymxpc2hcIixcInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfbGlzdFwiXSxcInNleFwiOlwiMVwiLFwic3RhdHVzXCI6XCJcIixcInVzZXJuYW1lXCI6XCJ0MVwiLFwidXR5cGVcIjpcIjEwMTAwMlwifSIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzMxNTIyMTMsImF1dGhvcml0aWVzIjpbInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfYmFzZSIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfZGVsIiwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9saXN0IiwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9wbGFuIiwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZSIsInhjX3RlYWNobWFuYWdlciIsInhjX3RlYWNobWFuYWdlcl9jb3Vyc2VfbWFya2V0IiwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9wdWJsaXNoIiwieGNfdGVhY2htYW5hZ2VyX2NvdXJzZV9hZGQiXSwianRpIjoiMGU4ZGI0NjYtMDJlNi00NDU2LTk0NjQtMjQ1MDBlODc1MWUzIiwiY2xpZW50X2lkIjoiWGNXZWJBcHAifQ.RJqlPzCGy4kHGQh4SC9B3eBOYLPDRXZn4-N5Ns4Y9wI
 Content-Length: 0
@@ -367,136 +626,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2024-11-30T161520.200.json
-
-###
-
-POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=111111
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T161451.200.json
-
-###
-
-POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=111111
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T160917.200.json
-
-###
-
-POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=11111
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T160912.400.json
-
-###
-
-POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=1111
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T160908.400.json
-
-###
-
-POST http://localhost:63070/auth/oauth/token?client_id=XcWebApp&client_secret=XcWebApp&grant_type=password&username=stu1&password=111111
-Content-Length: 0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T160902.200.json
-
-###
-
-GET http://localhost:63010/content/course/40
-Authorization: Bearer adeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T151037.401.json
-
-###
-
-GET http://localhost:63010/content/course/40
-Authorization: Bearer adeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T151000.401.json
-
-###
-
-GET http://localhost:63010/content/course/40
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T150956.200.json
-
-###
-
-GET http://localhost:63010/content/course/40
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T150929.200.json
-
-###
-
-GET http://localhost:63010/content/course/40
-Authorization: Bearer adeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T150822.401.json
-
-###
-
-GET http://localhost:63010/content/course/40
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T150816.200.json
-
-###
-
-GET http://localhost:63010/content/course/40
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T143808.200.json
-
-###
-
-GET http://localhost:63010/content/course/40
-Authorization: Bearer adeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdWQiOlsieHVlY2hlbmctcGx1cyJdLCJ1c2VyX25hbWUiOiJ6aGFuZ3NhbiIsInNjb3BlIjpbImFsbCJdLCJleHAiOjE3MzI5NTUyMDAsImF1dGhvcml0aWVzIjpbInAxIl0sImp0aSI6IjRlODUzYzAyLTdhOGUtNGFhMy04Njk4LWEyMDZiNjEzODA5MiIsImNsaWVudF9pZCI6IlhjV2ViQXBwIn0.8XyrpgvkpTvedJJq5r8bBJGD5oMNbSj9iajCisLbWM0
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.10)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-11-30T143804.401.json
 
 ###
 
